@@ -1,6 +1,6 @@
 # Semantic Lab Wikibase RDF Data Dump
 
-This data is a direct dump of the Wikibase Triple Store which is stored in the [Wikidata Data Model](https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format)
+This data is a direct dump of the [Semlab Wikibase](https://base.semlab.io/) Triple Store which is stored in the [Wikidata Data Model](https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format)
 
 The name spaces used:
 ```
