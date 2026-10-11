@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-10T04:10:11Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-11T04:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -2398231,16 +2398231,17 @@ wdref:d103847101cf4adff48bc928fd306783f49c020d a wikibase:Reference ;
 
 data:Q30976 a schema:Dataset ;
 	schema:about wd:Q30976 ;
-	schema:version "223680"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:32:17Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223784"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:21:15Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q30976 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P65 wd:Q24347 ;
+	wdt:P65 wd:Q24347,
+		wd:Q24347 ;
 	wdt:P152 "19 Elkan Road, Larchmont, New York 10538"@en ;
 	wdt:P110 wd:Q30977 ;
 	wdt:P278 wd:Q31329,
@@ -2398271,6 +2398272,15 @@ wds:Q30976-931072CE-7D57-4EB3-8AE0-8E099F952041 a wikibase:Statement,
 	pq:P117 wd:Q19081 ;
 	prov:wasDerivedFrom wdref:7c80b52b181475977ec626732c265476abb7b063,
 		wdref:40af8f2f1f3d5fa5ac6f89be4a8ad621741ce2fe .
+
+wd:Q30976 p:P65 wds:Q30976-7E76670C-0F3B-4903-8D6E-727C51757E1A .
+
+wds:Q30976-7E76670C-0F3B-4903-8D6E-727C51757E1A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:00f802d5d40e22e8d2c8384b794ded71953d8151 .
 
 wd:Q30976 p:P152 wds:Q30976-E4BFE258-3D31-4FBC-BD1E-412049A1FB20 .
 
@@ -2398330,7 +2398340,8 @@ wds:Q30976-C23D9856-4098-44EA-875B-0B4800F5DB76 a wikibase:Statement,
 wd:Q30976 rdfs:label "George E. Adamy"@en ;
 	skos:prefLabel "George E. Adamy"@en ;
 	schema:name "George E. Adamy"@en ;
-	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en ;
+	skos:altLabel "George Adamy"@en .
 
 wdref:7c80b52b181475977ec626732c265476abb7b063 a wikibase:Reference ;
 	pr:P26 wd:Q32040 .
@@ -2424418,44 +2424429,10 @@ wdref:e470b749b75a9bd38c28c11054da467118f03b42 a wikibase:Reference ;
 
 data:Q31330 a schema:Dataset ;
 	schema:about wd:Q31330 ;
-	schema:version "221784"^^xsd:integer ;
-	schema:dateModified "2026-08-15T18:59:02Z"^^xsd:dateTime ;
-	wikibase:statements "3"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223785"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:21:15Z"^^xsd:dateTime .
 
-wd:Q31330 a wikibase:Item ;
-	wdt:P1 wd:Q1 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P65 wd:Q24347 ;
-	p:P1 wds:Q31330-63507546-BC64-44FA-A75A-234FEDEB983D .
-
-wds:Q31330-63507546-BC64-44FA-A75A-234FEDEB983D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q1 .
-
-wd:Q31330 p:P11 wds:Q31330-4E4ADB42-B461-47DF-B62D-87FA83F73D01 .
-
-wds:Q31330-4E4ADB42-B461-47DF-B62D-87FA83F73D01 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31330 p:P65 wds:Q31330-ED120886-2CC1-49E5-A9D2-76F2A83C3A25 .
-
-wds:Q31330-ED120886-2CC1-49E5-A9D2-76F2A83C3A25 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P65 wd:Q24347 ;
-	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:00f802d5d40e22e8d2c8384b794ded71953d8151 .
-
-wd:Q31330 rdfs:label "George Adamy"@en ;
-	skos:prefLabel "George Adamy"@en ;
-	schema:name "George Adamy"@en ;
-	schema:description "artist associated with E.A.T.'s Technical Services Program"@en ;
-	skos:altLabel "George E. Adamy"@en .
+wd:Q31330 owl:sameAs wd:Q30976 .
 
 data:Q31331 a schema:Dataset ;
 	schema:about wd:Q31331 ;
@@ -2459503,8 +2459480,8 @@ wd:Q31807 rdfs:label "Syska Hennessy"@en ;
 
 data:Q31808 a schema:Dataset ;
 	schema:about wd:Q31808 ;
-	schema:version "219509"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:43:13Z"^^xsd:dateTime ;
+	schema:version "223797"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:26:38Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2459604,109 +2459581,15 @@ wd:Q31808 rdfs:label "B14 Karel Novak Edge-Notched Card"@en ;
 
 data:Q31809 a schema:Dataset ;
 	schema:about wd:Q31809 ;
-	schema:version "219508"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:41:39Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223768"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:17:18Z"^^xsd:dateTime .
 
-wd:Q31809 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Karel-Novak" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q31806 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31809_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31809_b.jpg> ;
-	p:P1 wds:Q31809-F4F9640E-CD12-4183-8112-037838B76C35 .
-
-wds:Q31809-F4F9640E-CD12-4183-8112-037838B76C35 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q31809 p:P11 wds:Q31809-03529AA7-4720-4317-840C-338D04B60AED .
-
-wds:Q31809-03529AA7-4720-4317-840C-338D04B60AED a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31809 p:P74 wds:Q31809-8C321B24-76AD-4868-B2CE-D7DB88868D43 .
-
-wds:Q31809-8C321B24-76AD-4868-B2CE-D7DB88868D43 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q31809 p:P96 wds:Q31809-269DE504-6EF2-4CF5-84E4-8856DB6090F3 .
-
-wds:Q31809-269DE504-6EF2-4CF5-84E4-8856DB6090F3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q31809 p:P130 wds:Q31809-F8AFDB01-1B52-4864-AE1B-AFC97FDCCBE7 .
-
-wds:Q31809-F8AFDB01-1B52-4864-AE1B-AFC97FDCCBE7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q31809 p:P142 wds:Q31809-96F78651-52C1-47B9-A5AE-BA86C9BF4B81 .
-
-wds:Q31809-96F78651-52C1-47B9-A5AE-BA86C9BF4B81 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q31809 p:P17 wds:Q31809-5E49E627-57D0-41DC-989F-69B4DBF88E3D .
-
-wds:Q31809-5E49E627-57D0-41DC-989F-69B4DBF88E3D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Karel-Novak" .
-
-wd:Q31809 p:P136 wds:Q31809-A7043DAD-07AB-462C-B353-03A0B2076F87 .
-
-wds:Q31809-A7043DAD-07AB-462C-B353-03A0B2076F87 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q31809 p:P77 wds:Q31809-9346DCB9-64A7-4257-88BB-9E2EDA273407 .
-
-wds:Q31809-9346DCB9-64A7-4257-88BB-9E2EDA273407 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q31806 .
-
-wd:Q31809 p:P200 wds:Q31809-DFE90A0D-8D3A-4BB7-AA5F-1103CF962F97 .
-
-wds:Q31809-DFE90A0D-8D3A-4BB7-AA5F-1103CF962F97 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31809_f.jpg> .
-
-wd:Q31809 p:P200 wds:Q31809-D0CBB7B3-9EE2-4D2B-B1FF-49695E04D5CA .
-
-wds:Q31809-D0CBB7B3-9EE2-4D2B-B1FF-49695E04D5CA a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31809_b.jpg> .
-
-wd:Q31809 rdfs:label "B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31809 owl:sameAs wd:Q31808 .
 
 data:Q31810 a schema:Dataset ;
 	schema:about wd:Q31810 ;
-	schema:version "219510"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:43:14Z"^^xsd:dateTime ;
+	schema:version "223789"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:25:16Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2459782,8 +2459665,8 @@ wd:Q31810 rdfs:label "Block 0 of B14 Karel Novak Edge-Notched Card"@en ;
 
 data:Q31811 a schema:Dataset ;
 	schema:about wd:Q31811 ;
-	schema:version "219512"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:43:16Z"^^xsd:dateTime ;
+	schema:version "223793"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:25:53Z"^^xsd:dateTime ;
 	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2459853,400 +2459736,38 @@ wd:Q31811 rdfs:label "Block 1 of B14 Karel Novak Edge-Notched Card"@en ;
 
 data:Q31812 a schema:Dataset ;
 	schema:about wd:Q31812 ;
-	schema:version "219513"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:43:17Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223774"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:18:21Z"^^xsd:dateTime .
 
-wd:Q31812 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31809 ;
-	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31809/0.txt> ;
-	wdt:P19 "Novak, Karel. General Delivery, Main Post office, NYC, NY 10001 Syska and Henessy. Electrical eng. motors, transformers, rectifiers." ;
-	wdt:P21 wd:Q31806,
-		wd:Q31807 ;
-	p:P1 wds:Q31812-F3994252-38F7-44FC-960B-99FDF40DC479 .
-
-wds:Q31812-F3994252-38F7-44FC-960B-99FDF40DC479 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q31812 p:P11 wds:Q31812-CC800B8B-16CD-4D28-BF16-5DA822EC99B4 .
-
-wds:Q31812-CC800B8B-16CD-4D28-BF16-5DA822EC99B4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31812 p:P24 wds:Q31812-0F452944-B095-46E8-96D8-F15DF523F78D .
-
-wds:Q31812-0F452944-B095-46E8-96D8-F15DF523F78D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31809 .
-
-wd:Q31812 p:P17 wds:Q31812-BED2A65D-657A-4344-8690-1E4E0745DDE1 .
-
-wds:Q31812-BED2A65D-657A-4344-8690-1E4E0745DDE1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "0" .
-
-wd:Q31812 p:P20 wds:Q31812-3547FCA1-3DDE-4C9E-99E5-A2FC9D01D0D3 .
-
-wds:Q31812-3547FCA1-3DDE-4C9E-99E5-A2FC9D01D0D3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31809/0.txt> .
-
-wd:Q31812 p:P19 wds:Q31812-6A5EEF93-EBF6-486C-8D5F-29347C55971B .
-
-wds:Q31812-6A5EEF93-EBF6-486C-8D5F-29347C55971B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "Novak, Karel. General Delivery, Main Post office, NYC, NY 10001 Syska and Henessy. Electrical eng. motors, transformers, rectifiers." .
-
-wd:Q31812 p:P21 wds:Q31812-3C860045-34D4-4204-9128-95ABBC75A8D3 .
-
-wds:Q31812-3C860045-34D4-4204-9128-95ABBC75A8D3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q31806 .
-
-wd:Q31812 p:P21 wds:Q31812-90E7DC45-1DFD-4C83-AC67-5532D3162366 .
-
-wds:Q31812-90E7DC45-1DFD-4C83-AC67-5532D3162366 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q31807 .
-
-wd:Q31812 rdfs:label "Block 0 of B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "Block 0 of B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "Block 0 of B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31812 owl:sameAs wd:Q31810 .
 
 data:Q31813 a schema:Dataset ;
 	schema:about wd:Q31813 ;
-	schema:version "219518"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:44:13Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223765"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:17:00Z"^^xsd:dateTime .
 
-wd:Q31813 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Karel-Novak" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q31806 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31813_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31813_b.jpg> ;
-	p:P1 wds:Q31813-C8A9D12C-C84D-4B1B-BE7E-520AF61B1CA7 .
-
-wds:Q31813-C8A9D12C-C84D-4B1B-BE7E-520AF61B1CA7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q31813 p:P11 wds:Q31813-442C876E-4669-4DFD-8EA5-CB75D3AF2D80 .
-
-wds:Q31813-442C876E-4669-4DFD-8EA5-CB75D3AF2D80 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31813 p:P74 wds:Q31813-4A0FE7A1-5850-482D-A31F-4CDCB96BF892 .
-
-wds:Q31813-4A0FE7A1-5850-482D-A31F-4CDCB96BF892 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q31813 p:P96 wds:Q31813-DF9336AA-F1C9-412E-92A0-96E9E1156148 .
-
-wds:Q31813-DF9336AA-F1C9-412E-92A0-96E9E1156148 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q31813 p:P130 wds:Q31813-B95BEC7F-E86F-4D30-87A1-8DCA14FF3CB5 .
-
-wds:Q31813-B95BEC7F-E86F-4D30-87A1-8DCA14FF3CB5 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q31813 p:P142 wds:Q31813-DFFF2075-CB48-4DE3-908C-46B9F57978F6 .
-
-wds:Q31813-DFFF2075-CB48-4DE3-908C-46B9F57978F6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q31813 p:P17 wds:Q31813-CF230E17-0FF9-4F30-8268-6782B2F9FD05 .
-
-wds:Q31813-CF230E17-0FF9-4F30-8268-6782B2F9FD05 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Karel-Novak" .
-
-wd:Q31813 p:P136 wds:Q31813-D2F332D4-801E-4F00-B802-BC195750AEDE .
-
-wds:Q31813-D2F332D4-801E-4F00-B802-BC195750AEDE a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q31813 p:P77 wds:Q31813-2DBC163F-3E8B-48FB-8D56-C6BC8988A5B7 .
-
-wds:Q31813-2DBC163F-3E8B-48FB-8D56-C6BC8988A5B7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q31806 .
-
-wd:Q31813 p:P200 wds:Q31813-4AB1A0C1-9F37-490D-8DB6-25DEB51CDBE6 .
-
-wds:Q31813-4AB1A0C1-9F37-490D-8DB6-25DEB51CDBE6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31813_f.jpg> .
-
-wd:Q31813 p:P200 wds:Q31813-D8FC5677-0290-42EA-8812-1B1463A9B77B .
-
-wds:Q31813-D8FC5677-0290-42EA-8812-1B1463A9B77B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31813_b.jpg> .
-
-wd:Q31813 rdfs:label "B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31813 owl:sameAs wd:Q31809 .
 
 data:Q31814 a schema:Dataset ;
 	schema:about wd:Q31814 ;
-	schema:version "219516"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:44:12Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223780"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:19:02Z"^^xsd:dateTime .
 
-wd:Q31814 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31809 ;
-	wdt:P17 "1" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31809/1.txt> ;
-	wdt:P19 "letter 11/12 Pres Trump" ;
-	wdt:P21 wd:Q30895 ;
-	p:P1 wds:Q31814-B7200D1C-EB83-40CD-B94D-1C068764DB04 .
-
-wds:Q31814-B7200D1C-EB83-40CD-B94D-1C068764DB04 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q31814 p:P11 wds:Q31814-9EC56579-4148-4E45-957A-93431E1542CB .
-
-wds:Q31814-9EC56579-4148-4E45-957A-93431E1542CB a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31814 p:P24 wds:Q31814-6E62189B-D226-4D3A-8110-FD08D9BE608B .
-
-wds:Q31814-6E62189B-D226-4D3A-8110-FD08D9BE608B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31809 .
-
-wd:Q31814 p:P17 wds:Q31814-48A0D1EF-4D28-426C-9E85-989ED0E1DDA4 .
-
-wds:Q31814-48A0D1EF-4D28-426C-9E85-989ED0E1DDA4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "1" .
-
-wd:Q31814 p:P20 wds:Q31814-FAB6287E-FABF-4E0A-AFF2-B996F99D481D .
-
-wds:Q31814-FAB6287E-FABF-4E0A-AFF2-B996F99D481D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31809/1.txt> .
-
-wd:Q31814 p:P19 wds:Q31814-2AD77EC5-7D6F-47BF-A9AA-61F5125065EC .
-
-wds:Q31814-2AD77EC5-7D6F-47BF-A9AA-61F5125065EC a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "letter 11/12 Pres Trump" .
-
-wd:Q31814 p:P21 wds:Q31814-C476920F-6C24-453E-B5E0-BD9ECCD84EB3 .
-
-wds:Q31814-C476920F-6C24-453E-B5E0-BD9ECCD84EB3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q30895 ;
-	pq:P98 "+0000-11-12T00:00:00Z" ;
-	pqv:P98 wdv:b02382c38c72072146ab74bc4c27519b .
-
-wd:Q31814 rdfs:label "Block 1 of B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "Block 1 of B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "Block 1 of B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31814 owl:sameAs wd:Q31811 .
 
 data:Q31815 a schema:Dataset ;
 	schema:about wd:Q31815 ;
-	schema:version "219519"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:44:13Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223771"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:18:01Z"^^xsd:dateTime .
 
-wd:Q31815 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31813 ;
-	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31813/0.txt> ;
-	wdt:P19 "Novak, Karel. General Delivery, Main Post office, NYC, NY 10001 Syska and Henessy. Electrical eng. motors, transformers, rectifiers." ;
-	wdt:P21 wd:Q31806,
-		wd:Q31807 ;
-	p:P1 wds:Q31815-68258C73-FC97-4AF5-9977-003756FC2DE5 .
-
-wds:Q31815-68258C73-FC97-4AF5-9977-003756FC2DE5 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q31815 p:P11 wds:Q31815-7B7E99B6-16F8-4AB8-9B1C-F673987804B3 .
-
-wds:Q31815-7B7E99B6-16F8-4AB8-9B1C-F673987804B3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31815 p:P24 wds:Q31815-046E3779-5D9C-4E4D-9AB7-387BD3682CC0 .
-
-wds:Q31815-046E3779-5D9C-4E4D-9AB7-387BD3682CC0 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31813 .
-
-wd:Q31815 p:P17 wds:Q31815-964DD76D-03E8-42E8-85DA-E9FD95D5EAE2 .
-
-wds:Q31815-964DD76D-03E8-42E8-85DA-E9FD95D5EAE2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "0" .
-
-wd:Q31815 p:P20 wds:Q31815-3E806974-A3C2-42CE-8B3D-5A70CF2800A1 .
-
-wds:Q31815-3E806974-A3C2-42CE-8B3D-5A70CF2800A1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31813/0.txt> .
-
-wd:Q31815 p:P19 wds:Q31815-DF135F79-7664-4051-A17C-53F3481B39E9 .
-
-wds:Q31815-DF135F79-7664-4051-A17C-53F3481B39E9 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "Novak, Karel. General Delivery, Main Post office, NYC, NY 10001 Syska and Henessy. Electrical eng. motors, transformers, rectifiers." .
-
-wd:Q31815 p:P21 wds:Q31815-A85737C7-AF57-49D8-B487-0E71E08177D0 .
-
-wds:Q31815-A85737C7-AF57-49D8-B487-0E71E08177D0 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q31806 .
-
-wd:Q31815 p:P21 wds:Q31815-C64590A7-AF1E-4662-8112-7E49D005A8B1 .
-
-wds:Q31815-C64590A7-AF1E-4662-8112-7E49D005A8B1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q31807 .
-
-wd:Q31815 rdfs:label "Block 0 of B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "Block 0 of B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "Block 0 of B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31815 owl:sameAs wd:Q31812 .
 
 data:Q31816 a schema:Dataset ;
 	schema:about wd:Q31816 ;
-	schema:version "219521"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:44:14Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223777"^^xsd:integer ;
+	schema:dateModified "2026-10-10T21:18:48Z"^^xsd:dateTime .
 
-wd:Q31816 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31813 ;
-	wdt:P17 "1" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31813/1.txt> ;
-	wdt:P19 "letter 11/12 Pres Trump" ;
-	wdt:P21 wd:Q30895 ;
-	p:P1 wds:Q31816-8A759B01-8032-40A1-9960-E25B6B3885F6 .
-
-wds:Q31816-8A759B01-8032-40A1-9960-E25B6B3885F6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q31816 p:P11 wds:Q31816-582B4B6A-C865-4276-BA1A-8B85F67F8A2A .
-
-wds:Q31816-582B4B6A-C865-4276-BA1A-8B85F67F8A2A a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31816 p:P24 wds:Q31816-0F5C2A54-B2FD-4B92-9870-D77DA19D5276 .
-
-wds:Q31816-0F5C2A54-B2FD-4B92-9870-D77DA19D5276 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31813 .
-
-wd:Q31816 p:P17 wds:Q31816-075741BF-A259-477F-8C5C-A9290A252238 .
-
-wds:Q31816-075741BF-A259-477F-8C5C-A9290A252238 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "1" .
-
-wd:Q31816 p:P20 wds:Q31816-86301256-424E-4D86-A86B-24FA19D9B826 .
-
-wds:Q31816-86301256-424E-4D86-A86B-24FA19D9B826 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31813/1.txt> .
-
-wd:Q31816 p:P19 wds:Q31816-701AD924-929B-4B79-92AD-490D40B08087 .
-
-wds:Q31816-701AD924-929B-4B79-92AD-490D40B08087 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "letter 11/12 Pres Trump" .
-
-wd:Q31816 p:P21 wds:Q31816-1DB159DC-412E-4EE2-AB15-6E4B60A04A75 .
-
-wds:Q31816-1DB159DC-412E-4EE2-AB15-6E4B60A04A75 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q30895 ;
-	pq:P98 "+0000-11-12T00:00:00Z" ;
-	pqv:P98 wdv:b02382c38c72072146ab74bc4c27519b .
-
-wd:Q31816 rdfs:label "Block 1 of B14 Karel Novak Edge-Notched Card"@en ;
-	skos:prefLabel "Block 1 of B14 Karel Novak Edge-Notched Card"@en ;
-	schema:name "Block 1 of B14 Karel Novak Edge-Notched Card"@en .
+wd:Q31816 owl:sameAs wd:Q31814 .
 
 data:Q31817 a schema:Dataset ;
 	schema:about wd:Q31817 ;
