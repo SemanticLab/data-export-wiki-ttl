@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-13T04:10:10Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-14T04:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -2169313,9 +2169313,9 @@ wd:Q26716 rdfs:label "B14 Joseph Stella Edge-Notched Card"@en ;
 
 data:Q26717 a schema:Dataset ;
 	schema:about wd:Q26717 ;
-	schema:version "196547"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:11:57Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223832"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:51:56Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169330,6 +2169330,7 @@ wd:Q26717 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26717_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26717_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Brian-Sherman" ;
 	p:P11 wds:Q26717-E6531AB5-2EC6-4612-B5C6-2BD0547D6A01 .
 
 wds:Q26717-E6531AB5-2EC6-4612-B5C6-2BD0547D6A01 a wikibase:Statement,
@@ -2169399,6 +2169400,13 @@ wds:Q26717-BE12711C-2CDB-4071-9A4B-A22201A8A6C2 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26717 p:P17 wds:Q26717-c8f36cb1-4834-cf85-bb38-ce165af8d52e .
+
+wds:Q26717-c8f36cb1-4834-cf85-bb38-ce165af8d52e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Brian-Sherman" .
 
 wd:Q26717 rdfs:label "B14 Brian Sherman Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Brian Sherman Edge-Notched Card"@en ;
@@ -2169783,9 +2169791,9 @@ wd:Q26721 rdfs:label "B14 Judith Prager Edge-Notched Card"@en ;
 
 data:Q26722 a schema:Dataset ;
 	schema:about wd:Q26722 ;
-	schema:version "196543"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:11:34Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223798"^^xsd:integer ;
+	schema:dateModified "2026-10-13T12:56:52Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169800,6 +2169808,7 @@ wd:Q26722 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26722_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26722_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Abraham-Goldbaum" ;
 	p:P11 wds:Q26722-236CFCC4-9C4B-4EA6-BD06-33D5544DEA63 .
 
 wds:Q26722-236CFCC4-9C4B-4EA6-BD06-33D5544DEA63 a wikibase:Statement,
@@ -2169869,6 +2169878,13 @@ wds:Q26722-7F6F5013-AA0E-4F94-93C4-7D04A2F5845A a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26722 p:P17 wds:Q26722-b1c41318-4701-3315-a08a-5b54ee56645c .
+
+wds:Q26722-b1c41318-4701-3315-a08a-5b54ee56645c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Abraham-Goldbaum" .
 
 wd:Q26722 rdfs:label "B14 Abraham Goldbaum Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Abraham Goldbaum Edge-Notched Card"@en ;
@@ -2245942,8 +2245958,8 @@ wd:Q28332 rdfs:label "William Hayett"@en ;
 
 data:Q28333 a schema:Dataset ;
 	schema:about wd:Q28333 ;
-	schema:version "223762"^^xsd:integer ;
-	schema:dateModified "2026-10-08T20:56:50Z"^^xsd:dateTime ;
+	schema:version "223826"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:34:14Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "2"^^xsd:integer .
@@ -2245961,7 +2245977,7 @@ wd:Q28333 a wikibase:Item ;
 	wdt:P278 wd:Q31498,
 		wd:Q30237,
 		wd:Q29980 ;
-	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30003.jpg> ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q28333.jpg> ;
 	p:P1 wds:Q28333-8F15D319-CAB5-44AB-A3B0-A6AE5BFC243A .
 
 wds:Q28333-8F15D319-CAB5-44AB-A3B0-A6AE5BFC243A a wikibase:Statement,
@@ -2246054,12 +2246070,12 @@ wds:Q28333-69FB5A5C-F55D-4065-BDEC-B1A9CAA30895 a wikibase:Statement,
 	ps:P278 wd:Q29980 ;
 	prov:wasDerivedFrom wdref:127c65b509a68721aa772d731b016569f0155599 .
 
-wd:Q28333 p:P3 wds:Q28333-BD7E5AAD-41A9-4A1B-BA6C-E68447811B37 .
+wd:Q28333 p:P3 wds:Q28333-410F6EE4-AE2D-465B-8C3F-8927E6E9EFB0 .
 
-wds:Q28333-BD7E5AAD-41A9-4A1B-BA6C-E68447811B37 a wikibase:Statement,
+wds:Q28333-410F6EE4-AE2D-465B-8C3F-8927E6E9EFB0 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30003.jpg> ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q28333.jpg> ;
 	pq:P136 "RAiR Website" ;
 	prov:wasDerivedFrom wdref:10ad0056f6a9c693f1ffe0883498442f83510d33 .
 
@@ -2252368,8 +2252384,8 @@ wd:Q28430 rdfs:label "Sprague Electric Company"@en ;
 
 data:Q28431 a schema:Dataset ;
 	schema:about wd:Q28431 ;
-	schema:version "222939"^^xsd:integer ;
-	schema:dateModified "2026-09-09T17:14:24Z"^^xsd:dateTime ;
+	schema:version "223828"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:38:57Z"^^xsd:dateTime ;
 	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
@@ -2252384,7 +2252400,7 @@ wd:Q28431 a wikibase:Item ;
 	wdt:P245 "actor/923" ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q29980 ;
-	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30001.jpg> ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q28431.jpg> ;
 	p:P1 wds:Q28431-E33F717D-9931-42A4-B69B-94CFF888F37E .
 
 wds:Q28431-E33F717D-9931-42A4-B69B-94CFF888F37E a wikibase:Statement,
@@ -2252452,12 +2252468,12 @@ wds:Q28431-2EEEFC77-8581-4C6D-889C-62DA9D7DA5A7 a wikibase:Statement,
 	ps:P278 wd:Q29980 ;
 	prov:wasDerivedFrom wdref:127c65b509a68721aa772d731b016569f0155599 .
 
-wd:Q28431 p:P3 wds:Q28431-D20236EA-BE26-4D73-BE82-E458100C1B1E .
+wd:Q28431 p:P3 wds:Q28431-99C06CCE-8C54-452F-B7AC-5157064D181A .
 
-wds:Q28431-D20236EA-BE26-4D73-BE82-E458100C1B1E a wikibase:Statement,
+wds:Q28431-99C06CCE-8C54-452F-B7AC-5157064D181A a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30001.jpg> ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q28431.jpg> ;
 	pq:P136 "Iain Whitecross' Website" ;
 	prov:wasDerivedFrom wdref:47b569a2988e87490981e9eb4b2a21290e67bf3a .
 
@@ -2341632,9 +2341648,9 @@ wd:Q30101 rdfs:label "Block 0 of B14 Alan L Griff Edge-Notched Card"@en ;
 
 data:Q30102 a schema:Dataset ;
 	schema:about wd:Q30102 ;
-	schema:version "223105"^^xsd:integer ;
-	schema:dateModified "2026-09-27T19:37:17Z"^^xsd:dateTime ;
-	wikibase:statements "28"^^xsd:integer ;
+	schema:version "223799"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:02:20Z"^^xsd:dateTime ;
+	wikibase:statements "29"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2341665,7 +2341681,8 @@ wd:Q30102 a wikibase:Item ;
 		wd:Q30090,
 		wd:Q31555,
 		wd:Q30099,
-		wd:Q26381 ;
+		wd:Q26381,
+		wd:Q28167 ;
 	wdt:P19 "LOFT- DAVID PARIS- JAN 7 Nelson Richardson 11/1/70 Keith Buckler 4/20 Bruce Carlinbyall Letter Feb 25 69 Henry Gruen 4/23 Letter Cristos Gianakos Mar 3/69 Lucy Ahrens 5/7 person Richard Huggins Mar 13/69 Kim Dobin 2/5 letter L. Mintz 20 May 69 D. Puchkoff 8/25 D. Weinberger here 1/9 Frank Vechon ..." ;
 	p:P1 wds:Q30102-E1759F05-B1B2-4977-AFD7-4FA50E4C9161 .
 
@@ -2341900,6 +2341917,15 @@ wds:Q30102-A7D50FBB-2600-4E10-8C18-06A087D23611 a wikibase:Statement,
 	pq:P98 "1970-11-02T00:00:00Z"^^xsd:dateTime ;
 	pqv:P98 wdv:12a14fab869b7cabc7cc13c05d8374e1 .
 
+wd:Q30102 p:P21 wds:Q30102-897be292-48de-e384-5e9c-90949a483e7c .
+
+wds:Q30102-897be292-48de-e384-5e9c-90949a483e7c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q28167 ;
+	pq:P98 "1970-11-24T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:372e0c7107ff17b627cfd96d5b08fe11 .
+
 wd:Q30102 p:P19 wds:Q30102-23D1747E-8376-469E-A2E0-64119EE91DD2 .
 
 wds:Q30102-23D1747E-8376-469E-A2E0-64119EE91DD2 a wikibase:Statement,
@@ -2342027,6 +2342053,12 @@ wdv:46eed3357a2993f96c96969776808401 a wikibase:TimeValue ;
 
 wdv:12a14fab869b7cabc7cc13c05d8374e1 a wikibase:TimeValue ;
 	wikibase:timeValue "1970-11-02T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+wdv:372e0c7107ff17b627cfd96d5b08fe11 a wikibase:TimeValue ;
+	wikibase:timeValue "1970-11-24T00:00:00Z"^^xsd:dateTime ;
 	wikibase:timePrecision "11"^^xsd:integer ;
 	wikibase:timeTimezone "0"^^xsd:integer ;
 	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
@@ -2343738,9 +2343770,9 @@ wdv:3c83faf97457c0bd9dbbdd651b0603d2 a wikibase:TimeValue ;
 
 data:Q30132 a schema:Dataset ;
 	schema:about wd:Q30132 ;
-	schema:version "207408"^^xsd:integer ;
-	schema:dateModified "2026-03-18T17:41:37Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "223830"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:41:58Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2343749,6 +2343781,7 @@ wd:Q30132 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P152 "61 East 97 Street Apartment 19, New York, New York"@en ;
+	wdt:P110 wd:Q19253 ;
 	p:P1 wds:Q30132-445E812A-7061-4E4E-A43F-4CBF039646B4 .
 
 wds:Q30132-445E812A-7061-4E4E-A43F-4CBF039646B4 a wikibase:Statement,
@@ -2343776,18 +2343809,30 @@ wd:Q30132 p:P152 wds:Q30132-07641E43-756E-46FB-882E-1F03A4073A64 .
 wds:Q30132-07641E43-756E-46FB-882E-1F03A4073A64 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P152 "61 East 97 Street Apartment 19, New York, New York"@en .
+	ps:P152 "61 East 97 Street Apartment 19, New York, New York"@en ;
+	prov:wasDerivedFrom wdref:1d7908158a1f55fd51f239d0f7a410859076e463 .
+
+wd:Q30132 p:P110 wds:Q30132-630eba80-4f37-7831-d765-311dd42043c2 .
+
+wds:Q30132-630eba80-4f37-7831-d765-311dd42043c2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q19253 ;
+	prov:wasDerivedFrom wdref:1d7908158a1f55fd51f239d0f7a410859076e463 .
 
 wd:Q30132 rdfs:label "Alan Surpin"@en ;
 	skos:prefLabel "Alan Surpin"@en ;
 	schema:name "Alan Surpin"@en ;
 	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
 
+wdref:1d7908158a1f55fd51f239d0f7a410859076e463 a wikibase:Reference ;
+	pr:P26 wd:Q30134 .
+
 data:Q30133 a schema:Dataset ;
 	schema:about wd:Q30133 ;
-	schema:version "207411"^^xsd:integer ;
-	schema:dateModified "2026-03-18T17:41:46Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
+	schema:version "223811"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:11:07Z"^^xsd:dateTime ;
+	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2343802,7 +2343847,13 @@ wd:Q30133 a wikibase:Item ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
 	wdt:P77 wd:Q30132 ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30133_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30133_b.jpg> ;
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30133_b.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_b.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_b.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_b.jpg> ;
 	p:P1 wds:Q30133-0C02A9CA-0E0A-47B0-9108-95273238A9DB .
 
 wds:Q30133-0C02A9CA-0E0A-47B0-9108-95273238A9DB a wikibase:Statement,
@@ -2343880,14 +2343931,56 @@ wds:Q30133-68111A1A-7DC0-43BC-9DF9-B84CDB622042 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30133_b.jpg> .
 
+wd:Q30133 p:P200 wds:Q30133-E60B2285-0704-40F6-AE96-9BF213DD6CFF .
+
+wds:Q30133-E60B2285-0704-40F6-AE96-9BF213DD6CFF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_f.jpg> .
+
+wd:Q30133 p:P200 wds:Q30133-22B3429F-3BCA-4FB8-8BEE-D40BE7989B87 .
+
+wds:Q30133-22B3429F-3BCA-4FB8-8BEE-D40BE7989B87 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_b.jpg> .
+
+wd:Q30133 p:P200 wds:Q30133-28EB4AEF-E69D-4DD2-8022-E6BB051F405F .
+
+wds:Q30133-28EB4AEF-E69D-4DD2-8022-E6BB051F405F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_f.jpg> .
+
+wd:Q30133 p:P200 wds:Q30133-29B1E0DB-E3DC-41A2-A726-5D64E399F8E5 .
+
+wds:Q30133-29B1E0DB-E3DC-41A2-A726-5D64E399F8E5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_b.jpg> .
+
+wd:Q30133 p:P200 wds:Q30133-6E1FF6F6-40CE-479C-B59B-0B1B325A30DC .
+
+wds:Q30133-6E1FF6F6-40CE-479C-B59B-0B1B325A30DC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_f.jpg> .
+
+wd:Q30133 p:P200 wds:Q30133-93DB98CB-381F-426B-BFE7-3B6EA388535A .
+
+wds:Q30133-93DB98CB-381F-426B-BFE7-3B6EA388535A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_b.jpg> .
+
 wd:Q30133 rdfs:label "B14 Alan Surpin Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Alan Surpin Edge-Notched Card"@en ;
 	schema:name "B14 Alan Surpin Edge-Notched Card"@en .
 
 data:Q30134 a schema:Dataset ;
 	schema:about wd:Q30134 ;
-	schema:version "207412"^^xsd:integer ;
-	schema:dateModified "2026-03-18T17:41:47Z"^^xsd:dateTime ;
+	schema:version "223824"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:12:29Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2343963,181 +2344056,17 @@ wd:Q30134 rdfs:label "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
 
 data:Q30135 a schema:Dataset ;
 	schema:about wd:Q30135 ;
-	schema:version "207415"^^xsd:integer ;
-	schema:dateModified "2026-03-18T17:42:05Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223812"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:11:07Z"^^xsd:dateTime .
 
-wd:Q30135 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Alan-Surpin" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q30132 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_b.jpg> ;
-	p:P1 wds:Q30135-FA8B4283-EFAC-4601-8135-406FF4DC2BD7 .
-
-wds:Q30135-FA8B4283-EFAC-4601-8135-406FF4DC2BD7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q30135 p:P11 wds:Q30135-228430AD-FF54-4D2F-9C27-CA1A7087E369 .
-
-wds:Q30135-228430AD-FF54-4D2F-9C27-CA1A7087E369 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30135 p:P74 wds:Q30135-3F1EE057-B076-49E1-9214-DADE0363874A .
-
-wds:Q30135-3F1EE057-B076-49E1-9214-DADE0363874A a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q30135 p:P96 wds:Q30135-AC508D96-460A-4802-BD23-6213761C8CC0 .
-
-wds:Q30135-AC508D96-460A-4802-BD23-6213761C8CC0 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q30135 p:P130 wds:Q30135-4BA57CAC-847B-4FA6-855F-82B632AB3081 .
-
-wds:Q30135-4BA57CAC-847B-4FA6-855F-82B632AB3081 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q30135 p:P142 wds:Q30135-6A5ACE61-55E0-4328-9317-0D656428413A .
-
-wds:Q30135-6A5ACE61-55E0-4328-9317-0D656428413A a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q30135 p:P17 wds:Q30135-90A8B97A-CB17-40CD-99B4-FB8F9EDFE5BF .
-
-wds:Q30135-90A8B97A-CB17-40CD-99B4-FB8F9EDFE5BF a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Alan-Surpin" .
-
-wd:Q30135 p:P136 wds:Q30135-D7914A48-E464-4325-A6F6-CAFA3508C210 .
-
-wds:Q30135-D7914A48-E464-4325-A6F6-CAFA3508C210 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q30135 p:P77 wds:Q30135-A7D56DB3-246E-4DFD-B0A1-CA00605AA1FA .
-
-wds:Q30135-A7D56DB3-246E-4DFD-B0A1-CA00605AA1FA a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q30132 .
-
-wd:Q30135 p:P200 wds:Q30135-E3BEF604-79BF-4DDC-836D-D252BE6DDCC4 .
-
-wds:Q30135-E3BEF604-79BF-4DDC-836D-D252BE6DDCC4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_f.jpg> .
-
-wd:Q30135 p:P200 wds:Q30135-0F14B5F0-CC7D-4660-8CA7-AEC8127F0659 .
-
-wds:Q30135-0F14B5F0-CC7D-4660-8CA7-AEC8127F0659 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30135_b.jpg> .
-
-wd:Q30135 rdfs:label "B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30135 owl:sameAs wd:Q30133 .
 
 data:Q30136 a schema:Dataset ;
 	schema:about wd:Q30136 ;
-	schema:version "207416"^^xsd:integer ;
-	schema:dateModified "2026-03-18T17:42:05Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223821"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:11:53Z"^^xsd:dateTime .
 
-wd:Q30136 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30135 ;
-	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30135/0.txt> ;
-	wdt:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" ;
-	wdt:P21 wd:Q30132,
-		wd:Q19253 ;
-	p:P1 wds:Q30136-B26D7458-2298-408C-BDFE-31E72B2E75F9 .
-
-wds:Q30136-B26D7458-2298-408C-BDFE-31E72B2E75F9 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q30136 p:P11 wds:Q30136-9C171AD8-C654-48F1-AADC-087C2E7EB74C .
-
-wds:Q30136-9C171AD8-C654-48F1-AADC-087C2E7EB74C a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30136 p:P24 wds:Q30136-88C8E6D3-3892-49D3-BEFD-F218FD107F55 .
-
-wds:Q30136-88C8E6D3-3892-49D3-BEFD-F218FD107F55 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30135 .
-
-wd:Q30136 p:P17 wds:Q30136-151112DD-4449-4C78-9DF9-063EBE34BE61 .
-
-wds:Q30136-151112DD-4449-4C78-9DF9-063EBE34BE61 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "0" .
-
-wd:Q30136 p:P20 wds:Q30136-A771D14E-A8D1-4510-BB79-F22D1BFEEF6B .
-
-wds:Q30136-A771D14E-A8D1-4510-BB79-F22D1BFEEF6B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q30135/0.txt> .
-
-wd:Q30136 p:P19 wds:Q30136-FD9EC0E3-242A-48A8-8364-8F86741444EF .
-
-wds:Q30136-FD9EC0E3-242A-48A8-8364-8F86741444EF a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" .
-
-wd:Q30136 p:P21 wds:Q30136-14FE2634-64E0-4EFB-BE9B-157F9E79AE02 .
-
-wds:Q30136-14FE2634-64E0-4EFB-BE9B-157F9E79AE02 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q30132 .
-
-wd:Q30136 p:P21 wds:Q30136-1AC098F0-7C56-4966-851A-C1671063E72C .
-
-wds:Q30136-1AC098F0-7C56-4966-851A-C1671063E72C a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q19253 .
-
-wd:Q30136 rdfs:label "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "Block 0 of B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30136 owl:sameAs wd:Q30134 .
 
 data:Q30137 a schema:Dataset ;
 	schema:about wd:Q30137 ;
@@ -2344582,356 +2344511,36 @@ wd:Q30142 rdfs:label "Block 1 of B14 Albert Kung Edge-Notched Card"@en ;
 
 data:Q30143 a schema:Dataset ;
 	schema:about wd:Q30143 ;
-	schema:version "207458"^^xsd:integer ;
-	schema:dateModified "2026-03-19T01:24:15Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223809"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:10:57Z"^^xsd:dateTime .
 
-wd:Q30143 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Alan-Surpin" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q30132 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_b.jpg> ;
-	p:P1 wds:Q30143-AE8EA82C-AE70-4C26-9546-D51F731D7900 .
-
-wds:Q30143-AE8EA82C-AE70-4C26-9546-D51F731D7900 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q30143 p:P11 wds:Q30143-74B24C3E-4717-44A4-B364-A7007506F276 .
-
-wds:Q30143-74B24C3E-4717-44A4-B364-A7007506F276 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30143 p:P74 wds:Q30143-7E576005-9798-4A38-8987-448D826BCC9B .
-
-wds:Q30143-7E576005-9798-4A38-8987-448D826BCC9B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q30143 p:P96 wds:Q30143-12DC06F6-16BC-4337-9F0F-EC1771DC4344 .
-
-wds:Q30143-12DC06F6-16BC-4337-9F0F-EC1771DC4344 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q30143 p:P130 wds:Q30143-CA01CBAA-9301-4F11-A8C1-5DFABC07A8E8 .
-
-wds:Q30143-CA01CBAA-9301-4F11-A8C1-5DFABC07A8E8 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q30143 p:P142 wds:Q30143-9E9EA89D-BE8E-405D-BF7F-F4E91D028115 .
-
-wds:Q30143-9E9EA89D-BE8E-405D-BF7F-F4E91D028115 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q30143 p:P17 wds:Q30143-29B17D19-879D-4020-915F-AE78CE5D79B6 .
-
-wds:Q30143-29B17D19-879D-4020-915F-AE78CE5D79B6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Alan-Surpin" .
-
-wd:Q30143 p:P136 wds:Q30143-51922FCA-9481-4550-A96A-BFFE92541940 .
-
-wds:Q30143-51922FCA-9481-4550-A96A-BFFE92541940 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q30143 p:P77 wds:Q30143-1D948CAE-5FF7-4CD8-96ED-7D6C00CBB80A .
-
-wds:Q30143-1D948CAE-5FF7-4CD8-96ED-7D6C00CBB80A a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q30132 .
-
-wd:Q30143 p:P200 wds:Q30143-83412946-C99D-4212-ABEC-E7545AC01184 .
-
-wds:Q30143-83412946-C99D-4212-ABEC-E7545AC01184 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_f.jpg> .
-
-wd:Q30143 p:P200 wds:Q30143-E3896DFD-A62B-4697-93D6-165297ADC3F4 .
-
-wds:Q30143-E3896DFD-A62B-4697-93D6-165297ADC3F4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30143_b.jpg> .
-
-wd:Q30143 rdfs:label "B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30143 owl:sameAs wd:Q30135 .
 
 data:Q30144 a schema:Dataset ;
 	schema:about wd:Q30144 ;
-	schema:version "207459"^^xsd:integer ;
-	schema:dateModified "2026-03-19T01:24:15Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223818"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:11:43Z"^^xsd:dateTime .
 
-wd:Q30144 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30143 ;
-	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30143/0.txt> ;
-	wdt:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" ;
-	wdt:P21 wd:Q30132 ;
-	p:P1 wds:Q30144-8DA87C3A-2D8B-4F35-88B4-6A5D9F8D536D .
-
-wds:Q30144-8DA87C3A-2D8B-4F35-88B4-6A5D9F8D536D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q30144 p:P11 wds:Q30144-BAA5355A-EEBF-4DCC-9816-D695EC8E2BB0 .
-
-wds:Q30144-BAA5355A-EEBF-4DCC-9816-D695EC8E2BB0 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30144 p:P24 wds:Q30144-BBCF866B-E0E8-46ED-ABB1-480C37CE641B .
-
-wds:Q30144-BBCF866B-E0E8-46ED-ABB1-480C37CE641B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30143 .
-
-wd:Q30144 p:P17 wds:Q30144-260EE94A-7B41-4DA5-9A43-CB858CF67CC3 .
-
-wds:Q30144-260EE94A-7B41-4DA5-9A43-CB858CF67CC3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "0" .
-
-wd:Q30144 p:P20 wds:Q30144-804628E2-5110-4AD8-8088-91945EA21B88 .
-
-wds:Q30144-804628E2-5110-4AD8-8088-91945EA21B88 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q30143/0.txt> .
-
-wd:Q30144 p:P19 wds:Q30144-56AA44BD-42BF-4AF1-A6B0-6EC9BE6CC751 .
-
-wds:Q30144-56AA44BD-42BF-4AF1-A6B0-6EC9BE6CC751 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" .
-
-wd:Q30144 p:P21 wds:Q30144-BC860AD7-A460-4195-8EBB-F562DBA024B2 .
-
-wds:Q30144-BC860AD7-A460-4195-8EBB-F562DBA024B2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q30132 .
-
-wd:Q30144 rdfs:label "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "Block 0 of B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30144 owl:sameAs wd:Q30136 .
 
 data:Q30151 a schema:Dataset ;
 	schema:about wd:Q30151 ;
-	schema:version "207482"^^xsd:integer ;
-	schema:dateModified "2026-03-20T15:05:55Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223806"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:10:42Z"^^xsd:dateTime .
 
-wd:Q30151 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Alan-Surpin" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q30132 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_b.jpg> ;
-	p:P1 wds:Q30151-9AB7D314-A3C3-49F7-86E6-DAE04E6AD468 .
-
-wds:Q30151-9AB7D314-A3C3-49F7-86E6-DAE04E6AD468 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q30151 p:P11 wds:Q30151-5E4EDF19-FA7B-4260-BB6B-133B9DE89014 .
-
-wds:Q30151-5E4EDF19-FA7B-4260-BB6B-133B9DE89014 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30151 p:P74 wds:Q30151-4CCBE495-8007-4F52-8A55-153C649787E7 .
-
-wds:Q30151-4CCBE495-8007-4F52-8A55-153C649787E7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q30151 p:P96 wds:Q30151-09AAB104-3785-4CF2-BE9A-9C289DA9BDFE .
-
-wds:Q30151-09AAB104-3785-4CF2-BE9A-9C289DA9BDFE a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q30151 p:P130 wds:Q30151-91FE3E0F-5BA8-48B6-9711-026930CA9748 .
-
-wds:Q30151-91FE3E0F-5BA8-48B6-9711-026930CA9748 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q30151 p:P142 wds:Q30151-91BDB3F5-D96C-43E4-BB32-1F93028833B7 .
-
-wds:Q30151-91BDB3F5-D96C-43E4-BB32-1F93028833B7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q30151 p:P17 wds:Q30151-0DC141DE-A40F-496B-B847-0C77B91ED31B .
-
-wds:Q30151-0DC141DE-A40F-496B-B847-0C77B91ED31B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Alan-Surpin" .
-
-wd:Q30151 p:P136 wds:Q30151-68FEC8DD-3675-4AF2-A404-C00F97DE6AF2 .
-
-wds:Q30151-68FEC8DD-3675-4AF2-A404-C00F97DE6AF2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q30151 p:P77 wds:Q30151-D2D0C725-8689-4959-BF17-C0D61C09FE63 .
-
-wds:Q30151-D2D0C725-8689-4959-BF17-C0D61C09FE63 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q30132 .
-
-wd:Q30151 p:P200 wds:Q30151-0EA2937F-5B98-4B95-92C4-8E1B7C1DFBB6 .
-
-wds:Q30151-0EA2937F-5B98-4B95-92C4-8E1B7C1DFBB6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_f.jpg> .
-
-wd:Q30151 p:P200 wds:Q30151-54FFE438-E88A-4C01-9480-899E5FA37606 .
-
-wds:Q30151-54FFE438-E88A-4C01-9480-899E5FA37606 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30151_b.jpg> .
-
-wd:Q30151 rdfs:label "B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30151 owl:sameAs wd:Q30143 .
 
 data:Q30152 a schema:Dataset ;
 	schema:about wd:Q30152 ;
-	schema:version "207483"^^xsd:integer ;
-	schema:dateModified "2026-03-20T15:05:55Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223815"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:11:26Z"^^xsd:dateTime .
 
-wd:Q30152 a wikibase:Item ;
-	wdt:P1 wd:Q2013 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30151 ;
-	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30151/0.txt> ;
-	wdt:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" ;
-	wdt:P21 wd:Q30132,
-		wd:Q19253 ;
-	p:P1 wds:Q30152-3F116DEC-BF36-4A74-A384-D48B910FA448 .
-
-wds:Q30152-3F116DEC-BF36-4A74-A384-D48B910FA448 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q2013 .
-
-wd:Q30152 p:P11 wds:Q30152-1768FCFA-BFCB-46ED-A342-0E6CC959D45E .
-
-wds:Q30152-1768FCFA-BFCB-46ED-A342-0E6CC959D45E a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30152 p:P24 wds:Q30152-ED10CDF0-B04E-46C3-BF1B-3BAE276CC918 .
-
-wds:Q30152-ED10CDF0-B04E-46C3-BF1B-3BAE276CC918 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30151 .
-
-wd:Q30152 p:P17 wds:Q30152-5532DEE9-4F78-4254-9D79-652E07D08551 .
-
-wds:Q30152-5532DEE9-4F78-4254-9D79-652E07D08551 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "0" .
-
-wd:Q30152 p:P20 wds:Q30152-97536FC9-5CBF-4927-9CB9-B0417130298B .
-
-wds:Q30152-97536FC9-5CBF-4927-9CB9-B0417130298B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q30151/0.txt> .
-
-wd:Q30152 p:P19 wds:Q30152-1C09AE50-5865-44EC-A78B-F72EBD688664 .
-
-wds:Q30152-1C09AE50-5865-44EC-A78B-F72EBD688664 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P19 "Surpin, Alan, 61 E 97 St apt 19, N.Y. 427-8745 Electronics Illustrated, associate editor. interested in poetry, music audio projects, mass media outlets" .
-
-wd:Q30152 p:P21 wds:Q30152-617C8B73-70D6-40EE-9E01-FFFF2DCE19C1 .
-
-wds:Q30152-617C8B73-70D6-40EE-9E01-FFFF2DCE19C1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q30132 .
-
-wd:Q30152 p:P21 wds:Q30152-E3937490-4821-48F9-B750-FB21BE9EDC27 .
-
-wds:Q30152-E3937490-4821-48F9-B750-FB21BE9EDC27 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q19253 .
-
-wd:Q30152 rdfs:label "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	skos:prefLabel "Block 0 of B14 Alan Surpin Edge-Notched Card"@en ;
-	schema:name "Block 0 of B14 Alan Surpin Edge-Notched Card"@en .
+wd:Q30152 owl:sameAs wd:Q30144 .
 
 data:Q30153 a schema:Dataset ;
 	schema:about wd:Q30153 ;
-	schema:version "207484"^^xsd:integer ;
-	schema:dateModified "2026-03-20T15:05:55Z"^^xsd:dateTime ;
+	schema:version "223803"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:08:50Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2344939,7 +2344548,7 @@ data:Q30153 a schema:Dataset ;
 wd:Q30153 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30151 ;
+	wdt:P24 wd:Q30133 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30151/1.txt> ;
 	p:P1 wds:Q30153-E6C9B15D-E18B-46C5-A84A-D0F792A75430 .
@@ -2344961,7 +2344570,7 @@ wd:Q30153 p:P24 wds:Q30153-E54331DE-2A35-4A3A-A92D-A99E88D9E0B6 .
 wds:Q30153-E54331DE-2A35-4A3A-A92D-A99E88D9E0B6 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30151 .
+	ps:P24 wd:Q30133 .
 
 wd:Q30153 p:P17 wds:Q30153-1ED28477-26C6-4BD0-8A52-793104BB60A0 .
 
@@ -2349680,12 +2349289,6 @@ wdv:b3395e8987ade668d48a5629c70ea351 a wikibase:TimeValue ;
 	wikibase:timeTimezone "0"^^xsd:integer ;
 	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985786> .
 
-wdv:372e0c7107ff17b627cfd96d5b08fe11 a wikibase:TimeValue ;
-	wikibase:timeValue "1970-11-24T00:00:00Z"^^xsd:dateTime ;
-	wikibase:timePrecision "11"^^xsd:integer ;
-	wikibase:timeTimezone "0"^^xsd:integer ;
-	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
-
 data:Q30228 a schema:Dataset ;
 	schema:about wd:Q30228 ;
 	schema:version "208220"^^xsd:integer ;
@@ -2350810,9 +2350413,9 @@ wdv:bdb19afbe0c84c216cc69561892d23b2 a wikibase:TimeValue ;
 
 data:Q30243 a schema:Dataset ;
 	schema:about wd:Q30243 ;
-	schema:version "221507"^^xsd:integer ;
-	schema:dateModified "2026-08-12T22:14:09Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223831"^^xsd:integer ;
+	schema:dateModified "2026-10-13T13:47:43Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "2"^^xsd:integer .
 
@@ -2350826,6 +2350429,7 @@ wd:Q30243 a wikibase:Item ;
 	wdt:P152 "33 Marylyn Place, Clifton, New Jersey 07011"@en ;
 	wdt:P2 <https://eat_datascape.medialab.sciences-po.fr/actor/826> ;
 	wdt:P245 "actor/826" ;
+	wdt:P110 wd:Q28338 ;
 	p:P1 wds:Q30243-9F3E51A4-8C0A-4DFB-AE92-4F2D838EBE8A .
 
 wds:Q30243-9F3E51A4-8C0A-4DFB-AE92-4F2D838EBE8A a wikibase:Statement,
@@ -2350890,6 +2350494,14 @@ wds:Q30243-C1069CAD-D546-49BC-BBC0-8A9FD730A3CF a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P245 "actor/826" .
+
+wd:Q30243 p:P110 wds:Q30243-6666cd7e-4a78-5645-e91e-ac401e1f09ed .
+
+wds:Q30243-6666cd7e-4a78-5645-e91e-ac401e1f09ed a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q28338 ;
+	prov:wasDerivedFrom wdref:3f377f3fb095397ad5c48dd031a7f19f375957bf .
 
 wd:Q30243 rdfs:label "Ben-ami Kadish"@en ;
 	skos:prefLabel "Ben-ami Kadish"@en ;
