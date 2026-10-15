@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-14T04:10:10Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-15T04:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -1812104,16 +1812104,23 @@ wd:Q21243 rdfs:label "Anita Aarons"@en ;
 
 data:Q21244 a schema:Dataset ;
 	schema:about wd:Q21244 ;
-	schema:version "177100"^^xsd:integer ;
-	schema:dateModified "2024-12-04T22:53:06Z"^^xsd:dateTime ;
-	wikibase:statements "3"^^xsd:integer ;
+	schema:version "223910"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:52:27Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
 wd:Q21244 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P8 "Q28872673" ;
-	wdt:P11 wd:Q20517 ;
+	wdt:P11 wd:Q20517,
+		wd:Q19104,
+		wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P110 wd:Q30122 ;
+	wdt:P278 wd:Q32170,
+		wd:Q31686,
+		wd:Q30879 ;
 	p:P1 wds:Q21244-FB5B6571-630C-4EF1-BF90-B1B00C4F6A8A .
 
 wds:Q21244-FB5B6571-630C-4EF1-BF90-B1B00C4F6A8A a wikibase:Statement,
@@ -1812135,10 +1812142,71 @@ wds:Q21244-9C92E771-071F-450E-98E6-3856EC21D567 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P11 wd:Q20517 .
 
+wd:Q21244 p:P11 wds:Q21244-A7056B83-4287-4EED-AA1E-6414E60703C1 .
+
+wds:Q21244-A7056B83-4287-4EED-AA1E-6414E60703C1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q19104 .
+
+wd:Q21244 p:P11 wds:Q21244-33AACEA2-3D37-4D8D-B902-7B96BB1E6764 .
+
+wds:Q21244-33AACEA2-3D37-4D8D-B902-7B96BB1E6764 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q21244 p:P65 wds:Q21244-3B60AD6F-4D51-43B7-8119-C4EC7F98A5CD .
+
+wds:Q21244-3B60AD6F-4D51-43B7-8119-C4EC7F98A5CD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 ;
+	prov:wasDerivedFrom wdref:f217c53393df192ce71995796a9d7f8844d60b72 .
+
+wd:Q21244 p:P110 wds:Q21244-72FA36F7-8B82-4B82-B0DF-D6B2AE841FBC .
+
+wds:Q21244-72FA36F7-8B82-4B82-B0DF-D6B2AE841FBC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q30122 ;
+	prov:wasDerivedFrom wdref:f217c53393df192ce71995796a9d7f8844d60b72 .
+
+wd:Q21244 p:P278 wds:Q21244-CD405BA8-3131-40DE-9083-16DBCCB425FA .
+
+wds:Q21244-CD405BA8-3131-40DE-9083-16DBCCB425FA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32170 ;
+	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
+
+wd:Q21244 p:P278 wds:Q21244-B18BE37D-2C98-4A55-B712-04E1775FB9F9 .
+
+wds:Q21244-B18BE37D-2C98-4A55-B712-04E1775FB9F9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31686 ;
+	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
+
+wd:Q21244 p:P278 wds:Q21244-1BE2BB69-1A5B-455A-926A-918809D1B044 .
+
+wds:Q21244-1BE2BB69-1A5B-455A-926A-918809D1B044 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30879 ;
+	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
+
 wd:Q21244 rdfs:label "Leslie Mezei"@en ;
 	skos:prefLabel "Leslie Mezei"@en ;
 	schema:name "Leslie Mezei"@en ;
-	schema:description "person associated with E.A.T. Bibliography"@en .
+	schema:description "engineer associated with E.A.T.'s Technical Services Program, Hungarian-born Canadian digital artist active in the 1960s and 1970s, person associated with E.A.T. Bibliography"@en .
+
+wdref:f217c53393df192ce71995796a9d7f8844d60b72 a wikibase:Reference ;
+	pr:P26 wd:Q32171 .
+
+wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 a wikibase:Reference ;
+	pr:P26 wd:Q32172 .
 
 data:Q21246 a schema:Dataset ;
 	schema:about wd:Q21246 ;
@@ -2151035,9 +2151103,9 @@ wd:Q26387 rdfs:label "Paul From"@en ;
 
 data:Q26388 a schema:Dataset ;
 	schema:about wd:Q26388 ;
-	schema:version "196582"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:40Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223884"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:38:49Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2151052,6 +2151120,7 @@ wd:Q26388 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26388_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26388_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Philip-C-Feffer" ;
 	p:P11 wds:Q26388-385A1CF7-FC9F-4AD0-ACD2-1C181212F100 .
 
 wds:Q26388-385A1CF7-FC9F-4AD0-ACD2-1C181212F100 a wikibase:Statement,
@@ -2151122,6 +2151191,13 @@ wds:Q26388-F0C5A0FC-6779-41F7-A7A6-E4335752B05C a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26388 p:P17 wds:Q26388-eae3cb95-46d6-9f2d-eb80-0786daf0cbcc .
+
+wds:Q26388-eae3cb95-46d6-9f2d-eb80-0786daf0cbcc a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Philip-C-Feffer" .
+
 wd:Q26388 rdfs:label "B14 Philip C. Feffer Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Philip C. Feffer Edge-Notched Card"@en ;
 	schema:name "B14 Philip C. Feffer Edge-Notched Card"@en ;
@@ -2151129,9 +2151205,9 @@ wd:Q26388 rdfs:label "B14 Philip C. Feffer Edge-Notched Card"@en ;
 
 data:Q26389 a schema:Dataset ;
 	schema:about wd:Q26389 ;
-	schema:version "196578"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:29Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223881"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:37:17Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2151146,6 +2151222,7 @@ wd:Q26389 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26389_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26389_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Nat-Ostroff" ;
 	p:P11 wds:Q26389-75BF35E3-7C7F-4EF8-9C35-11E26765D778 .
 
 wds:Q26389-75BF35E3-7C7F-4EF8-9C35-11E26765D778 a wikibase:Statement,
@@ -2151215,6 +2151292,13 @@ wds:Q26389-48DD4565-0D16-46A5-947D-C77512799FD3 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26389 p:P17 wds:Q26389-b38c6cd8-4a37-eac2-a8f2-822368206faf .
+
+wds:Q26389-b38c6cd8-4a37-eac2-a8f2-822368206faf a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Nat-Ostroff" .
 
 wd:Q26389 rdfs:label "B14 Nat Ostroff Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Nat Ostroff Edge-Notched Card"@en ;
@@ -2167995,9 +2168079,9 @@ wd:Q26577 rdfs:label "Nick Ernick"@en ;
 
 data:Q26578 a schema:Dataset ;
 	schema:about wd:Q26578 ;
-	schema:version "196557"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:28Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223848"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:04:58Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168012,6 +2168096,7 @@ wd:Q26578 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26578_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26578_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Eugene-B-Seeley" ;
 	p:P96 wds:Q26578-49095FC2-B8FF-45CE-ACA3-0AA815910D50 .
 
 wds:Q26578-49095FC2-B8FF-45CE-ACA3-0AA815910D50 a wikibase:Statement,
@@ -2168082,6 +2168167,13 @@ wds:Q26578-5E1CFA93-96A0-47C6-81ED-8B544B166BCC a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26578 p:P17 wds:Q26578-4bc35a23-45bd-2f58-5004-b9222102ce55 .
+
+wds:Q26578-4bc35a23-45bd-2f58-5004-b9222102ce55 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Eugene-B-Seeley" .
+
 wd:Q26578 rdfs:label "B14 Eugene B. Seeley Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Eugene B. Seeley Edge-Notched Card"@en ;
 	schema:name "B14 Eugene B. Seeley Edge-Notched Card"@en ;
@@ -2168089,9 +2168181,9 @@ wd:Q26578 rdfs:label "B14 Eugene B. Seeley Edge-Notched Card"@en ;
 
 data:Q26702 a schema:Dataset ;
 	schema:about wd:Q26702 ;
-	schema:version "196559"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:34Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223850"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:06:19Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168106,6 +2168198,7 @@ wd:Q26702 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26702_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26702_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Everett-M-Barber" ;
 	p:P11 wds:Q26702-70FAB206-4034-47A0-B3E4-DD40CF7764DC .
 
 wds:Q26702-70FAB206-4034-47A0-B3E4-DD40CF7764DC a wikibase:Statement,
@@ -2168176,6 +2168269,13 @@ wds:Q26702-3B865C62-34E0-4CD5-80E5-C252C4D20AE1 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26702 p:P17 wds:Q26702-afa587e8-48e8-4cc3-eaed-8c4d656c4262 .
+
+wds:Q26702-afa587e8-48e8-4cc3-eaed-8c4d656c4262 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Everett-M-Barber" .
+
 wd:Q26702 rdfs:label "B14 Everett M. Barber Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Everett M. Barber Edge-Notched Card"@en ;
 	schema:name "B14 Everett M. Barber Edge-Notched Card"@en ;
@@ -2168183,9 +2168283,9 @@ wd:Q26702 rdfs:label "B14 Everett M. Barber Edge-Notched Card"@en ;
 
 data:Q26704 a schema:Dataset ;
 	schema:about wd:Q26704 ;
-	schema:version "213462"^^xsd:integer ;
-	schema:dateModified "2026-06-10T19:27:05Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223886"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:39:55Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168200,6 +2168300,7 @@ wd:Q26704 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26704_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26704_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-T-P-Abeles" ;
 	p:P11 wds:Q26704-C3A5135A-EE1E-44F0-A135-41D8BBC729D2 .
 
 wds:Q26704-C3A5135A-EE1E-44F0-A135-41D8BBC729D2 a wikibase:Statement,
@@ -2168270,6 +2168371,13 @@ wds:Q26704-6EA73F16-64AB-4CC1-BBD0-BE8B14FE5824 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26704 p:P17 wds:Q26704-1bd6bfdb-4f3b-0142-d69b-7d71687c0433 .
+
+wds:Q26704-1bd6bfdb-4f3b-0142-d69b-7d71687c0433 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-T-P-Abeles" .
+
 wd:Q26704 rdfs:label "B14 Dr. T.P. Abeles Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Dr. T.P. Abeles Edge-Notched Card"@en ;
 	schema:name "B14 Dr. T.P. Abeles Edge-Notched Card"@en ;
@@ -2168279,9 +2168387,9 @@ wd:Q26704 rdfs:label "B14 Dr. T.P. Abeles Edge-Notched Card"@en ;
 
 data:Q26706 a schema:Dataset ;
 	schema:about wd:Q26706 ;
-	schema:version "196554"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:18Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223841"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:58:00Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168296,6 +2168404,7 @@ wd:Q26706 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26706_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26706_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Douglas-Rusta" ;
 	p:P11 wds:Q26706-3B0B28F4-2DC0-4B8C-9B8D-0816513175E4 .
 
 wds:Q26706-3B0B28F4-2DC0-4B8C-9B8D-0816513175E4 a wikibase:Statement,
@@ -2168366,6 +2168475,13 @@ wds:Q26706-10C6121E-A164-496C-9565-9CB720A30790 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26706 p:P17 wds:Q26706-904655f1-49c5-88fd-d319-2a102d8d7624 .
+
+wds:Q26706-904655f1-49c5-88fd-d319-2a102d8d7624 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Douglas-Rusta" .
+
 wd:Q26706 rdfs:label "B14 Douglas Rusta Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Douglas Rusta Edge-Notched Card"@en ;
 	schema:name "B14 Douglas Rusta Edge-Notched Card"@en ;
@@ -2168373,9 +2168489,9 @@ wd:Q26706 rdfs:label "B14 Douglas Rusta Edge-Notched Card"@en ;
 
 data:Q26707 a schema:Dataset ;
 	schema:about wd:Q26707 ;
-	schema:version "196577"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:27Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223869"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:17:30Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168390,6 +2168506,7 @@ wd:Q26707 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26707_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26707_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Martin-N-Kaplan" ;
 	p:P11 wds:Q26707-E765308B-D4C9-4DF5-B7AB-2833DFCFEAA8 .
 
 wds:Q26707-E765308B-D4C9-4DF5-B7AB-2833DFCFEAA8 a wikibase:Statement,
@@ -2168460,6 +2168577,13 @@ wds:Q26707-A1C4F49C-CDE6-4435-B60C-B416748EC91A a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26707 p:P17 wds:Q26707-ae0dceb4-46f7-60b8-1a1c-16266a8eb025 .
+
+wds:Q26707-ae0dceb4-46f7-60b8-1a1c-16266a8eb025 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Martin-N-Kaplan" .
+
 wd:Q26707 rdfs:label "B14 Martin N. Kaplan Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Martin N. Kaplan Edge-Notched Card"@en ;
 	schema:name "B14 Martin N. Kaplan Edge-Notched Card"@en ;
@@ -2168467,9 +2168591,9 @@ wd:Q26707 rdfs:label "B14 Martin N. Kaplan Edge-Notched Card"@en ;
 
 data:Q26708 a schema:Dataset ;
 	schema:about wd:Q26708 ;
-	schema:version "196569"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:05Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223853"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:09:40Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168484,6 +2168608,7 @@ wd:Q26708 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26708_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26708_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Joe-S-Gans" ;
 	p:P11 wds:Q26708-FDEF95B9-1A6E-44E8-97F8-4E06700821B1 .
 
 wds:Q26708-FDEF95B9-1A6E-44E8-97F8-4E06700821B1 a wikibase:Statement,
@@ -2168554,6 +2168679,13 @@ wds:Q26708-67E803C4-6564-4D79-A0AF-902B32C579DC a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26708 p:P17 wds:Q26708-74e37878-4bb5-e356-39e0-9f9132a7ef5a .
+
+wds:Q26708-74e37878-4bb5-e356-39e0-9f9132a7ef5a a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Joe-S-Gans" .
+
 wd:Q26708 rdfs:label "B14 Joe S. Gans Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Joe S. Gans Edge-Notched Card"@en ;
 	schema:name "B14 Joe S. Gans Edge-Notched Card"@en ;
@@ -2168561,9 +2168693,9 @@ wd:Q26708 rdfs:label "B14 Joe S. Gans Edge-Notched Card"@en ;
 
 data:Q26709 a schema:Dataset ;
 	schema:about wd:Q26709 ;
-	schema:version "196561"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:40Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223851"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:07:04Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168578,6 +2168710,7 @@ wd:Q26709 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26709_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26709_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Frederick-A-Cooper" ;
 	p:P11 wds:Q26709-67B339A5-48AB-4696-9B21-C2D8687EEDC1 .
 
 wds:Q26709-67B339A5-48AB-4696-9B21-C2D8687EEDC1 a wikibase:Statement,
@@ -2168648,6 +2168781,13 @@ wds:Q26709-F436BD51-9C3F-4D16-B30D-7BB955DBB6C5 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26709 p:P17 wds:Q26709-300fdfce-4896-7fcb-38cf-52435f7bde88 .
+
+wds:Q26709-300fdfce-4896-7fcb-38cf-52435f7bde88 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Frederick-A-Cooper" .
+
 wd:Q26709 rdfs:label "B14 Frederick A. Cooper Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Frederick A. Cooper Edge-Notched Card"@en ;
 	schema:name "B14 Frederick A. Cooper Edge-Notched Card"@en ;
@@ -2168655,9 +2168795,9 @@ wd:Q26709 rdfs:label "B14 Frederick A. Cooper Edge-Notched Card"@en ;
 
 data:Q26710 a schema:Dataset ;
 	schema:about wd:Q26710 ;
-	schema:version "208042"^^xsd:integer ;
-	schema:dateModified "2026-04-02T16:30:04Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223837"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:51:30Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168672,6 +2168812,7 @@ wd:Q26710 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26710_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26710_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Daniel-A-Bartman" ;
 	p:P11 wds:Q26710-C08B7321-1AB3-4AEF-ABF2-B9EC3EEC5D5D .
 
 wds:Q26710-C08B7321-1AB3-4AEF-ABF2-B9EC3EEC5D5D a wikibase:Statement,
@@ -2168742,6 +2168883,13 @@ wds:Q26710-2F5BC85D-C889-423E-8760-46E32936A698 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26710 p:P17 wds:Q26710-1a53acb8-42b8-a271-0a03-575e39dc2cb8 .
+
+wds:Q26710-1a53acb8-42b8-a271-0a03-575e39dc2cb8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Daniel-A-Bartman" .
+
 wd:Q26710 rdfs:label "B14 Daniel A. Bartman Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Daniel A. Bartman Edge-Notched Card"@en ;
 	schema:name "B14 Daniel A. Bartman Edge-Notched Card"@en ;
@@ -2168749,9 +2168897,9 @@ wd:Q26710 rdfs:label "B14 Daniel A. Bartman Edge-Notched Card"@en ;
 
 data:Q26711 a schema:Dataset ;
 	schema:about wd:Q26711 ;
-	schema:version "196576"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:24Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223868"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:17:04Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168766,6 +2168914,7 @@ wd:Q26711 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26711_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26711_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Louis-E-Corey" ;
 	p:P11 wds:Q26711-FDB1AAE1-9674-4190-B08C-2FF44AE72FBA .
 
 wds:Q26711-FDB1AAE1-9674-4190-B08C-2FF44AE72FBA a wikibase:Statement,
@@ -2168836,6 +2168985,13 @@ wds:Q26711-50D046A1-9CD8-48A9-A9C8-169E4B3C2697 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26711 p:P17 wds:Q26711-600e8a99-41a6-4c67-edd3-3c43107566ea .
+
+wds:Q26711-600e8a99-41a6-4c67-edd3-3c43107566ea a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Louis-E-Corey" .
+
 wd:Q26711 rdfs:label "B14 Louis E. Corey Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Louis E. Corey Edge-Notched Card"@en ;
 	schema:name "B14 Louis E. Corey Edge-Notched Card"@en ;
@@ -2168843,9 +2168999,9 @@ wd:Q26711 rdfs:label "B14 Louis E. Corey Edge-Notched Card"@en ;
 
 data:Q26712 a schema:Dataset ;
 	schema:about wd:Q26712 ;
-	schema:version "196579"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:32Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223882"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:37:58Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168860,6 +2169016,7 @@ wd:Q26712 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26712_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26712_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Nick-Ernick" ;
 	p:P11 wds:Q26712-1E9203E3-EA66-4175-9377-D4978DCC9122 .
 
 wds:Q26712-1E9203E3-EA66-4175-9377-D4978DCC9122 a wikibase:Statement,
@@ -2168930,6 +2169087,13 @@ wds:Q26712-CA751EB0-3A97-45AE-99D5-D5B3D2F159DB a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26712 p:P17 wds:Q26712-540429ac-4506-92dc-6b5c-9278cbbf581b .
+
+wds:Q26712-540429ac-4506-92dc-6b5c-9278cbbf581b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Nick-Ernick" .
+
 wd:Q26712 rdfs:label "B14 Nick Ernick Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Nick Ernick Edge-Notched Card"@en ;
 	schema:name "B14 Nick Ernick Edge-Notched Card"@en ;
@@ -2168937,9 +2169101,9 @@ wd:Q26712 rdfs:label "B14 Nick Ernick Edge-Notched Card"@en ;
 
 data:Q26713 a schema:Dataset ;
 	schema:about wd:Q26713 ;
-	schema:version "196571"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:10Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223854"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:10:58Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2168954,6 +2169118,7 @@ wd:Q26713 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26713_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26713_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-John-Minkhoff" ;
 	p:P11 wds:Q26713-FE67ED18-951E-4657-B976-771A497719B5 .
 
 wds:Q26713-FE67ED18-951E-4657-B976-771A497719B5 a wikibase:Statement,
@@ -2169024,6 +2169189,13 @@ wds:Q26713-9A2F524A-07B4-4A57-81B1-6E0047570D72 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26713 p:P17 wds:Q26713-86b90821-46cc-88d1-2561-401b8784c8b3 .
+
+wds:Q26713-86b90821-46cc-88d1-2561-401b8784c8b3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-John-Minkhoff" .
+
 wd:Q26713 rdfs:label "B14 John Minkhoff Edge-Notched Card"@en ;
 	skos:prefLabel "B14 John Minkhoff Edge-Notched Card"@en ;
 	schema:name "B14 John Minkhoff Edge-Notched Card"@en ;
@@ -2169031,9 +2169203,9 @@ wd:Q26713 rdfs:label "B14 John Minkhoff Edge-Notched Card"@en ;
 
 data:Q26714 a schema:Dataset ;
 	schema:about wd:Q26714 ;
-	schema:version "196572"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:13Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223889"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:41:20Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169048,6 +2169220,7 @@ wd:Q26714 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26714_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26714_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B3-Joseph-L-Shepter" ;
 	p:P11 wds:Q26714-6EB1185F-FE3F-42EF-B39B-EF686F6C4187 .
 
 wds:Q26714-6EB1185F-FE3F-42EF-B39B-EF686F6C4187 a wikibase:Statement,
@@ -2169118,6 +2169291,13 @@ wds:Q26714-785FD09B-F63F-4E7E-A319-EE44DDF5646E a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26714 p:P17 wds:Q26714-e680c688-44cd-6233-e965-979957d4d136 .
+
+wds:Q26714-e680c688-44cd-6233-e965-979957d4d136 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B3-Joseph-L-Shepter" .
+
 wd:Q26714 rdfs:label "B14 Joseph L. Shepter Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Joseph L. Shepter Edge-Notched Card"@en ;
 	schema:name "B14 Joseph L. Shepter Edge-Notched Card"@en ;
@@ -2169125,9 +2169305,9 @@ wd:Q26714 rdfs:label "B14 Joseph L. Shepter Edge-Notched Card"@en ;
 
 data:Q26715 a schema:Dataset ;
 	schema:about wd:Q26715 ;
-	schema:version "196558"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:32Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223849"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:05:49Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169142,6 +2169322,7 @@ wd:Q26715 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26715_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26715_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Eugene-Dolgoff" ;
 	p:P11 wds:Q26715-92EDDD81-0796-4F6B-92A6-6B8EC79B0E7E .
 
 wds:Q26715-92EDDD81-0796-4F6B-92A6-6B8EC79B0E7E a wikibase:Statement,
@@ -2169212,6 +2169393,13 @@ wds:Q26715-437CAFF0-7D52-421F-995B-9C2E480A9063 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26715 p:P17 wds:Q26715-8a2dafb7-4197-8e77-05bf-108ca824114d .
+
+wds:Q26715-8a2dafb7-4197-8e77-05bf-108ca824114d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Eugene-Dolgoff" .
+
 wd:Q26715 rdfs:label "B14 Eugene Dolgoff Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Eugene Dolgoff Edge-Notched Card"@en ;
 	schema:name "B14 Eugene Dolgoff Edge-Notched Card"@en ;
@@ -2169219,9 +2169407,9 @@ wd:Q26715 rdfs:label "B14 Eugene Dolgoff Edge-Notched Card"@en ;
 
 data:Q26716 a schema:Dataset ;
 	schema:about wd:Q26716 ;
-	schema:version "196573"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:16Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223855"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:11:33Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169236,6 +2169424,7 @@ wd:Q26716 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26716_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26716_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Joseph-Stella" ;
 	p:P11 wds:Q26716-AB208770-DF18-42D9-9444-B51DBE1E2017 .
 
 wds:Q26716-AB208770-DF18-42D9-9444-B51DBE1E2017 a wikibase:Statement,
@@ -2169305,6 +2169494,13 @@ wds:Q26716-8EC47807-CFB3-4BD3-81BB-9923AD9933E4 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26716 p:P17 wds:Q26716-94143e19-4a5a-44c7-0a35-52f9ec498408 .
+
+wds:Q26716-94143e19-4a5a-44c7-0a35-52f9ec498408 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Joseph-Stella" .
 
 wd:Q26716 rdfs:label "B14 Joseph Stella Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Joseph Stella Edge-Notched Card"@en ;
@@ -2169415,9 +2169611,9 @@ wd:Q26717 rdfs:label "B14 Brian Sherman Edge-Notched Card"@en ;
 
 data:Q26718 a schema:Dataset ;
 	schema:about wd:Q26718 ;
-	schema:version "196581"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:37Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223883"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:38:23Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169432,6 +2169628,7 @@ wd:Q26718 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26718_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26718_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Paul-Bucharest" ;
 	p:P11 wds:Q26718-7880820A-628B-48FA-80CB-3A7C10273941 .
 
 wds:Q26718-7880820A-628B-48FA-80CB-3A7C10273941 a wikibase:Statement,
@@ -2169502,6 +2169699,13 @@ wds:Q26718-B0EDB158-7820-465C-B53F-E584E1C73E4C a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26718 p:P17 wds:Q26718-bbefe169-4909-9fd4-06de-2889db28f8c7 .
+
+wds:Q26718-bbefe169-4909-9fd4-06de-2889db28f8c7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Paul-Bucharest" .
+
 wd:Q26718 rdfs:label "B14 Paul Bucharest Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Paul Bucharest Edge-Notched Card"@en ;
 	schema:name "B14 Paul Bucharest Edge-Notched Card"@en ;
@@ -2169509,9 +2169713,9 @@ wd:Q26718 rdfs:label "B14 Paul Bucharest Edge-Notched Card"@en ;
 
 data:Q26719 a schema:Dataset ;
 	schema:about wd:Q26719 ;
-	schema:version "196550"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:06Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223836"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:50:58Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169526,6 +2169730,7 @@ wd:Q26719 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26719_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26719_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Danial-Cronin" ;
 	p:P11 wds:Q26719-5B3A93FA-F0FA-4363-A59F-2E7ADB710AAE .
 
 wds:Q26719-5B3A93FA-F0FA-4363-A59F-2E7ADB710AAE a wikibase:Statement,
@@ -2169596,6 +2169801,13 @@ wds:Q26719-A0BA11BC-D9B6-4466-93F6-833FBDE2DF92 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26719 p:P17 wds:Q26719-8dec7fc0-4a15-54ad-290f-7d76713467f6 .
+
+wds:Q26719-8dec7fc0-4a15-54ad-290f-7d76713467f6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Danial-Cronin" .
+
 wd:Q26719 rdfs:label "B14 Danial Cronin Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Danial Cronin Edge-Notched Card"@en ;
 	schema:name "B14 Danial Cronin Edge-Notched Card"@en ;
@@ -2169603,9 +2169815,9 @@ wd:Q26719 rdfs:label "B14 Danial Cronin Edge-Notched Card"@en ;
 
 data:Q26720 a schema:Dataset ;
 	schema:about wd:Q26720 ;
-	schema:version "196568"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:01Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223852"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:08:58Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169620,6 +2169832,7 @@ wd:Q26720 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26720_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26720_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Jerry-Goodman" ;
 	p:P11 wds:Q26720-E0BF56B8-7C75-4E5F-B437-96CC2B030F74 .
 
 wds:Q26720-E0BF56B8-7C75-4E5F-B437-96CC2B030F74 a wikibase:Statement,
@@ -2169690,6 +2169903,13 @@ wds:Q26720-B181AE84-46B7-480F-8EB9-DD3BBA117D81 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26720 p:P17 wds:Q26720-ed7f93e3-4aa3-26e0-51b7-5a52946a5bd5 .
+
+wds:Q26720-ed7f93e3-4aa3-26e0-51b7-5a52946a5bd5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Jerry-Goodman" .
+
 wd:Q26720 rdfs:label "B14 Jerry Goodman Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Jerry Goodman Edge-Notched Card"@en ;
 	schema:name "B14 Jerry Goodman Edge-Notched Card"@en ;
@@ -2169697,9 +2169917,9 @@ wd:Q26720 rdfs:label "B14 Jerry Goodman Edge-Notched Card"@en ;
 
 data:Q26721 a schema:Dataset ;
 	schema:about wd:Q26721 ;
-	schema:version "196574"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:18Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223856"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:12:04Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169714,6 +2169934,7 @@ wd:Q26721 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26721_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26721_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Judith-Prager" ;
 	p:P11 wds:Q26721-5ECE3CC8-8073-414F-B49E-511A8BFB4C46 .
 
 wds:Q26721-5ECE3CC8-8073-414F-B49E-511A8BFB4C46 a wikibase:Statement,
@@ -2169783,6 +2170004,13 @@ wds:Q26721-F85E22DF-87ED-453F-91B3-0F6B101AA904 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26721 p:P17 wds:Q26721-994fd785-46da-2628-64bb-d3ca33062314 .
+
+wds:Q26721-994fd785-46da-2628-64bb-d3ca33062314 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Judith-Prager" .
 
 wd:Q26721 rdfs:label "B14 Judith Prager Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Judith Prager Edge-Notched Card"@en ;
@@ -2169893,9 +2170121,9 @@ wd:Q26722 rdfs:label "B14 Abraham Goldbaum Edge-Notched Card"@en ;
 
 data:Q26723 a schema:Dataset ;
 	schema:about wd:Q26723 ;
-	schema:version "196583"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:13:42Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223885"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:39:20Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2169910,6 +2170138,7 @@ wd:Q26723 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26723_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26723_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Robert-J-Stahl" ;
 	p:P11 wds:Q26723-188D6751-8CEB-4AE9-94DB-B742E5029570 .
 
 wds:Q26723-188D6751-8CEB-4AE9-94DB-B742E5029570 a wikibase:Statement,
@@ -2169980,6 +2170209,13 @@ wds:Q26723-22E2FFC1-F7F0-4E7F-B489-A768B6DD59E5 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26723 p:P17 wds:Q26723-9c0346fb-47b2-7c33-0664-e859196221d9 .
+
+wds:Q26723-9c0346fb-47b2-7c33-0664-e859196221d9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Robert-J-Stahl" .
+
 wd:Q26723 rdfs:label "B14 Robert J Stahl Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Robert J Stahl Edge-Notched Card"@en ;
 	schema:name "B14 Robert J Stahl Edge-Notched Card"@en ;
@@ -2169987,9 +2170223,9 @@ wd:Q26723 rdfs:label "B14 Robert J Stahl Edge-Notched Card"@en ;
 
 data:Q26724 a schema:Dataset ;
 	schema:about wd:Q26724 ;
-	schema:version "196555"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:22Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223867"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:16:41Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170004,6 +2170240,7 @@ wd:Q26724 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26724_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26724_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Kroft" ;
 	p:P11 wds:Q26724-B6B32CD4-2F05-49AE-907E-89F70AD964A9 .
 
 wds:Q26724-B6B32CD4-2F05-49AE-907E-89F70AD964A9 a wikibase:Statement,
@@ -2170074,6 +2170311,13 @@ wds:Q26724-8C335A1C-2FDD-4179-BAB4-FF654F458BC1 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26724 p:P17 wds:Q26724-73b97d56-4e8f-407d-ed99-f2687b858c7c .
+
+wds:Q26724-73b97d56-4e8f-407d-ed99-f2687b858c7c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Kroft" .
+
 wd:Q26724 rdfs:label "B14 Dr. Kroft Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Dr. Kroft Edge-Notched Card"@en ;
 	schema:name "B14 Dr. Kroft Edge-Notched Card"@en ;
@@ -2170081,9 +2170325,9 @@ wd:Q26724 rdfs:label "B14 Dr. Kroft Edge-Notched Card"@en ;
 
 data:Q26725 a schema:Dataset ;
 	schema:about wd:Q26725 ;
-	schema:version "215436"^^xsd:integer ;
-	schema:dateModified "2026-07-23T23:10:04Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223887"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:40:20Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170098,6 +2170342,7 @@ wd:Q26725 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26725_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26725_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Vincent-F-Lisanti" ;
 	p:P11 wds:Q26725-BBA4AD4E-C801-4F35-A13A-BA63881ED5B4 .
 
 wds:Q26725-BBA4AD4E-C801-4F35-A13A-BA63881ED5B4 a wikibase:Statement,
@@ -2170168,6 +2170413,13 @@ wds:Q26725-6FB98DF3-EB99-4E46-BB39-DD51BA9D7F25 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26725 p:P17 wds:Q26725-2c166035-4031-ae24-ab89-6f9e59a5a922 .
+
+wds:Q26725-2c166035-4031-ae24-ab89-6f9e59a5a922 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Vincent-F-Lisanti" .
+
 wd:Q26725 rdfs:label "B14 Dr Vincent F Lisanti Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Dr Vincent F Lisanti Edge-Notched Card"@en ;
 	schema:name "B14 Dr Vincent F Lisanti Edge-Notched Card"@en ;
@@ -2170175,9 +2170427,9 @@ wd:Q26725 rdfs:label "B14 Dr Vincent F Lisanti Edge-Notched Card"@en ;
 
 data:Q26726 a schema:Dataset ;
 	schema:about wd:Q26726 ;
-	schema:version "196549"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:03Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223834"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:48:13Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170192,6 +2170444,7 @@ wd:Q26726 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26726_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26726_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Craig-Fields" ;
 	p:P11 wds:Q26726-C21A3FE2-31E2-46E5-9032-ABBFAD72DF6B .
 
 wds:Q26726-C21A3FE2-31E2-46E5-9032-ABBFAD72DF6B a wikibase:Statement,
@@ -2170262,6 +2170515,13 @@ wds:Q26726-5E0BD723-72F6-4E0C-99FC-610BA20F39A4 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26726 p:P17 wds:Q26726-cd5be8d2-4ca6-ccb8-8074-111d095738d4 .
+
+wds:Q26726-cd5be8d2-4ca6-ccb8-8074-111d095738d4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Craig-Fields" .
+
 wd:Q26726 rdfs:label "B14 Craig Fields Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Craig Fields Edge-Notched Card"@en ;
 	schema:name "B14 Craig Fields Edge-Notched Card"@en ;
@@ -2170269,9 +2170529,9 @@ wd:Q26726 rdfs:label "B14 Craig Fields Edge-Notched Card"@en ;
 
 data:Q26727 a schema:Dataset ;
 	schema:about wd:Q26727 ;
-	schema:version "196592"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:14:05Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223888"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:40:50Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170286,6 +2170546,7 @@ wd:Q26727 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26727_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26727_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-William-R-Wetzel" ;
 	p:P11 wds:Q26727-C7B7BD0D-F4BA-4BAB-B508-4A89B8E611FB .
 
 wds:Q26727-C7B7BD0D-F4BA-4BAB-B508-4A89B8E611FB a wikibase:Statement,
@@ -2170356,6 +2170617,13 @@ wds:Q26727-7DC3241C-1D2F-484B-A04C-3E645EC9461F a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26727 p:P17 wds:Q26727-69e0abc4-4f09-3200-18d2-6cce66d08b4f .
+
+wds:Q26727-69e0abc4-4f09-3200-18d2-6cce66d08b4f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-William-R-Wetzel" .
+
 wd:Q26727 rdfs:label "B14 William R Wetzel Edge-Notched Card"@en ;
 	skos:prefLabel "B14 William R Wetzel Edge-Notched Card"@en ;
 	schema:name "B14 William R Wetzel Edge-Notched Card"@en ;
@@ -2170363,9 +2170631,9 @@ wd:Q26727 rdfs:label "B14 William R Wetzel Edge-Notched Card"@en ;
 
 data:Q26728 a schema:Dataset ;
 	schema:about wd:Q26728 ;
-	schema:version "196548"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:00Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223833"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:47:05Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170380,6 +2170648,7 @@ wd:Q26728 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26728_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26728_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Carl-Kuehne" ;
 	p:P11 wds:Q26728-36DDE698-6F44-4BFD-9F7A-0F1D1E8E220F .
 
 wds:Q26728-36DDE698-6F44-4BFD-9F7A-0F1D1E8E220F a wikibase:Statement,
@@ -2170450,6 +2170719,13 @@ wds:Q26728-AE741D8A-A265-4930-8639-94C75FE5CB73 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26728 p:P17 wds:Q26728-ed37838e-4e1b-3b22-6b36-b4a9ce2764f3 .
+
+wds:Q26728-ed37838e-4e1b-3b22-6b36-b4a9ce2764f3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Carl-Kuehne" .
+
 wd:Q26728 rdfs:label "B14 Carl Kuehne Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Carl Kuehne Edge-Notched Card"@en ;
 	schema:name "B14 Carl Kuehne Edge-Notched Card"@en ;
@@ -2170457,9 +2170733,9 @@ wd:Q26728 rdfs:label "B14 Carl Kuehne Edge-Notched Card"@en ;
 
 data:Q26729 a schema:Dataset ;
 	schema:about wd:Q26729 ;
-	schema:version "196552"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:13Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223838"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:52:21Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170474,6 +2170750,7 @@ wd:Q26729 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26729_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26729_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-Daniel-Anderson" ;
 	p:P11 wds:Q26729-3887BC04-EB32-47B4-9FD9-EE19580DFB0E .
 
 wds:Q26729-3887BC04-EB32-47B4-9FD9-EE19580DFB0E a wikibase:Statement,
@@ -2170544,6 +2170821,13 @@ wds:Q26729-25EFFABD-C0E8-4710-BE4E-48CA6AD3A69E a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
 
+wd:Q26729 p:P17 wds:Q26729-5934b1a7-41a1-6905-69c7-38fc8c57111c .
+
+wds:Q26729-5934b1a7-41a1-6905-69c7-38fc8c57111c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Daniel-Anderson" .
+
 wd:Q26729 rdfs:label "B14 Daniel Anderson Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Daniel Anderson Edge-Notched Card"@en ;
 	schema:name "B14 Daniel Anderson Edge-Notched Card"@en ;
@@ -2170551,9 +2170835,9 @@ wd:Q26729 rdfs:label "B14 Daniel Anderson Edge-Notched Card"@en ;
 
 data:Q26730 a schema:Dataset ;
 	schema:about wd:Q26730 ;
-	schema:version "196553"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:12:15Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223839"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:53:02Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2170568,6 +2170852,7 @@ wd:Q26730 a wikibase:Item ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26730_f.png>,
 		<https://semlab.s3.amazonaws.com/images/eat-cards/Q26730_b.png> ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B14-David-J-Lamb" ;
 	p:P11 wds:Q26730-AD091F03-C10F-4533-A4D6-D3EE95EBF237 .
 
 wds:Q26730-AD091F03-C10F-4533-A4D6-D3EE95EBF237 a wikibase:Statement,
@@ -2170637,6 +2170922,13 @@ wds:Q26730-33DD3238-C5F6-4889-AEFC-647BC6A713EF a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26730 p:P17 wds:Q26730-e78b5341-4dc6-aab6-4a04-c7ff7a52cb39 .
+
+wds:Q26730-e78b5341-4dc6-aab6-4a04-c7ff7a52cb39 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-David-J-Lamb" .
 
 wd:Q26730 rdfs:label "B14 David J. Lamb Edge-Notched Card"@en ;
 	skos:prefLabel "B14 David J. Lamb Edge-Notched Card"@en ;
@@ -2173387,9 +2173679,9 @@ wd:Q26757 rdfs:label "B3 John E. Hoel Edge-Notched Card"@en ;
 
 data:Q26758 a schema:Dataset ;
 	schema:about wd:Q26758 ;
-	schema:version "223276"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:54:39Z"^^xsd:dateTime ;
-	wikibase:statements "12"^^xsd:integer ;
+	schema:version "223902"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:49:43Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2173400,8 +2173692,7 @@ wd:Q26758 a wikibase:Item ;
 	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
 	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q26816,
-		wd:Q32169 ;
+	wdt:P77 wd:Q21244 ;
 	wdt:P1 wd:Q28613 ;
 	wdt:P17 "B3-L-Mezei" ;
 	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q26758_f.jpg>,
@@ -2173448,19 +2173739,12 @@ wds:Q26758-0A110F79-33E3-4833-97E5-E6E71980F186 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
 
-wd:Q26758 p:P77 wds:Q26758-42667C87-8CC6-4104-8E1C-33502229EB5D .
-
-wds:Q26758-42667C87-8CC6-4104-8E1C-33502229EB5D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q26816 .
-
 wd:Q26758 p:P77 wds:Q26758-4AF207FB-1614-4500-A6B1-9F4FA7A11438 .
 
 wds:Q26758-4AF207FB-1614-4500-A6B1-9F4FA7A11438 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q32169 .
+	ps:P77 wd:Q21244 .
 
 wd:Q26758 p:P1 wds:Q26758-8647DEC1-7C8C-4A30-9723-BC6F89C5EF97 .
 
@@ -2173497,9 +2173781,9 @@ wd:Q26758 rdfs:label "B3 L. Mezei Edge-Notched Card"@en ;
 
 data:Q26759 a schema:Dataset ;
 	schema:about wd:Q26759 ;
-	schema:version "196601"^^xsd:integer ;
-	schema:dateModified "2025-07-22T00:14:29Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "223915"^^xsd:integer ;
+	schema:dateModified "2026-10-14T19:03:51Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2173512,6 +2173796,9 @@ wd:Q26759 a wikibase:Item ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
 	wdt:P77 wd:Q26817 ;
 	wdt:P1 wd:Q28613 ;
+	wdt:P17 "B3-Richard-Strnad" ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_b.jpg> ;
 	p:P11 wds:Q26759-D4BA6B2D-4DB1-4ACB-BF91-AB338C80A081 .
 
 wds:Q26759-D4BA6B2D-4DB1-4ACB-BF91-AB338C80A081 a wikibase:Statement,
@@ -2173567,6 +2173854,27 @@ wds:Q26759-499182E3-A811-4000-82EE-D08DFEB9FD3A a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P1 wd:Q28613 .
+
+wd:Q26759 p:P17 wds:Q26759-9214F7CE-5BBE-44E7-96E8-85DC973E23FF .
+
+wds:Q26759-9214F7CE-5BBE-44E7-96E8-85DC973E23FF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B3-Richard-Strnad" .
+
+wd:Q26759 p:P200 wds:Q26759-E486B224-6D7D-4FDC-8FB2-F6EAE05E7EC1 .
+
+wds:Q26759-E486B224-6D7D-4FDC-8FB2-F6EAE05E7EC1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_f.jpg> .
+
+wd:Q26759 p:P200 wds:Q26759-955C183B-8259-48EB-AC7B-99C7539ED40B .
+
+wds:Q26759-955C183B-8259-48EB-AC7B-99C7539ED40B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_b.jpg> .
 
 wd:Q26759 rdfs:label "B3 Richard Strnad Edge-Notched Card"@en ;
 	skos:prefLabel "B3 Richard Strnad Edge-Notched Card"@en ;
@@ -2177398,42 +2177706,10 @@ wd:Q26815 rdfs:label "John E. Hoel"@en ;
 
 data:Q26816 a schema:Dataset ;
 	schema:about wd:Q26816 ;
-	schema:version "174077"^^xsd:integer ;
-	schema:dateModified "2024-10-27T21:18:13Z"^^xsd:dateTime ;
-	wikibase:statements "3"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223911"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:52:27Z"^^xsd:dateTime .
 
-wd:Q26816 a wikibase:Item ;
-	wdt:P1 wd:Q1 ;
-	wdt:P65 wd:Q24347 ;
-	wdt:P11 wd:Q19104 ;
-	p:P1 wds:Q26816-E1FD81E3-4105-4DD3-886B-964F73D6A5A1 .
-
-wds:Q26816-E1FD81E3-4105-4DD3-886B-964F73D6A5A1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q1 .
-
-wd:Q26816 p:P65 wds:Q26816-5931C63A-4F74-467D-8443-1B42A7776D36 .
-
-wds:Q26816-5931C63A-4F74-467D-8443-1B42A7776D36 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P65 wd:Q24347 ;
-	pq:P117 wd:Q19081 .
-
-wd:Q26816 p:P11 wds:Q26816-E48B7E8A-0451-4599-87A6-454238311ADF .
-
-wds:Q26816-E48B7E8A-0451-4599-87A6-454238311ADF a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q19104 .
-
-wd:Q26816 rdfs:label "L. Mezei"@en ;
-	skos:prefLabel "L. Mezei"@en ;
-	schema:name "L. Mezei"@en ;
-	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+wd:Q26816 owl:sameAs wd:Q21244 .
 
 data:Q26817 a schema:Dataset ;
 	schema:about wd:Q26817 ;
@@ -2231009,8 +2231285,8 @@ wd:Q28082 rdfs:label "J. Tonndorf"@en ;
 
 data:Q28083 a schema:Dataset ;
 	schema:about wd:Q28083 ;
-	schema:version "158446"^^xsd:integer ;
-	schema:dateModified "2024-06-19T23:36:43Z"^^xsd:dateTime ;
+	schema:version "223847"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:04:38Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
@@ -2231056,9 +2231332,9 @@ wds:Q28083-E360A751-CBA1-4056-BBDD-D87938A87E54 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P245 "actor/529" .
 
-wd:Q28083 rdfs:label "Edward. S. Seeley"@en ;
-	skos:prefLabel "Edward. S. Seeley"@en ;
-	schema:name "Edward. S. Seeley"@en .
+wd:Q28083 rdfs:label "Edward S. Seeley"@en ;
+	skos:prefLabel "Edward S. Seeley"@en ;
+	schema:name "Edward S. Seeley"@en .
 
 data:Q28084 a schema:Dataset ;
 	schema:about wd:Q28084 ;
@@ -2373038,9 +2373314,9 @@ wd:Q30630 rdfs:label "Pietro Perugino"@en ;
 
 data:Q30631 a schema:Dataset ;
 	schema:about wd:Q30631 ;
-	schema:version "223022"^^xsd:integer ;
-	schema:dateModified "2026-09-27T01:45:33Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223835"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:50:10Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2373054,6 +2373330,7 @@ wd:Q30631 a wikibase:Item ;
 		wd:Q30634,
 		wd:Q26324,
 		wd:Q28274 ;
+	wdt:P110 wd:Q19675 ;
 	p:P1 wds:Q30631-FBDE6438-ACED-4CAA-A8C7-56150936D8A6 .
 
 wds:Q30631-FBDE6438-ACED-4CAA-A8C7-56150936D8A6 a wikibase:Statement,
@@ -2373124,6 +2373401,14 @@ wds:Q30631-C054A49A-96BA-480E-B8EC-9D2DBC2409D4 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q28274 ;
 	prov:wasDerivedFrom wdref:71a3b7709bd7cc630e3c82ab57e04ed23ef2e7ce .
+
+wd:Q30631 p:P110 wds:Q30631-3041daa4-43f4-a214-3a16-2583caa5df97 .
+
+wds:Q30631-3041daa4-43f4-a214-3a16-2583caa5df97 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q19675 ;
+	prov:wasDerivedFrom wdref:4481c34e31a6570c1117bfaef392072e1e680ac8 .
 
 wd:Q30631 rdfs:label "Dan Dubin"@en ;
 	skos:prefLabel "Dan Dubin"@en ;
@@ -2379394,9 +2379679,9 @@ wd:Q30715 rdfs:label "DATA Incorporated"@en ;
 
 data:Q30716 a schema:Dataset ;
 	schema:about wd:Q30716 ;
-	schema:version "221552"^^xsd:integer ;
-	schema:dateModified "2026-08-12T22:42:31Z"^^xsd:dateTime ;
-	wikibase:statements "12"^^xsd:integer ;
+	schema:version "223840"^^xsd:integer ;
+	schema:dateModified "2026-10-14T17:55:14Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2379413,6 +2379698,7 @@ wd:Q30716 a wikibase:Item ;
 		wd:Q30718,
 		wd:Q26382,
 		wd:Q30719 ;
+	wdt:P110 wd:Q24351 ;
 	p:P1 wds:Q30716-6D24198E-427C-46CA-B5CD-10BD392615A3 .
 
 wds:Q30716-6D24198E-427C-46CA-B5CD-10BD392615A3 a wikibase:Statement,
@@ -2379507,6 +2379793,14 @@ wds:Q30716-5054B722-5EAA-4258-BCC2-F74EDE4C7EB0 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q30719 ;
 	prov:wasDerivedFrom wdref:851abe5d973eca4e69bcf26c13efefa02ef2ea97 .
+
+wd:Q30716 p:P110 wds:Q30716-36e1618f-4a58-495a-fff7-cf1b8957d412 .
+
+wds:Q30716-36e1618f-4a58-495a-fff7-cf1b8957d412 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q24351 ;
+	prov:wasDerivedFrom wdref:c94a4ccfbe87e924c203ff92bf482ef1b1e73df9 .
 
 wd:Q30716 rdfs:label "David Weinflash"@en ;
 	skos:prefLabel "David Weinflash"@en ;
@@ -2390782,8 +2391076,8 @@ wd:Q30878 rdfs:label "G. Gorman"@en ;
 
 data:Q30879 a schema:Dataset ;
 	schema:about wd:Q30879 ;
-	schema:version "223447"^^xsd:integer ;
-	schema:dateModified "2026-10-01T19:07:59Z"^^xsd:dateTime ;
+	schema:version "223903"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:49:56Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2390795,7 +2391089,7 @@ wd:Q30879 a wikibase:Item ;
 	wdt:P278 wd:Q30877,
 		wd:Q28400,
 		wd:Q31652,
-		wd:Q32169,
+		wd:Q21244,
 		wd:Q26811 ;
 	p:P1 wds:Q30879-7D17FD7C-B56F-459C-B3D5-4DFDE6A81F6A .
 
@@ -2390853,7 +2391147,7 @@ wd:Q30879 p:P278 wds:Q30879-E666FD8D-E7A3-4EAD-9C79-0FC4DE0F160B .
 wds:Q30879-E666FD8D-E7A3-4EAD-9C79-0FC4DE0F160B a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q32169 ;
+	ps:P278 wd:Q21244 ;
 	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
 
 wd:Q30879 p:P278 wds:Q30879-502D408D-36AB-4669-A6E3-C16D725ED697 .
@@ -2390868,9 +2391162,6 @@ wd:Q30879 rdfs:label "John Nagle"@en ;
 	skos:prefLabel "John Nagle"@en ;
 	schema:name "John Nagle"@en ;
 	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
-
-wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 a wikibase:Reference ;
-	pr:P26 wd:Q32172 .
 
 data:Q30880 a schema:Dataset ;
 	schema:about wd:Q30880 ;
@@ -2394382,9 +2394673,9 @@ wd:Q30926 rdfs:label "Stony Brook University"@en ;
 
 data:Q30927 a schema:Dataset ;
 	schema:about wd:Q30927 ;
-	schema:version "213323"^^xsd:integer ;
-	schema:dateModified "2026-06-03T23:01:59Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223845"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:03:14Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2394398,6 +2394689,8 @@ wd:Q30927 a wikibase:Item ;
 	wdt:P17 "B14-Eric-H-Roffman" ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
 	wdt:P77 wd:Q30925 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_b.jpg> ;
 	p:P1 wds:Q30927-E1D1602B-AC7A-478C-B0D3-190D9E13C77E .
 
 wds:Q30927-E1D1602B-AC7A-478C-B0D3-190D9E13C77E a wikibase:Statement,
@@ -2394461,115 +2394754,35 @@ wds:Q30927-A1C978B8-F8EF-425F-B80E-F85A55CC5485 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P77 wd:Q30925 .
 
+wd:Q30927 p:P200 wds:Q30927-69E70DE5-CA8A-4E36-80DC-05CD2A35AAD0 .
+
+wds:Q30927-69E70DE5-CA8A-4E36-80DC-05CD2A35AAD0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_f.jpg> .
+
+wd:Q30927 p:P200 wds:Q30927-9EA97856-BE30-4D32-BAF3-7B878ABA1290 .
+
+wds:Q30927-9EA97856-BE30-4D32-BAF3-7B878ABA1290 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_b.jpg> .
+
 wd:Q30927 rdfs:label "B14 Eric H Roffman Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Eric H Roffman Edge-Notched Card"@en ;
 	schema:name "B14 Eric H Roffman Edge-Notched Card"@en .
 
 data:Q30928 a schema:Dataset ;
 	schema:about wd:Q30928 ;
-	schema:version "213326"^^xsd:integer ;
-	schema:dateModified "2026-06-03T23:02:47Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223846"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:03:14Z"^^xsd:dateTime .
 
-wd:Q30928 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Eric-H-Roffman" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q30925 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_b.jpg> ;
-	p:P1 wds:Q30928-05AFC267-559B-4C25-A122-DBCCD8BB512B .
-
-wds:Q30928-05AFC267-559B-4C25-A122-DBCCD8BB512B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q30928 p:P11 wds:Q30928-C744334B-49A0-4AA2-9988-73F5AB421FB9 .
-
-wds:Q30928-C744334B-49A0-4AA2-9988-73F5AB421FB9 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q30928 p:P74 wds:Q30928-57889B3D-077C-4EC6-8BDA-9D3D83EBB879 .
-
-wds:Q30928-57889B3D-077C-4EC6-8BDA-9D3D83EBB879 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q30928 p:P96 wds:Q30928-90027ED6-9C5C-4A97-97F8-AB7D54E802D2 .
-
-wds:Q30928-90027ED6-9C5C-4A97-97F8-AB7D54E802D2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q30928 p:P130 wds:Q30928-BB4286D3-DA67-40D1-BD79-90E00313B5FF .
-
-wds:Q30928-BB4286D3-DA67-40D1-BD79-90E00313B5FF a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q30928 p:P142 wds:Q30928-2F148764-2F50-4F7B-856B-25C6217107C2 .
-
-wds:Q30928-2F148764-2F50-4F7B-856B-25C6217107C2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q30928 p:P17 wds:Q30928-0931C08E-360B-49CE-8F12-5B85AF79DC69 .
-
-wds:Q30928-0931C08E-360B-49CE-8F12-5B85AF79DC69 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Eric-H-Roffman" .
-
-wd:Q30928 p:P136 wds:Q30928-87F85D18-C306-4586-B0F5-620FC598B658 .
-
-wds:Q30928-87F85D18-C306-4586-B0F5-620FC598B658 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q30928 p:P77 wds:Q30928-6451CBE8-D50A-4BD4-8E8C-D4D3540C2ABC .
-
-wds:Q30928-6451CBE8-D50A-4BD4-8E8C-D4D3540C2ABC a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q30925 .
-
-wd:Q30928 p:P200 wds:Q30928-7223895B-78E9-4080-BE79-0D8DDE1E6D3D .
-
-wds:Q30928-7223895B-78E9-4080-BE79-0D8DDE1E6D3D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_f.jpg> .
-
-wd:Q30928 p:P200 wds:Q30928-31E1B261-EA87-4C9E-8B19-5D58A43AAEC6 .
-
-wds:Q30928-31E1B261-EA87-4C9E-8B19-5D58A43AAEC6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q30928_b.jpg> .
-
-wd:Q30928 rdfs:label "B14 Eric H Roffman Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Eric H Roffman Edge-Notched Card"@en ;
-	schema:name "B14 Eric H Roffman Edge-Notched Card"@en .
+wd:Q30928 owl:sameAs wd:Q30927 .
 
 data:Q30929 a schema:Dataset ;
 	schema:about wd:Q30929 ;
-	schema:version "213327"^^xsd:integer ;
-	schema:dateModified "2026-06-03T23:02:50Z"^^xsd:dateTime ;
+	schema:version "223842"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:02:30Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2394577,7 +2394790,7 @@ data:Q30929 a schema:Dataset ;
 wd:Q30929 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30928 ;
+	wdt:P24 wd:Q30927 ;
 	wdt:P17 "0" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30928/0.txt> ;
 	wdt:P19 "Roffman, Eric H., 1339 Stony Brook Road, Stony Brook, N.Y. 11790, 516- 751-3505, State Univ. at Stony Boo k, NY 11790, 516-246-6108 meteorology, oceanography, mathematics, physics, computers/cybernetics, programming, computers: graphics/film," ;
@@ -2394602,7 +2394815,7 @@ wd:Q30929 p:P24 wds:Q30929-32B0663D-95C3-432F-B57C-0D62CE0097A6 .
 wds:Q30929-32B0663D-95C3-432F-B57C-0D62CE0097A6 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30928 .
+	ps:P24 wd:Q30927 .
 
 wd:Q30929 p:P17 wds:Q30929-42A831AB-E511-4844-8D45-04424159D92F .
 
@@ -2394645,8 +2394858,8 @@ wd:Q30929 rdfs:label "Block 0 of B14 Eric H Roffman Edge-Notched Card"@en ;
 
 data:Q30930 a schema:Dataset ;
 	schema:about wd:Q30930 ;
-	schema:version "213330"^^xsd:integer ;
-	schema:dateModified "2026-06-03T23:02:54Z"^^xsd:dateTime ;
+	schema:version "223843"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:02:49Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2394654,7 +2394867,7 @@ data:Q30930 a schema:Dataset ;
 wd:Q30930 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q30928 ;
+	wdt:P24 wd:Q30927 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q30928/1.txt> ;
 	wdt:P19 "letter Harley Jones 10/10/69 agnes Denes 2/13" ;
@@ -2394679,7 +2394892,7 @@ wd:Q30930 p:P24 wds:Q30930-A7F2C4D3-88AB-4E73-886D-A4F7D5AF7818 .
 wds:Q30930-A7F2C4D3-88AB-4E73-886D-A4F7D5AF7818 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q30928 .
+	ps:P24 wd:Q30927 .
 
 wd:Q30930 p:P17 wds:Q30930-F2D6ECD4-CB04-4B4E-B3D5-CB2ACCBEB2FA .
 
@@ -2449673,8 +2449886,8 @@ wd:Q31685 rdfs:label "Block 1 of B14 John E Oppenheim Edge-Notched Card"@en ;
 
 data:Q31686 a schema:Dataset ;
 	schema:about wd:Q31686 ;
-	schema:version "223291"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:54:45Z"^^xsd:dateTime ;
+	schema:version "223904"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:50:06Z"^^xsd:dateTime ;
 	wikibase:statements "4"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2449683,7 +2449896,7 @@ wd:Q31686 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q32169 ;
+	wdt:P278 wd:Q21244 ;
 	p:P1 wds:Q31686-7BFACB12-178C-42AA-B61D-DE52621F8FEE .
 
 wds:Q31686-7BFACB12-178C-42AA-B61D-DE52621F8FEE a wikibase:Statement,
@@ -2449712,7 +2449925,7 @@ wd:Q31686 p:P278 wds:Q31686-E6D67243-86CE-44A8-9F6B-7B8CE03F34AE .
 wds:Q31686-E6D67243-86CE-44A8-9F6B-7B8CE03F34AE a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q32169 ;
+	ps:P278 wd:Q21244 ;
 	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
 
 wd:Q31686 rdfs:label "Philip K. Meany"@en ;
@@ -2458284,9 +2458497,9 @@ wdref:2284c1e234d801bd7fa4b3c2b4fe15d42a29a9b0 a wikibase:Reference ;
 
 data:Q31797 a schema:Dataset ;
 	schema:about wd:Q31797 ;
-	schema:version "219487"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:26:50Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223860"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:13:44Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2458300,7 +2458513,9 @@ wd:Q31797 a wikibase:Item ;
 	wdt:P17 "B14-Julius-Kolin" ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
 	wdt:P77 wd:Q31796 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31797_f.jpg> ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31797_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_b.jpg> ;
 	p:P1 wds:Q31797-9966155D-0A66-4ADB-BF05-11891C039725 .
 
 wds:Q31797-9966155D-0A66-4ADB-BF05-11891C039725 a wikibase:Statement,
@@ -2458371,115 +2458586,35 @@ wds:Q31797-98248C1B-F333-4171-9CC5-D98750D3CF3B a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31797_f.jpg> .
 
+wd:Q31797 p:P200 wds:Q31797-EDDECB74-5D1F-4370-8182-CCD3CC1A68E0 .
+
+wds:Q31797-EDDECB74-5D1F-4370-8182-CCD3CC1A68E0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_f.jpg> .
+
+wd:Q31797 p:P200 wds:Q31797-25B8FA9B-9416-4CCA-AE4D-1C0A30E091DC .
+
+wds:Q31797-25B8FA9B-9416-4CCA-AE4D-1C0A30E091DC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_b.jpg> .
+
 wd:Q31797 rdfs:label "B14 Julius Kolin Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Julius Kolin Edge-Notched Card"@en ;
 	schema:name "B14 Julius Kolin Edge-Notched Card"@en .
 
 data:Q31798 a schema:Dataset ;
 	schema:about wd:Q31798 ;
-	schema:version "219490"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:30:42Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223861"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:13:44Z"^^xsd:dateTime .
 
-wd:Q31798 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Julius-Kolin" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q31796 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_b.jpg> ;
-	p:P1 wds:Q31798-CC1CE80C-BF55-4954-9A6A-AB7BCC4BD135 .
-
-wds:Q31798-CC1CE80C-BF55-4954-9A6A-AB7BCC4BD135 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q31798 p:P11 wds:Q31798-2C3A60DF-7A5A-495A-8E38-3504494DEB7C .
-
-wds:Q31798-2C3A60DF-7A5A-495A-8E38-3504494DEB7C a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31798 p:P74 wds:Q31798-D3630D8C-5993-4E70-91D2-3903F04D2203 .
-
-wds:Q31798-D3630D8C-5993-4E70-91D2-3903F04D2203 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q31798 p:P96 wds:Q31798-87E38B99-AF52-4852-A984-1BD997E9BDDA .
-
-wds:Q31798-87E38B99-AF52-4852-A984-1BD997E9BDDA a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q31798 p:P130 wds:Q31798-DCFDB4B2-DCD6-4793-ACED-DDDAC9D0CCB8 .
-
-wds:Q31798-DCFDB4B2-DCD6-4793-ACED-DDDAC9D0CCB8 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q31798 p:P142 wds:Q31798-12CDA6EA-4A1D-4C66-9F87-C9A1356EC21E .
-
-wds:Q31798-12CDA6EA-4A1D-4C66-9F87-C9A1356EC21E a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q31798 p:P17 wds:Q31798-99C710CB-169D-4C7D-8062-7A7C57CEEC8D .
-
-wds:Q31798-99C710CB-169D-4C7D-8062-7A7C57CEEC8D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Julius-Kolin" .
-
-wd:Q31798 p:P136 wds:Q31798-06F51843-3AF3-41DC-98CC-E6D82545BF5A .
-
-wds:Q31798-06F51843-3AF3-41DC-98CC-E6D82545BF5A a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q31798 p:P77 wds:Q31798-758DEE4B-AE5A-425B-8D44-AD2D03C10EB7 .
-
-wds:Q31798-758DEE4B-AE5A-425B-8D44-AD2D03C10EB7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q31796 .
-
-wd:Q31798 p:P200 wds:Q31798-6541BFBC-2F0B-47BB-8212-03CD01E43D86 .
-
-wds:Q31798-6541BFBC-2F0B-47BB-8212-03CD01E43D86 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_f.jpg> .
-
-wd:Q31798 p:P200 wds:Q31798-6DB2C967-21BD-4B6D-B7B8-6ED8E7C1CF26 .
-
-wds:Q31798-6DB2C967-21BD-4B6D-B7B8-6ED8E7C1CF26 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31798_b.jpg> .
-
-wd:Q31798 rdfs:label "B14 Julius Kolin Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Julius Kolin Edge-Notched Card"@en ;
-	schema:name "B14 Julius Kolin Edge-Notched Card"@en .
+wd:Q31798 owl:sameAs wd:Q31797 .
 
 data:Q31799 a schema:Dataset ;
 	schema:about wd:Q31799 ;
-	schema:version "219491"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:30:43Z"^^xsd:dateTime ;
+	schema:version "223857"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:13:12Z"^^xsd:dateTime ;
 	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2458487,7 +2458622,7 @@ data:Q31799 a schema:Dataset ;
 wd:Q31799 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31798 ;
+	wdt:P24 wd:Q31797 ;
 	wdt:P17 "0" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31798/0.txt> ;
 	wdt:P19 "Kolin, Julius, 7 E 81 St, N.Y. 10028 Consultant in aviation engineering." ;
@@ -2458511,7 +2458646,7 @@ wd:Q31799 p:P24 wds:Q31799-0CD92FB5-1A2E-4D06-93FB-365C19189256 .
 wds:Q31799-0CD92FB5-1A2E-4D06-93FB-365C19189256 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31798 .
+	ps:P24 wd:Q31797 .
 
 wd:Q31799 p:P17 wds:Q31799-1815378C-4C7D-4B40-AD56-FEC6DC607188 .
 
@@ -2458547,8 +2458682,8 @@ wd:Q31799 rdfs:label "Block 0 of B14 Julius Kolin Edge-Notched Card"@en ;
 
 data:Q31800 a schema:Dataset ;
 	schema:about wd:Q31800 ;
-	schema:version "219492"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:30:43Z"^^xsd:dateTime ;
+	schema:version "223858"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:13:24Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2458556,7 +2458691,7 @@ data:Q31800 a schema:Dataset ;
 wd:Q31800 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31798 ;
+	wdt:P24 wd:Q31797 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31798/1.txt> ;
 	p:P1 wds:Q31800-A7936E29-9535-41A0-899A-C707BCBAF7D5 .
@@ -2458578,7 +2458713,7 @@ wd:Q31800 p:P24 wds:Q31800-D61E4220-66A3-4716-A695-5D47C88B26FF .
 wds:Q31800-D61E4220-66A3-4716-A695-5D47C88B26FF a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31798 .
+	ps:P24 wd:Q31797 .
 
 wd:Q31800 p:P17 wds:Q31800-41E58BC0-9AFC-4773-91FD-4A3925D75690 .
 
@@ -2458660,9 +2458795,9 @@ wdref:9652ae0eee834446ac5017c4784ae7809bc4944f a wikibase:Reference ;
 
 data:Q31802 a schema:Dataset ;
 	schema:about wd:Q31802 ;
-	schema:version "219495"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:31:44Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223865"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:15:22Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2458676,7 +2458811,9 @@ wd:Q31802 a wikibase:Item ;
 	wdt:P17 "B14-Julius-Soled" ;
 	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
 	wdt:P77 wd:Q31801 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31802_f.jpg> ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31802_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_b.jpg> ;
 	p:P1 wds:Q31802-8BC16305-FD79-49CB-8E52-CE886182BE71 .
 
 wds:Q31802-8BC16305-FD79-49CB-8E52-CE886182BE71 a wikibase:Statement,
@@ -2458747,115 +2458884,35 @@ wds:Q31802-9CBFDF80-C90D-4C85-B246-244199CAF001 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31802_f.jpg> .
 
+wd:Q31802 p:P200 wds:Q31802-5F148E57-FBC6-42B8-B439-7CF7B506E533 .
+
+wds:Q31802-5F148E57-FBC6-42B8-B439-7CF7B506E533 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_f.jpg> .
+
+wd:Q31802 p:P200 wds:Q31802-BEFA6840-391E-4DB0-8136-A7666EE2B8AB .
+
+wds:Q31802-BEFA6840-391E-4DB0-8136-A7666EE2B8AB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_b.jpg> .
+
 wd:Q31802 rdfs:label "B14 Julius Soled Edge-Notched Card"@en ;
 	skos:prefLabel "B14 Julius Soled Edge-Notched Card"@en ;
 	schema:name "B14 Julius Soled Edge-Notched Card"@en .
 
 data:Q31803 a schema:Dataset ;
 	schema:about wd:Q31803 ;
-	schema:version "219498"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:35:13Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223866"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:15:22Z"^^xsd:dateTime .
 
-wd:Q31803 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Julius-Soled" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q31801 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_b.jpg> ;
-	p:P1 wds:Q31803-C34D6003-F546-4B0C-939F-672554F7C4C4 .
-
-wds:Q31803-C34D6003-F546-4B0C-939F-672554F7C4C4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q31803 p:P11 wds:Q31803-25F574F5-F2B8-4A50-98F9-C2727753AFF4 .
-
-wds:Q31803-25F574F5-F2B8-4A50-98F9-C2727753AFF4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31803 p:P74 wds:Q31803-8D5EA6CC-937B-4509-99B6-70624C59E3A9 .
-
-wds:Q31803-8D5EA6CC-937B-4509-99B6-70624C59E3A9 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q31803 p:P96 wds:Q31803-3DB3DC2D-6B99-4FC4-A75A-386DC41A480B .
-
-wds:Q31803-3DB3DC2D-6B99-4FC4-A75A-386DC41A480B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q31803 p:P130 wds:Q31803-1835F41C-7454-4F91-9519-04742258D75E .
-
-wds:Q31803-1835F41C-7454-4F91-9519-04742258D75E a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q31803 p:P142 wds:Q31803-12090108-9D0A-47AF-BF2A-6CBF35FCA3AE .
-
-wds:Q31803-12090108-9D0A-47AF-BF2A-6CBF35FCA3AE a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q31803 p:P17 wds:Q31803-CE76795C-2E8F-4713-9F6C-CBBDC7B6AB63 .
-
-wds:Q31803-CE76795C-2E8F-4713-9F6C-CBBDC7B6AB63 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Julius-Soled" .
-
-wd:Q31803 p:P136 wds:Q31803-1C2549F1-64FB-4383-B34D-C38833AD1232 .
-
-wds:Q31803-1C2549F1-64FB-4383-B34D-C38833AD1232 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q31803 p:P77 wds:Q31803-B7C9C6DB-7813-45E0-ADBD-17C083714AFD .
-
-wds:Q31803-B7C9C6DB-7813-45E0-ADBD-17C083714AFD a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q31801 .
-
-wd:Q31803 p:P200 wds:Q31803-91C2F27A-3C2D-460D-A3B5-638BF1DD2609 .
-
-wds:Q31803-91C2F27A-3C2D-460D-A3B5-638BF1DD2609 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_f.jpg> .
-
-wd:Q31803 p:P200 wds:Q31803-A2821DF7-EF21-42CE-9CCC-3AC7482E0BB5 .
-
-wds:Q31803-A2821DF7-EF21-42CE-9CCC-3AC7482E0BB5 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31803_b.jpg> .
-
-wd:Q31803 rdfs:label "B14 Julius Soled Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Julius Soled Edge-Notched Card"@en ;
-	schema:name "B14 Julius Soled Edge-Notched Card"@en .
+wd:Q31803 owl:sameAs wd:Q31802 .
 
 data:Q31804 a schema:Dataset ;
 	schema:about wd:Q31804 ;
-	schema:version "219499"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:35:14Z"^^xsd:dateTime ;
+	schema:version "223862"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:14:47Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2458863,7 +2458920,7 @@ data:Q31804 a schema:Dataset ;
 wd:Q31804 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31803 ;
+	wdt:P24 wd:Q31802 ;
 	wdt:P17 "0" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31803/0.txt> ;
 	wdt:P19 "Julius Soled 1605 XXXXXXXXXXXX Park Ave, Asbury Pk, XX NJ 07712. 776-8149 US Army, Fort Monmouth mechanical engineer. (asked to be put on the mailing list)" ;
@@ -2458888,7 +2458945,7 @@ wd:Q31804 p:P24 wds:Q31804-B9963657-0C9F-44EB-BB0E-F90913222279 .
 wds:Q31804-B9963657-0C9F-44EB-BB0E-F90913222279 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31803 .
+	ps:P24 wd:Q31802 .
 
 wd:Q31804 p:P17 wds:Q31804-AAD8A211-5290-4292-867B-6ED27A373568 .
 
@@ -2458931,8 +2458988,8 @@ wd:Q31804 rdfs:label "Block 0 of B14 Julius Soled Edge-Notched Card"@en ;
 
 data:Q31805 a schema:Dataset ;
 	schema:about wd:Q31805 ;
-	schema:version "219500"^^xsd:integer ;
-	schema:dateModified "2026-08-03T23:35:15Z"^^xsd:dateTime ;
+	schema:version "223863"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:15:00Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2458940,7 +2458997,7 @@ data:Q31805 a schema:Dataset ;
 wd:Q31805 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31803 ;
+	wdt:P24 wd:Q31802 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31803/1.txt> ;
 	p:P1 wds:Q31805-9C3673DE-D289-43B9-A011-CB45BC4B451C .
@@ -2458962,7 +2459019,7 @@ wd:Q31805 p:P24 wds:Q31805-7BAE6ABB-72E4-4627-8998-0C4C7287DDA6 .
 wds:Q31805-7BAE6ABB-72E4-4627-8998-0C4C7287DDA6 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31803 .
+	ps:P24 wd:Q31802 .
 
 wd:Q31805 p:P17 wds:Q31805-64ABCA82-CDBB-4330-929B-4ED50B508E12 .
 
@@ -2463371,8 +2463428,8 @@ wd:Q31869 rdfs:label "TRW Inc."@en ;
 
 data:Q31870 a schema:Dataset ;
 	schema:about wd:Q31870 ;
-	schema:version "220504"^^xsd:integer ;
-	schema:dateModified "2026-08-06T21:22:01Z"^^xsd:dateTime ;
+	schema:version "223878"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:32:50Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2464667,109 +2464724,15 @@ wd:Q31885 rdfs:label "Block 1 of B14 Lester G Paldy Edge-Notched Card"@en ;
 
 data:Q31886 a schema:Dataset ;
 	schema:about wd:Q31886 ;
-	schema:version "220561"^^xsd:integer ;
-	schema:dateModified "2026-08-07T00:41:40Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223875"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:30:05Z"^^xsd:dateTime .
 
-wd:Q31886 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B14-Moses-Sorkin" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q31868 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31886_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q31886_b.jpg> ;
-	p:P1 wds:Q31886-FC15051A-C018-4487-B0B5-3582D3BF8A44 .
-
-wds:Q31886-FC15051A-C018-4487-B0B5-3582D3BF8A44 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q31886 p:P11 wds:Q31886-15F9E816-BA8B-43D5-AF1A-D2B3043B4FE3 .
-
-wds:Q31886-15F9E816-BA8B-43D5-AF1A-D2B3043B4FE3 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q31886 p:P74 wds:Q31886-04419AC6-6CC2-4559-A009-40C75B01FAC1 .
-
-wds:Q31886-04419AC6-6CC2-4559-A009-40C75B01FAC1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q31886 p:P96 wds:Q31886-57BF17AF-8E8E-4120-8084-A780CF76600B .
-
-wds:Q31886-57BF17AF-8E8E-4120-8084-A780CF76600B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q31886 p:P130 wds:Q31886-7D565576-0F75-4B1A-B2D8-1A1DCF4B90FF .
-
-wds:Q31886-7D565576-0F75-4B1A-B2D8-1A1DCF4B90FF a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q31886 p:P142 wds:Q31886-77618577-99D7-4E30-B7EA-1D20D8C2CDF7 .
-
-wds:Q31886-77618577-99D7-4E30-B7EA-1D20D8C2CDF7 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q31886 p:P17 wds:Q31886-25ECBFD2-54C7-483C-8B4B-69C22D081BD6 .
-
-wds:Q31886-25ECBFD2-54C7-483C-8B4B-69C22D081BD6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B14-Moses-Sorkin" .
-
-wd:Q31886 p:P136 wds:Q31886-A53D9D33-9764-42A8-8DAA-C8685F883E71 .
-
-wds:Q31886-A53D9D33-9764-42A8-8DAA-C8685F883E71 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q31886 p:P77 wds:Q31886-35FEDBCE-7C02-4219-BD88-FF7CE45D6F61 .
-
-wds:Q31886-35FEDBCE-7C02-4219-BD88-FF7CE45D6F61 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q31868 .
-
-wd:Q31886 p:P200 wds:Q31886-99DB59D0-FB48-4BFD-A507-3B63770001FB .
-
-wds:Q31886-99DB59D0-FB48-4BFD-A507-3B63770001FB a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31886_f.jpg> .
-
-wd:Q31886 p:P200 wds:Q31886-4BFF37CC-C29D-4948-BEA9-C522099D56A0 .
-
-wds:Q31886-4BFF37CC-C29D-4948-BEA9-C522099D56A0 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q31886_b.jpg> .
-
-wd:Q31886 rdfs:label "B14 Moses Sorkin Edge-Notched Card"@en ;
-	skos:prefLabel "B14 Moses Sorkin Edge-Notched Card"@en ;
-	schema:name "B14 Moses Sorkin Edge-Notched Card"@en .
+wd:Q31886 owl:sameAs wd:Q31870 .
 
 data:Q31887 a schema:Dataset ;
 	schema:about wd:Q31887 ;
-	schema:version "220562"^^xsd:integer ;
-	schema:dateModified "2026-08-07T00:41:41Z"^^xsd:dateTime ;
+	schema:version "223880"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:36:10Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2464777,12 +2464740,12 @@ data:Q31887 a schema:Dataset ;
 wd:Q31887 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31886 ;
 	wdt:P17 "0" ;
-	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31886/0.txt> ;
 	wdt:P19 "Sorkin, Moses 363 19th St., Santa Monica, Calif. 395-0577 TRW Systems Electrical engineering, acoustics, sound generation, sonar, ultrasonics, audio systems, audio-visual conversions, instrumentation and control systems. C.T.I." ;
 	wdt:P21 wd:Q31868,
 		wd:Q31869 ;
+	wdt:P24 wd:Q31870 ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31886/0.txt> ;
 	p:P1 wds:Q31887-3A9CE253-CB59-4A04-BE4B-154FA6A4BC9C .
 
 wds:Q31887-3A9CE253-CB59-4A04-BE4B-154FA6A4BC9C a wikibase:Statement,
@@ -2464797,26 +2464760,12 @@ wds:Q31887-983553E7-CC64-4F6E-8A8E-87E54FAC2D8D a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P11 wd:Q28603 .
 
-wd:Q31887 p:P24 wds:Q31887-A3CAFAF8-2C3C-4979-B1B8-78BED2723EC2 .
-
-wds:Q31887-A3CAFAF8-2C3C-4979-B1B8-78BED2723EC2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31886 .
-
 wd:Q31887 p:P17 wds:Q31887-656B0D11-60DB-413F-907C-CC5E5771E781 .
 
 wds:Q31887-656B0D11-60DB-413F-907C-CC5E5771E781 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P17 "0" .
-
-wd:Q31887 p:P20 wds:Q31887-E852F086-4FAF-4513-811C-F6E5E73B1CE6 .
-
-wds:Q31887-E852F086-4FAF-4513-811C-F6E5E73B1CE6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31886/0.txt> .
 
 wd:Q31887 p:P19 wds:Q31887-4D26FA34-DD35-4DF5-9E25-C4F17883D148 .
 
@@ -2464839,14 +2464788,28 @@ wds:Q31887-8D9B2825-DA21-4C7F-96ED-29B749CC23C1 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P21 wd:Q31869 .
 
+wd:Q31887 p:P24 wds:Q31887-A3CAFAF8-2C3C-4979-B1B8-78BED2723EC2 .
+
+wds:Q31887-A3CAFAF8-2C3C-4979-B1B8-78BED2723EC2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q31870 .
+
+wd:Q31887 p:P20 wds:Q31887-E852F086-4FAF-4513-811C-F6E5E73B1CE6 .
+
+wds:Q31887-E852F086-4FAF-4513-811C-F6E5E73B1CE6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q31886/0.txt> .
+
 wd:Q31887 rdfs:label "Block 0 of B14 Moses Sorkin Edge-Notched Card"@en ;
 	skos:prefLabel "Block 0 of B14 Moses Sorkin Edge-Notched Card"@en ;
 	schema:name "Block 0 of B14 Moses Sorkin Edge-Notched Card"@en .
 
 data:Q31888 a schema:Dataset ;
 	schema:about wd:Q31888 ;
-	schema:version "220566"^^xsd:integer ;
-	schema:dateModified "2026-08-07T00:41:41Z"^^xsd:dateTime ;
+	schema:version "223871"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:23:42Z"^^xsd:dateTime ;
 	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2464854,7 +2464817,7 @@ data:Q31888 a schema:Dataset ;
 wd:Q31888 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q31886 ;
+	wdt:P24 wd:Q31870 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q31886/1.txt> ;
 	wdt:P19 "Capt. D. Rothenberg - Feb 19 letter Tony Cohane Feb 28/69 l Frank Good 11/19" ;
@@ -2464880,7 +2464843,7 @@ wd:Q31888 p:P24 wds:Q31888-15C9703D-834E-4688-B806-FCCB463C623F .
 wds:Q31888-15C9703D-834E-4688-B806-FCCB463C623F a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q31886 .
+	ps:P24 wd:Q31870 .
 
 wd:Q31888 p:P17 wds:Q31888-58AF356B-90AF-4B69-8856-BFDEF08A64A2 .
 
@@ -2487146,109 +2487109,15 @@ wd:Q32165 rdfs:label "Civil Engineer Corps"@en ;
 
 data:Q32166 a schema:Dataset ;
 	schema:about wd:Q32166 ;
-	schema:version "223265"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:29:16Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
+	schema:version "223916"^^xsd:integer ;
+	schema:dateModified "2026-10-14T19:03:51Z"^^xsd:dateTime .
 
-wd:Q32166 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B3-Richard-Strnad" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q26817 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_b.jpg> ;
-	p:P1 wds:Q32166-3A303D3E-C37B-4AB5-8D8C-00F57F4336E2 .
-
-wds:Q32166-3A303D3E-C37B-4AB5-8D8C-00F57F4336E2 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q32166 p:P11 wds:Q32166-AC02110D-F501-4C93-ADE5-C06A5C328C39 .
-
-wds:Q32166-AC02110D-F501-4C93-ADE5-C06A5C328C39 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q32166 p:P74 wds:Q32166-7C6B325B-413F-4FB6-9E6F-E4E7DA9C647D .
-
-wds:Q32166-7C6B325B-413F-4FB6-9E6F-E4E7DA9C647D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q32166 p:P96 wds:Q32166-60D32F49-3735-4C03-9075-18E5E887387B .
-
-wds:Q32166-60D32F49-3735-4C03-9075-18E5E887387B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q32166 p:P130 wds:Q32166-8D760857-908B-4F32-8C4D-DC886997DF22 .
-
-wds:Q32166-8D760857-908B-4F32-8C4D-DC886997DF22 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q32166 p:P142 wds:Q32166-A61104E5-E471-4432-AB24-33BA0757913C .
-
-wds:Q32166-A61104E5-E471-4432-AB24-33BA0757913C a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q32166 p:P17 wds:Q32166-980F2908-8C7A-4D61-B948-781900F78EB6 .
-
-wds:Q32166-980F2908-8C7A-4D61-B948-781900F78EB6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B3-Richard-Strnad" .
-
-wd:Q32166 p:P136 wds:Q32166-8CC6ED35-C10D-4B1B-8D13-2CAB836D9EE4 .
-
-wds:Q32166-8CC6ED35-C10D-4B1B-8D13-2CAB836D9EE4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q32166 p:P77 wds:Q32166-DC28D07A-4613-4488-8AC1-CE73D4A56CD6 .
-
-wds:Q32166-DC28D07A-4613-4488-8AC1-CE73D4A56CD6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q26817 .
-
-wd:Q32166 p:P200 wds:Q32166-FD0C9243-E8AB-41DC-A7BC-B63D930D89DC .
-
-wds:Q32166-FD0C9243-E8AB-41DC-A7BC-B63D930D89DC a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_f.jpg> .
-
-wd:Q32166 p:P200 wds:Q32166-EE597D28-9697-46BE-A8E8-3FAF02C5A8E1 .
-
-wds:Q32166-EE597D28-9697-46BE-A8E8-3FAF02C5A8E1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32166_b.jpg> .
-
-wd:Q32166 rdfs:label "B3 Richard Strnad Edge-Notched Card"@en ;
-	skos:prefLabel "B3 Richard Strnad Edge-Notched Card"@en ;
-	schema:name "B3 Richard Strnad Edge-Notched Card"@en .
+wd:Q32166 owl:sameAs wd:Q26759 .
 
 data:Q32167 a schema:Dataset ;
 	schema:about wd:Q32167 ;
-	schema:version "223266"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:29:16Z"^^xsd:dateTime ;
+	schema:version "223912"^^xsd:integer ;
+	schema:dateModified "2026-10-14T19:02:47Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2487256,7 +2487125,7 @@ data:Q32167 a schema:Dataset ;
 wd:Q32167 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q32166 ;
+	wdt:P24 wd:Q26759 ;
 	wdt:P17 "0" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32166/0.txt> ;
 	wdt:P21 wd:Q26817,
@@ -2487281,7 +2487150,7 @@ wd:Q32167 p:P24 wds:Q32167-1DA7EC28-224C-4B5D-9DE0-EF1797261222 .
 wds:Q32167-1DA7EC28-224C-4B5D-9DE0-EF1797261222 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q32166 .
+	ps:P24 wd:Q26759 .
 
 wd:Q32167 p:P17 wds:Q32167-F4A3978C-F904-45C8-B0BC-009B38BF0224 .
 
@@ -2487324,8 +2487193,8 @@ wd:Q32167 rdfs:label "Block 0 of B3 Richard Strnad Edge-Notched Card"@en ;
 
 data:Q32168 a schema:Dataset ;
 	schema:about wd:Q32168 ;
-	schema:version "223269"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:29:16Z"^^xsd:dateTime ;
+	schema:version "223913"^^xsd:integer ;
+	schema:dateModified "2026-10-14T19:02:59Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2487333,7 +2487202,7 @@ data:Q32168 a schema:Dataset ;
 wd:Q32168 a wikibase:Item ;
 	wdt:P1 wd:Q2013 ;
 	wdt:P11 wd:Q28603 ;
-	wdt:P24 wd:Q32166 ;
+	wdt:P24 wd:Q26759 ;
 	wdt:P17 "1" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32166/1.txt> ;
 	wdt:P19 "JEAN TOCHE - MAR 18 - 69 Gary Allen letter Mar 17" ;
@@ -2487358,7 +2487227,7 @@ wd:Q32168 p:P24 wds:Q32168-B22A8EA1-F04F-4F5A-A1A9-4190F4CC6366 .
 wds:Q32168-B22A8EA1-F04F-4F5A-A1A9-4190F4CC6366 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P24 wd:Q32166 .
+	ps:P24 wd:Q26759 .
 
 wd:Q32168 p:P17 wds:Q32168-362D3119-0972-4E6C-9709-EDF4F6A2F589 .
 
@@ -2487411,95 +2487280,15 @@ wdv:3b3c13fd58cf4058e03ec6f5c7bf4928 a wikibase:TimeValue ;
 
 data:Q32169 a schema:Dataset ;
 	schema:about wd:Q32169 ;
-	schema:version "223289"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:54:45Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "1"^^xsd:integer .
+	schema:version "223901"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:48:16Z"^^xsd:dateTime .
 
-wd:Q32169 a wikibase:Item ;
-	wdt:P1 wd:Q1 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P65 wd:Q24347 ;
-	wdt:P8 "Q28872673" ;
-	wdt:P110 wd:Q30122 ;
-	wdt:P278 wd:Q32170,
-		wd:Q31686,
-		wd:Q30879 ;
-	p:P1 wds:Q32169-8D2DD2F4-CBD1-496B-AA00-D0EC4901EA10 .
-
-wds:Q32169-8D2DD2F4-CBD1-496B-AA00-D0EC4901EA10 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q1 .
-
-wd:Q32169 p:P11 wds:Q32169-EA3223C5-2115-4AC3-BB9E-C9BD93AD6800 .
-
-wds:Q32169-EA3223C5-2115-4AC3-BB9E-C9BD93AD6800 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q32169 p:P65 wds:Q32169-67C78BBF-CC59-44F5-9B75-ABCD5F73AEB6 .
-
-wds:Q32169-67C78BBF-CC59-44F5-9B75-ABCD5F73AEB6 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P65 wd:Q24347 ;
-	pq:P117 wd:Q19081 ;
-	prov:wasDerivedFrom wdref:f217c53393df192ce71995796a9d7f8844d60b72 .
-
-wd:Q32169 p:P8 wds:Q32169-3F7B80A4-1494-4379-945C-8844852E8940 .
-
-wds:Q32169-3F7B80A4-1494-4379-945C-8844852E8940 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P8 "Q28872673" .
-
-wd:Q32169 p:P110 wds:Q32169-36FA76C6-4487-42BE-8B29-73F993E6AEB5 .
-
-wds:Q32169-36FA76C6-4487-42BE-8B29-73F993E6AEB5 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P110 wd:Q30122 ;
-	prov:wasDerivedFrom wdref:f217c53393df192ce71995796a9d7f8844d60b72 .
-
-wd:Q32169 p:P278 wds:Q32169-C0D0E298-2ECE-4EFD-BF44-BFD0DACC2C20 .
-
-wds:Q32169-C0D0E298-2ECE-4EFD-BF44-BFD0DACC2C20 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q32170 ;
-	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
-
-wd:Q32169 p:P278 wds:Q32169-A0D0FA14-F5FB-46E4-9987-366B7C661772 .
-
-wds:Q32169-A0D0FA14-F5FB-46E4-9987-366B7C661772 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q31686 ;
-	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
-
-wd:Q32169 p:P278 wds:Q32169-D6E1BFAA-7E16-4017-8CB6-1453A173910D .
-
-wds:Q32169-D6E1BFAA-7E16-4017-8CB6-1453A173910D a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q30879 ;
-	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
-
-wd:Q32169 rdfs:label "Leslie Mezei"@en ;
-	skos:prefLabel "Leslie Mezei"@en ;
-	schema:name "Leslie Mezei"@en ;
-	schema:description "Hungarian-born Canadian digital artist active in the 1960s and 1970s"@en .
-
-wdref:f217c53393df192ce71995796a9d7f8844d60b72 a wikibase:Reference ;
-	pr:P26 wd:Q32171 .
+wd:Q32169 owl:sameAs wd:Q26816 .
 
 data:Q32170 a schema:Dataset ;
 	schema:about wd:Q32170 ;
-	schema:version "223290"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:54:45Z"^^xsd:dateTime ;
+	schema:version "223905"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:50:30Z"^^xsd:dateTime ;
 	wikibase:statements "4"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2487508,7 +2487297,7 @@ wd:Q32170 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q32169 ;
+	wdt:P278 wd:Q21244 ;
 	p:P1 wds:Q32170-3B554210-470E-4767-A27C-B0C06DF68831 .
 
 wds:Q32170-3B554210-470E-4767-A27C-B0C06DF68831 a wikibase:Statement,
@@ -2487537,7 +2487326,7 @@ wd:Q32170 p:P278 wds:Q32170-148FD4B3-CEC7-4DF5-AFA7-C4610AAC30B8 .
 wds:Q32170-148FD4B3-CEC7-4DF5-AFA7-C4610AAC30B8 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P278 wd:Q32169 ;
+	ps:P278 wd:Q21244 ;
 	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
 
 wd:Q32170 rdfs:label "Donald Gordon"@en ;
@@ -2487547,8 +2487336,8 @@ wd:Q32170 rdfs:label "Donald Gordon"@en ;
 
 data:Q32171 a schema:Dataset ;
 	schema:about wd:Q32171 ;
-	schema:version "223277"^^xsd:integer ;
-	schema:dateModified "2026-09-29T21:54:40Z"^^xsd:dateTime ;
+	schema:version "223906"^^xsd:integer ;
+	schema:dateModified "2026-10-14T18:50:52Z"^^xsd:dateTime ;
 	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -2487559,7 +2487348,7 @@ wd:Q32171 a wikibase:Item ;
 	wdt:P24 wd:Q26758 ;
 	wdt:P17 "0" ;
 	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q26758/0.txt> ;
-	wdt:P21 wd:Q32169,
+	wdt:P21 wd:Q21244,
 		wd:Q30122 ;
 	wdt:P19 "Mezei, L, Dpt of Computer sciences, Univ of Toronto, Toronto 5, Canada. A sociate Prof of computer sciences. Computer graphics" ;
 	p:P1 wds:Q32171-394A1DEC-1DD7-4EE3-A935-F91D04CAC3D4 .
@@ -2487602,7 +2487391,7 @@ wd:Q32171 p:P21 wds:Q32171-708C37B0-50DE-4383-B386-D1938BC402D2 .
 wds:Q32171-708C37B0-50DE-4383-B386-D1938BC402D2 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P21 wd:Q32169 .
+	ps:P21 wd:Q21244 .
 
 wd:Q32171 p:P21 wds:Q32171-0A698EB8-656F-4909-9BCB-BE55824F4597 .
 
