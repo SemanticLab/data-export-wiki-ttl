@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-21T04:10:30Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-22T04:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -2052788,9 +2052788,9 @@ wd:Q25066 rdfs:label "Kenji Nakahashi"@en ;
 
 data:Q25067 a schema:Dataset ;
 	schema:about wd:Q25067 ;
-	schema:version "223758"^^xsd:integer ;
-	schema:dateModified "2026-10-07T17:14:15Z"^^xsd:dateTime ;
-	wikibase:statements "30"^^xsd:integer ;
+	schema:version "223920"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:45:26Z"^^xsd:dateTime ;
+	wikibase:statements "31"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2052825,6 +2052825,7 @@ wd:Q25067 a wikibase:Item ;
 		wd:Q26563,
 		wd:Q26565,
 		wd:Q26555 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q25067.jpg> ;
 	p:P11 wds:Q25067-FDA0EB18-CB84-4443-BB92-34A48662A4DC .
 
 wds:Q25067-FDA0EB18-CB84-4443-BB92-34A48662A4DC a wikibase:Statement,
@@ -2053084,6 +2053085,15 @@ wds:Q25067-4d614154-43c9-ee3d-317b-4e57ecaf1e40 a wikibase:Statement,
 	ps:P278 wd:Q26555 ;
 	prov:wasDerivedFrom wdref:b4ef8640174963ab9f10690c417197aeed7975bd .
 
+wd:Q25067 p:P3 wds:Q25067-5C338996-1245-4CF0-A2B1-2510FB3C87E8 .
+
+wds:Q25067-5C338996-1245-4CF0-A2B1-2510FB3C87E8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q25067.jpg> ;
+	pq:P136 "Photo courtesy of Jeremy Liebman" ;
+	prov:wasDerivedFrom wdref:fb40dde2b7f93e50f307644607ce7593ff201415 .
+
 wd:Q25067 rdfs:label "Agnes Denes"@en ;
 	skos:prefLabel "Agnes Denes"@en ;
 	schema:name "Agnes Denes"@en ;
@@ -2053151,6 +2053161,10 @@ wdref:7f6c8f28e30eac7a27c23492061b1de1c19d5664 a wikibase:Reference ;
 
 wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7 a wikibase:Reference ;
 	pr:P26 wd:Q32111 .
+
+wdref:fb40dde2b7f93e50f307644607ce7593ff201415 a wikibase:Reference ;
+	pr:P82 "[Agnes Denes]"@en ;
+	pr:P114 <https://www.uapcompany.com/generated/1280w-4-5/i-1-the-artist-who-once-planted-a-wheatfield-in-lower-manhattan-still-dreams-big-jpg.jpg?1693575736> .
 
 data:Q25068 a schema:Dataset ;
 	schema:about wd:Q25068 ;
@@ -2144993,9 +2145007,9 @@ wdref:f548e38301b3d51d39d6c9f7580ac75cc2494ac6 a wikibase:Reference ;
 
 data:Q26295 a schema:Dataset ;
 	schema:about wd:Q26295 ;
-	schema:version "223082"^^xsd:integer ;
-	schema:dateModified "2026-09-27T16:36:44Z"^^xsd:dateTime ;
-	wikibase:statements "13"^^xsd:integer ;
+	schema:version "223932"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:17:40Z"^^xsd:dateTime ;
+	wikibase:statements "14"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2145013,6 +2145027,7 @@ wd:Q26295 a wikibase:Item ;
 		wd:Q31842,
 		wd:Q31485,
 		wd:Q26818 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q26295.jpg> ;
 	p:P65 wds:Q26295-0B5E679A-BCF4-4B9C-BAF0-CEB61AC93C72 .
 
 wds:Q26295-0B5E679A-BCF4-4B9C-BAF0-CEB61AC93C72 a wikibase:Statement,
@@ -2145125,6 +2145140,14 @@ wds:Q26295-82E93379-CEB9-45D7-93BA-E4DF2795FD10 a wikibase:Statement,
 	ps:P278 wd:Q26818 ;
 	prov:wasDerivedFrom wdref:b6ba4c1488a9fdfc9ff0e8d329cc09f3b37a4064 .
 
+wd:Q26295 p:P3 wds:Q26295-B230088C-7F25-4E00-A9E9-B57D78CFF2C1 .
+
+wds:Q26295-B230088C-7F25-4E00-A9E9-B57D78CFF2C1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q26295.jpg> ;
+	prov:wasDerivedFrom wdref:de32c158ac21bc24052142ed4aa5e27974844001 .
+
 wd:Q26295 rdfs:label "Howard Gutstadt"@en ;
 	skos:prefLabel "Howard Gutstadt"@en ;
 	schema:name "Howard Gutstadt"@en ;
@@ -2145153,6 +2145176,10 @@ wdref:31fde14d2ab9b1cd7e12490d2a0f764c3ae882c7 a wikibase:Reference ;
 
 wdref:2543166c873fa78a9bce6b76573c7a09d12cc4d8 a wikibase:Reference ;
 	pr:P26 wd:Q31846 .
+
+wdref:de32c158ac21bc24052142ed4aa5e27974844001 a wikibase:Reference ;
+	pr:P82 "[Howard Gutstadt]"@en ;
+	pr:P114 <https://i.vimeocdn.com/video/1376519940-f96775c441b09e1754fa9c882b98321eba21bcf74defc01d14e70ccd30a45508-d?f=webp> .
 
 data:Q26296 a schema:Dataset ;
 	schema:about wd:Q26296 ;
@@ -2147884,9 +2147911,9 @@ wdref:ce2827e0b6afbe2f1b24d1745ce99ad073ddb06d a wikibase:Reference ;
 
 data:Q26345 a schema:Dataset ;
 	schema:about wd:Q26345 ;
-	schema:version "223595"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:17:26Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "223923"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:53:14Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2147899,6 +2147926,7 @@ wd:Q26345 a wikibase:Item ;
 	wdt:P278 wd:Q31050,
 		wd:Q31847,
 		wd:Q26563 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q26345.jpg> ;
 	p:P65 wds:Q26345-976CB89F-305F-4FCD-957D-AC6C3A012EAE .
 
 wds:Q26345-976CB89F-305F-4FCD-957D-AC6C3A012EAE a wikibase:Statement,
@@ -2147963,6 +2147991,14 @@ wds:Q26345-5082e926-41c9-72b9-971a-be13e0a52d12 a wikibase:Statement,
 	ps:P278 wd:Q26563 ;
 	prov:wasDerivedFrom wdref:9543fa39f89c350925f5f8c55908d8c9b5e5fede .
 
+wd:Q26345 p:P3 wds:Q26345-865D361C-A2DE-43EB-A167-55108E901502 .
+
+wds:Q26345-865D361C-A2DE-43EB-A167-55108E901502 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q26345.jpg> ;
+	prov:wasDerivedFrom wdref:055d620f0c7cadbf63b3b7e63cd2d86d5b8b640a .
+
 wd:Q26345 rdfs:label "Aleksandra Kasuba"@en ;
 	skos:prefLabel "Aleksandra Kasuba"@en ;
 	schema:name "Aleksandra Kasuba"@en ;
@@ -2147973,6 +2148009,10 @@ wdref:8032889f5dd954632112e92fba1fd4dc9c82544e a wikibase:Reference ;
 
 wdref:04b6ca3f28167a40c067322290f8f145d78cb4eb a wikibase:Reference ;
 	pr:P114 <https://eat_datascape.medialab.sciences-po.fr/actor/790> .
+
+wdref:055d620f0c7cadbf63b3b7e63cd2d86d5b8b640a a wikibase:Reference ;
+	pr:P82 "[Aleksandra Kasuba]"@en ;
+	pr:P114 <https://awarewomenartists.com/wp-content/uploads/2024/11/portrait-aleksandra-kasuba-2005-aware-women-artists-artistes-femmes-573x750.webp> .
 
 data:Q26346 a schema:Dataset ;
 	schema:about wd:Q26346 ;
@@ -2148676,9 +2148716,9 @@ wdref:9db7daa5ed397834f089307e6b679ede700e377b a wikibase:Reference ;
 
 data:Q26355 a schema:Dataset ;
 	schema:about wd:Q26355 ;
-	schema:version "215870"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:15:23Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "223918"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:38:41Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2148689,6 +2148729,7 @@ wd:Q26355 a wikibase:Item ;
 	wdt:P8 "Q4723751" ;
 	wdt:P278 wd:Q26563,
 		wd:Q31188 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q26355.jpg> ;
 	p:P65 wds:Q26355-D6E90A2F-D376-4F2D-A4ED-5379CC61295B .
 
 wds:Q26355-D6E90A2F-D376-4F2D-A4ED-5379CC61295B a wikibase:Statement,
@@ -2148736,6 +2148777,14 @@ wds:Q26355-2C92DDCE-BFC5-45DB-BE2E-487FA30E83B5 a wikibase:Statement,
 	ps:P278 wd:Q31188 ;
 	prov:wasDerivedFrom wdref:4aa86df69a514fb7f963f51ff4419ac043d60467 .
 
+wd:Q26355 p:P3 wds:Q26355-AE7509B8-83DC-45EF-B368-60229A61FF21 .
+
+wds:Q26355-AE7509B8-83DC-45EF-B368-60229A61FF21 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q26355.jpg> ;
+	prov:wasDerivedFrom wdref:4d6f3c06b5e1cbdacd38965c49bc35fc5b63c9e1 .
+
 wd:Q26355 rdfs:label "Alfredo Da Silva"@en ;
 	skos:prefLabel "Alfredo Da Silva"@en ;
 	schema:name "Alfredo Da Silva"@en ;
@@ -2148745,6 +2148794,10 @@ wd:Q26355 rdfs:label "Alfredo Da Silva"@en ;
 
 wdref:4aa86df69a514fb7f963f51ff4419ac043d60467 a wikibase:Reference ;
 	pr:P26 wd:Q31197 .
+
+wdref:4d6f3c06b5e1cbdacd38965c49bc35fc5b63c9e1 a wikibase:Reference ;
+	pr:P82 "[Alfredo Da Silva]"@en ;
+	pr:P114 <https://www.alxnow.com/files/2020/01/17498934_1378362085553178_3736146059193552806_n.jpg> .
 
 data:Q26356 a schema:Dataset ;
 	schema:about wd:Q26356 ;
@@ -2150913,9 +2150966,9 @@ wdref:7f7d1f219a6f2697848cc9b9915f1481234bdf68 a wikibase:Reference ;
 
 data:Q26385 a schema:Dataset ;
 	schema:about wd:Q26385 ;
-	schema:version "222950"^^xsd:integer ;
-	schema:dateModified "2026-09-09T18:49:58Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "223939"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:48:53Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2150927,6 +2150980,7 @@ wd:Q26385 a wikibase:Item ;
 		wd:Q26561,
 		wd:Q31485,
 		wd:Q31324 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q26385.jpg> ;
 	p:P65 wds:Q26385-8A02E109-570B-4FDA-931A-78C9E8D635AF .
 
 wds:Q26385-8A02E109-570B-4FDA-931A-78C9E8D635AF a wikibase:Statement,
@@ -2150985,12 +2151039,24 @@ wds:Q26385-B69CE9DF-B194-4312-B6E0-DC07C2F4F9C1 a wikibase:Statement,
 	ps:P278 wd:Q31324 ;
 	prov:wasDerivedFrom wdref:876ccea76c6b2b8e0c1c4c6e7b5ecdedbe2236bf .
 
+wd:Q26385 p:P3 wds:Q26385-9DE6911A-FA59-4A00-82B6-86CE69C4CF57 .
+
+wds:Q26385-9DE6911A-FA59-4A00-82B6-86CE69C4CF57 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q26385.jpg> ;
+	prov:wasDerivedFrom wdref:ce94f2bb345f76a385547ef4f884844d347e88b7 .
+
 wd:Q26385 rdfs:label "Yehuda Ben-Yehuda"@en ;
 	skos:prefLabel "Yehuda Ben-Yehuda"@en ;
 	schema:name "Yehuda Ben-Yehuda"@en ;
 	schema:description "artist associated with E.A.T.’s Technical Services Program"@en ;
 	skos:altLabel "Yehuda Ben-Yehuda"@en,
 		"Ben Yehuda"@en .
+
+wdref:ce94f2bb345f76a385547ef4f884844d347e88b7 a wikibase:Reference ;
+	pr:P82 "[Yehuda Ben-Yehuda]"@en ;
+	pr:P114 <https://64.media.tumblr.com/avatar_1cba8ba32479_512.pnj> .
 
 data:Q26386 a schema:Dataset ;
 	schema:about wd:Q26386 ;
@@ -2240228,9 +2240294,9 @@ wdref:ff102f7ae4887b0b4fe54808533aa445854af6de a wikibase:Reference ;
 
 data:Q28235 a schema:Dataset ;
 	schema:about wd:Q28235 ;
-	schema:version "219987"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:24:52Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "223934"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:20:41Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2240243,6 +2240309,7 @@ wd:Q28235 a wikibase:Item ;
 	wdt:P245 "actor/720" ;
 	wdt:P278 wd:Q31268,
 		wd:Q31579 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q28235.jpg> ;
 	p:P1 wds:Q28235-EC4AC137-5E4E-4F1C-829D-8C64DB4ACB35 .
 
 wds:Q28235-EC4AC137-5E4E-4F1C-829D-8C64DB4ACB35 a wikibase:Statement,
@@ -2240302,6 +2240369,15 @@ wds:Q28235-81EE07BE-4A56-4D67-9D44-31B8B01654F0 a wikibase:Statement,
 	ps:P278 wd:Q31579 ;
 	prov:wasDerivedFrom wdref:4785758bbdc31a2d2a4e155ad0b8174f6417109b .
 
+wd:Q28235 p:P3 wds:Q28235-10EAF7C7-99FB-47C2-9708-3140980F5121 .
+
+wds:Q28235-10EAF7C7-99FB-47C2-9708-3140980F5121 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q28235.jpg> ;
+	pq:P136 "From the series \"The Thinking Eye\"" ;
+	prov:wasDerivedFrom wdref:77cb87c2bbcea8b40ad31dcd6668572f33ea11c1 .
+
 wd:Q28235 rdfs:label "Juan Downey"@en ;
 	skos:prefLabel "Juan Downey"@en ;
 	schema:name "Juan Downey"@en ;
@@ -2240309,6 +2240385,10 @@ wd:Q28235 rdfs:label "Juan Downey"@en ;
 
 wdref:aac426796056629b58c93c325989bb7342223b49 a wikibase:Reference ;
 	pr:P114 <https://eat_datascape.medialab.sciences-po.fr/actor/720> .
+
+wdref:77cb87c2bbcea8b40ad31dcd6668572f33ea11c1 a wikibase:Reference ;
+	pr:P82 "\"Juan Downey, Information Withheld, 1983, still from a color video, 28 minutes 27 seconds. From the series 'The Thinking Eye,' 1974–89.\""@en ;
+	pr:P114 <https://www.artforum.com/wp-content/uploads/2011/09/article_large-5.jpg> .
 
 data:Q28236 a schema:Dataset ;
 	schema:about wd:Q28236 ;
@@ -2339829,9 +2339909,9 @@ wdv:14934b0ff11e243b3d31acfe58a51caa a wikibase:TimeValue ;
 
 data:Q30073 a schema:Dataset ;
 	schema:about wd:Q30073 ;
-	schema:version "221496"^^xsd:integer ;
-	schema:dateModified "2026-08-12T16:55:33Z"^^xsd:dateTime ;
-	wikibase:statements "29"^^xsd:integer ;
+	schema:version "223921"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:47:15Z"^^xsd:dateTime ;
+	wikibase:statements "30"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2339865,6 +2339945,7 @@ wd:Q30073 a wikibase:Item ;
 		wd:Q31188,
 		wd:Q28167,
 		wd:Q31555 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30073.jpg> ;
 	p:P1 wds:Q30073-55518939-CF22-4535-B5C9-058F048C0996 .
 
 wds:Q30073-55518939-CF22-4535-B5C9-058F048C0996 a wikibase:Statement,
@@ -2340096,6 +2340177,14 @@ wds:Q30073-d998f99a-4b83-65f6-c1a4-b5ee2969275c a wikibase:Statement,
 	ps:P278 wd:Q31555 ;
 	prov:wasDerivedFrom wdref:6671503969ddedb5c3c669c0e9f0d97dbb37e926 .
 
+wd:Q30073 p:P3 wds:Q30073-2E4A714B-4FCE-42AA-A473-FF856C525809 .
+
+wds:Q30073-2E4A714B-4FCE-42AA-A473-FF856C525809 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30073.jpg> ;
+	prov:wasDerivedFrom wdref:763269877321e217bba6b6a1d654f4d0259d5b17 .
+
 wd:Q30073 rdfs:label "Allan L. Griff"@en ;
 	skos:prefLabel "Allan L. Griff"@en ;
 	schema:name "Allan L. Griff"@en ;
@@ -2340104,6 +2340193,10 @@ wd:Q30073 rdfs:label "Allan L. Griff"@en ;
 
 wdref:335154fc3caacffd009a1c796f17dce0feee2b1e a wikibase:Reference ;
 	pr:P26 wd:Q30101 .
+
+wdref:763269877321e217bba6b6a1d654f4d0259d5b17 a wikibase:Reference ;
+	pr:P82 "[Allan Griff]"@en ;
+	pr:P114 <https://dux7id0k7hacn.cloudfront.net/as/assets-mem-com/cmi/1/3/0/2/12772031/20260311_144441353_0_orig.jpg/-/allan-griff-stafford-va-obituary.jpg?maxheight=650> .
 
 data:Q30074 a schema:Dataset ;
 	schema:about wd:Q30074 ;
@@ -2344868,9 +2344961,9 @@ wd:Q30153 rdfs:label "Block 1 of B14 Alan Surpin Edge-Notched Card"@en ;
 
 data:Q30154 a schema:Dataset ;
 	schema:about wd:Q30154 ;
-	schema:version "223020"^^xsd:integer ;
-	schema:dateModified "2026-09-27T01:45:08Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223922"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:50:33Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2344884,6 +2344977,7 @@ wd:Q30154 a wikibase:Item ;
 		wd:Q30156,
 		wd:Q28274,
 		wd:Q26324 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30154.jpg> ;
 	p:P1 wds:Q30154-46474E59-ADE9-422C-AD07-F686DB8BE6AD .
 
 wds:Q30154-46474E59-ADE9-422C-AD07-F686DB8BE6AD a wikibase:Statement,
@@ -2344955,6 +2345049,14 @@ wds:Q30154-0144CB8D-4338-4727-9541-2A7A98DD789F a wikibase:Statement,
 	ps:P278 wd:Q26324 ;
 	prov:wasDerivedFrom wdref:33da237abaa38fa66cca5ffa9bdb9acc30e58904 .
 
+wd:Q30154 p:P3 wds:Q30154-090DCF84-023A-4809-B3C6-42EBF6446A03 .
+
+wds:Q30154-090DCF84-023A-4809-B3C6-42EBF6446A03 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30154.jpg> ;
+	prov:wasDerivedFrom wdref:f58ec6e45feb276354c31a6820a21074957a3fa1 .
+
 wd:Q30154 rdfs:label "Alberto Nerenberg"@en ;
 	skos:prefLabel "Alberto Nerenberg"@en ;
 	schema:name "Alberto Nerenberg"@en ;
@@ -2344962,6 +2345064,10 @@ wd:Q30154 rdfs:label "Alberto Nerenberg"@en ;
 
 wdref:f5862a9f395d3dd291e8567b6799aebfaee6d4f1 a wikibase:Reference ;
 	pr:P26 wd:Q30185 .
+
+wdref:f58ec6e45feb276354c31a6820a21074957a3fa1 a wikibase:Reference ;
+	pr:P82 "[Alberto Nerenberg]"@en ;
+	pr:P114 <https://archive.storycorps.org/uploads/2018/12/1546180916132-2.jpg> .
 
 data:Q30155 a schema:Dataset ;
 	schema:about wd:Q30155 ;
@@ -2345731,9 +2345837,9 @@ wdv:2e2b1cd0efa806004a7ab495301a242b a wikibase:TimeValue ;
 
 data:Q30166 a schema:Dataset ;
 	schema:about wd:Q30166 ;
-	schema:version "221499"^^xsd:integer ;
-	schema:dateModified "2026-08-12T16:56:43Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "223926"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:59:05Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2345745,6 +2345851,7 @@ wd:Q30166 a wikibase:Item ;
 	wdt:P110 wd:Q30167 ;
 	wdt:P278 wd:Q30168,
 		wd:Q30175 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30166.jpg> ;
 	p:P1 wds:Q30166-5CDE65C8-633B-47A4-95AF-2445EF971EC5 .
 
 wds:Q30166-5CDE65C8-633B-47A4-95AF-2445EF971EC5 a wikibase:Statement,
@@ -2345800,6 +2345907,14 @@ wds:Q30166-B8398A5C-4DC3-4CD8-906A-62CD7307507D a wikibase:Statement,
 	ps:P278 wd:Q30175 ;
 	prov:wasDerivedFrom wdref:5c199e4a604675e63718a4bea59c6905d06d2776 .
 
+wd:Q30166 p:P3 wds:Q30166-9C1BB1F3-08F8-4ABD-AA1F-B34214AE52EC .
+
+wds:Q30166-9C1BB1F3-08F8-4ABD-AA1F-B34214AE52EC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30166.jpg> ;
+	prov:wasDerivedFrom wdref:1fbbf977a2ddcd8f2779b3a8ffe1c08ff130cf87 .
+
 wd:Q30166 rdfs:label "Allyn S. Rashkin"@en ;
 	skos:prefLabel "Allyn S. Rashkin"@en ;
 	schema:name "Allyn S. Rashkin"@en ;
@@ -2345810,6 +2345925,10 @@ wdref:5da7b1d858d178d8c1fa5b85893eaa6b9d157cf4 a wikibase:Reference ;
 
 wdref:5c199e4a604675e63718a4bea59c6905d06d2776 a wikibase:Reference ;
 	pr:P26 wd:Q30224 .
+
+wdref:1fbbf977a2ddcd8f2779b3a8ffe1c08ff130cf87 a wikibase:Reference ;
+	pr:P82 "[Allyn S. Rashkin]"@en ;
+	pr:P114 <https://sites-cf.mhcache.com/t/619/602/182619602/500/500040_35100719154dbnaoqewc67_A_96x128C/xGP3yLKVLYP-FzwjTqOtF-sd6Ak=/.jpg> .
 
 data:Q30167 a schema:Dataset ;
 	schema:about wd:Q30167 ;
@@ -2346144,9 +2346263,9 @@ wd:Q30175 rdfs:label "Peter Balentine"@en ;
 
 data:Q30176 a schema:Dataset ;
 	schema:about wd:Q30176 ;
-	schema:version "221500"^^xsd:integer ;
-	schema:dateModified "2026-08-12T16:57:19Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223927"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:00:33Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2346160,6 +2346279,7 @@ wd:Q30176 a wikibase:Item ;
 		wd:Q30178,
 		wd:Q30090,
 		wd:Q28167 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30176.jpg> ;
 	p:P1 wds:Q30176-934B181E-B393-47AD-93C7-421136BC64C4 .
 
 wds:Q30176-934B181E-B393-47AD-93C7-421136BC64C4 a wikibase:Statement,
@@ -2346231,6 +2346351,14 @@ wds:Q30176-E9611CBC-8D85-4F95-A165-6795C0F95434 a wikibase:Statement,
 	ps:P278 wd:Q28167 ;
 	prov:wasDerivedFrom wdref:b2802e50f6191c0be655cd56fa372bc2b128e8d2 .
 
+wd:Q30176 p:P3 wds:Q30176-3EC4E99C-CEC7-4EBE-B2AA-7FF0F1EB61B6 .
+
+wds:Q30176-3EC4E99C-CEC7-4EBE-B2AA-7FF0F1EB61B6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30176.jpg> ;
+	prov:wasDerivedFrom wdref:58a914139810f9cfabc9338ceeb41daad48301d3 .
+
 wd:Q30176 rdfs:label "Ambuga Ranganath"@en ;
 	skos:prefLabel "Ambuga Ranganath"@en ;
 	schema:name "Ambuga Ranganath"@en ;
@@ -2346238,6 +2346366,10 @@ wd:Q30176 rdfs:label "Ambuga Ranganath"@en ;
 
 wdref:43eb685a0e3ccd4e79a8da3908921800cd459cb9 a wikibase:Reference ;
 	pr:P26 wd:Q30226 .
+
+wdref:58a914139810f9cfabc9338ceeb41daad48301d3 a wikibase:Reference ;
+	pr:P82 "[Ambuga Ranganath]"@en ;
+	pr:P114 <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kaR-BA_NNnkUAj2xQqw-j4FYRLwWd568LCM2eIiAYQ&s> .
 
 data:Q30177 a schema:Dataset ;
 	schema:about wd:Q30177 ;
@@ -2355892,9 +2356024,9 @@ wd:Q30318 rdfs:label "Valerie Almo"@en ;
 
 data:Q30319 a schema:Dataset ;
 	schema:about wd:Q30319 ;
-	schema:version "223676"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:31:44Z"^^xsd:dateTime ;
-	wikibase:statements "14"^^xsd:integer ;
+	schema:version "223937"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:23:46Z"^^xsd:dateTime ;
+	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2355913,6 +2356045,8 @@ wd:Q30319 a wikibase:Item ;
 		wd:Q31652,
 		wd:Q30988 ;
 	wdt:P110 wd:Q31284 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30319.jpg>,
+		<https://semlab.s3.amazonaws.com/images/Q30319.jpg> ;
 	p:P1 wds:Q30319-A53A5C11-66E8-4FAA-B40D-DE3A42DC6A1D .
 
 wds:Q30319-A53A5C11-66E8-4FAA-B40D-DE3A42DC6A1D a wikibase:Statement,
@@ -2356031,6 +2356165,22 @@ wds:Q30319-6b0a35d3-444d-117c-fb18-fe8c5765b6a4 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P110 wd:Q31284 .
 
+wd:Q30319 p:P3 wds:Q30319-6B60127B-3B99-499B-8273-05A194827048 .
+
+wds:Q30319-6B60127B-3B99-499B-8273-05A194827048 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30319.jpg> ;
+	prov:wasDerivedFrom wdref:4e57af83231bc61e6fcbc1b3ef16bb8a1eec4cbd .
+
+wd:Q30319 p:P3 wds:Q30319-E7F05F2B-18F2-4000-A920-9ED31FE8AC03 .
+
+wds:Q30319-E7F05F2B-18F2-4000-A920-9ED31FE8AC03 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30319.jpg> ;
+	prov:wasDerivedFrom wdref:4e57af83231bc61e6fcbc1b3ef16bb8a1eec4cbd .
+
 wd:Q30319 rdfs:label "K. Marsh"@en ;
 	skos:prefLabel "K. Marsh"@en ;
 	schema:name "K. Marsh"@en ;
@@ -2356038,6 +2356188,10 @@ wd:Q30319 rdfs:label "K. Marsh"@en ;
 	skos:altLabel "Ken Marsh"@en,
 		"K Marsh PVT"@en,
 		"Kenneth Marsh"@en .
+
+wdref:4e57af83231bc61e6fcbc1b3ef16bb8a1eec4cbd a wikibase:Reference ;
+	pr:P82 "[Ken Marsh]"@en ;
+	pr:P114 <https://dappledlightdesign.wordpress.com/wp-content/uploads/2010/11/ken-face-11-10dtfw2.jpeg> .
 
 data:Q30320 a schema:Dataset ;
 	schema:about wd:Q30320 ;
@@ -2356996,9 +2357150,9 @@ wdref:da59f4058f7eb306331a8a200d3cf429d2579397 a wikibase:Reference ;
 
 data:Q30333 a schema:Dataset ;
 	schema:about wd:Q30333 ;
-	schema:version "220597"^^xsd:integer ;
-	schema:dateModified "2026-08-07T00:50:23Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223919"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:43:53Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2357013,6 +2357167,7 @@ wd:Q30333 a wikibase:Item ;
 		wd:Q28400,
 		wd:Q31829,
 		wd:Q31873 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30333.jpg> ;
 	p:P1 wds:Q30333-C2C31703-1A44-4B26-8396-8829D30057E6 .
 
 wds:Q30333-C2C31703-1A44-4B26-8396-8829D30057E6 a wikibase:Statement,
@@ -2357096,6 +2357251,16 @@ wds:Q30333-BBC22412-8106-4312-A630-515893AA0959 a wikibase:Statement,
 	ps:P278 wd:Q31873 ;
 	prov:wasDerivedFrom wdref:f8e273331234de6229a12360396cc2c8fb70bab8 .
 
+wd:Q30333 p:P3 wds:Q30333-D9B76B93-F22B-4851-8E8C-28266B17CBE8 .
+
+wds:Q30333-D9B76B93-F22B-4851-8E8C-28266B17CBE8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30333.jpg> ;
+	pq:P136 "Photo: Eliana Glass" ;
+	pq:P142 "CC0" ;
+	prov:wasDerivedFrom wdref:1eba1ed025648d05d885f67818b09a0974090716 .
+
 wd:Q30333 rdfs:label "Adrianne Wortzel"@en ;
 	skos:prefLabel "Adrianne Wortzel"@en ;
 	schema:name "Adrianne Wortzel"@en ;
@@ -2357106,6 +2357271,10 @@ wdref:65c16083f8228bc41171fd291f590ee73018dc17 a wikibase:Reference ;
 
 wdref:f8e273331234de6229a12360396cc2c8fb70bab8 a wikibase:Reference ;
 	pr:P26 wd:Q31892 .
+
+wdref:1eba1ed025648d05d885f67818b09a0974090716 a wikibase:Reference ;
+	pr:P82 "\"Portrait of Adrianne Wortzel with her paint spattered dog.\""@en ;
+	pr:P114 <https://upload.wikimedia.org/wikipedia/commons/9/9a/Portrait_of_Adrianne_Wortzel_with_her_paint_spattered_dog.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original> .
 
 data:Q30334 a schema:Dataset ;
 	schema:about wd:Q30334 ;
@@ -2373469,9 +2373638,9 @@ wd:Q30632 rdfs:label "R. Adler"@en ;
 
 data:Q30633 a schema:Dataset ;
 	schema:about wd:Q30633 ;
-	schema:version "222546"^^xsd:integer ;
-	schema:dateModified "2026-08-24T19:27:30Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "223933"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:19:14Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2373485,6 +2373654,7 @@ wd:Q30633 a wikibase:Item ;
 		wd:Q31073,
 		wd:Q31993,
 		wd:Q30968 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30633.jpg> ;
 	p:P1 wds:Q30633-D50A3EFF-ECD8-41DA-9FEC-F662E6D0614F .
 
 wds:Q30633-D50A3EFF-ECD8-41DA-9FEC-F662E6D0614F a wikibase:Statement,
@@ -2373559,6 +2373729,14 @@ wds:Q30633-4AEB6D60-22CB-4C54-A001-65C5A394282A a wikibase:Statement,
 	ps:P278 wd:Q30968 ;
 	prov:wasDerivedFrom wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7 .
 
+wd:Q30633 p:P3 wds:Q30633-6EFF8AF5-5FF1-415E-AB3F-9C5AA207EA2D .
+
+wds:Q30633-6EFF8AF5-5FF1-415E-AB3F-9C5AA207EA2D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q30633.jpg> ;
+	prov:wasDerivedFrom wdref:ac6ba45631ef0bfb107b4a7b883523aaebaf6400 .
+
 wd:Q30633 rdfs:label "Jon Hassell"@en ;
 	skos:prefLabel "Jon Hassell"@en ;
 	schema:name "Jon Hassell"@en ;
@@ -2373567,6 +2373745,10 @@ wd:Q30633 rdfs:label "Jon Hassell"@en ;
 
 wdref:6d40f8d48fe5073c4957aabee3b96d7d8f7f4ad6 a wikibase:Reference ;
 	pr:P26 wd:Q31507 .
+
+wdref:ac6ba45631ef0bfb107b4a7b883523aaebaf6400 a wikibase:Reference ;
+	pr:P82 "[Jon Hassel]"@en ;
+	pr:P114 <https://inverted-audio.com/wp-content/uploads/Jon-Hassell-1.jpg> .
 
 data:Q30634 a schema:Dataset ;
 	schema:about wd:Q30634 ;
@@ -2400789,9 +2400971,9 @@ wdref:84e28e371fcc13229905657a70be6fce1126667a a wikibase:Reference ;
 
 data:Q31012 a schema:Dataset ;
 	schema:about wd:Q31012 ;
-	schema:version "220323"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:27:46Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "223938"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:43:25Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2400802,6 +2400984,7 @@ wd:Q31012 a wikibase:Item ;
 	wdt:P8 "Q2600923" ;
 	wdt:P278 wd:Q31011,
 		wd:Q31638 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31012.jpg> ;
 	p:P1 wds:Q31012-30F0F8B2-F32B-4EEE-90EF-3D29F700E5E9 .
 
 wds:Q31012-30F0F8B2-F32B-4EEE-90EF-3D29F700E5E9 a wikibase:Statement,
@@ -2400849,11 +2401032,24 @@ wds:Q31012-2948B230-CB28-46E4-AC92-2149E218DC91 a wikibase:Statement,
 	ps:P278 wd:Q31638 ;
 	prov:wasDerivedFrom wdref:7adc9d23ebbf7dc6046ac389b2cc9531cc8c587d .
 
+wd:Q31012 p:P3 wds:Q31012-4C8200AD-390E-4779-A034-F4290171B56B .
+
+wds:Q31012-4C8200AD-390E-4779-A034-F4290171B56B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31012.jpg> ;
+	pq:P136 "Photo: Peter Gannushkin" ;
+	prov:wasDerivedFrom wdref:f7bf8c36e7dcb274d6e5b9da48631fab0a69fc17 .
+
 wd:Q31012 rdfs:label "Yoshimasa Wada"@en ;
 	skos:prefLabel "Yoshimasa Wada"@en ;
 	schema:name "Yoshimasa Wada"@en ;
 	schema:description "Japanese Sound Designer (1943-2021)"@en ;
 	skos:altLabel "Yoshi Wada"@en .
+
+wdref:f7bf8c36e7dcb274d6e5b9da48631fab0a69fc17 a wikibase:Reference ;
+	pr:P82 "\"Mr. Wada performing at the Signal Gallery in New York in 2016. 'He tried to absorb everything at a very high spiritual level,' the composer La Monte Young said. 'He was a very pure and noble person.'\""@en ;
+	pr:P114 <https://static01.nyt.com/images/2021/06/10/obituaries/Wada-03/merlin_188735241_1a1fbd28-6b9a-4da7-9415-d6734c8f987f-superJumbo.jpg?quality=75&auto=webp> .
 
 data:Q31013 a schema:Dataset ;
 	schema:about wd:Q31013 ;
@@ -2403299,9 +2403495,9 @@ wd:Q31040 rdfs:label "Bettina Brendel"@en ;
 
 data:Q31041 a schema:Dataset ;
 	schema:about wd:Q31041 ;
-	schema:version "222942"^^xsd:integer ;
-	schema:dateModified "2026-09-09T18:03:58Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "223929"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:04:51Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2403313,6 +2403509,7 @@ wd:Q31041 a wikibase:Item ;
 	wdt:P110 wd:Q31042 ;
 	wdt:P278 wd:Q31043 ;
 	wdt:P31 wd:Q31072 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31041.jpg> ;
 	p:P1 wds:Q31041-1B48A642-C5C5-407C-A7D8-673398169B91 .
 
 wds:Q31041-1B48A642-C5C5-407C-A7D8-673398169B91 a wikibase:Statement,
@@ -2403368,6 +2403565,14 @@ wds:Q31041-4d171887-4a02-1240-df73-da8edeaa218f a wikibase:Statement,
 	ps:P31 wd:Q31072 ;
 	prov:wasDerivedFrom wdref:29908ca37dd1cf2ab7aa3a293faf0fc5d5dfd5d5 .
 
+wd:Q31041 p:P3 wds:Q31041-B0BFA670-D2E8-4FF9-BA4B-F6A8C30AC1E3 .
+
+wds:Q31041-B0BFA670-D2E8-4FF9-BA4B-F6A8C30AC1E3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31041.jpg> ;
+	prov:wasDerivedFrom wdref:8204ec34bc65b81339162bc997dfaa4bbe2692d0 .
+
 wd:Q31041 rdfs:label "Emilienne Carson"@en ;
 	skos:prefLabel "Emilienne Carson"@en ;
 	schema:name "Emilienne Carson"@en ;
@@ -2403379,6 +2403584,10 @@ wdref:29908ca37dd1cf2ab7aa3a293faf0fc5d5dfd5d5 a wikibase:Reference ;
 
 wdref:3f03313a84b1394cf00ce11cf83d6c31b060e551 a wikibase:Reference ;
 	pr:P26 wd:Q31046 .
+
+wdref:8204ec34bc65b81339162bc997dfaa4bbe2692d0 a wikibase:Reference ;
+	pr:P82 "[Emilienne Carson]"@en ;
+	pr:P114 <https://cache.legacy.net/legacy/images/cobrands/lohud/photos/WJN086541-1_20160527.jpgx?w=318&h=399&option=3> .
 
 data:Q31042 a schema:Dataset ;
 	schema:about wd:Q31042 ;
@@ -2403411,9 +2403620,9 @@ wd:Q31042 rdfs:label "4 Designers Ltd."@en ;
 
 data:Q31043 a schema:Dataset ;
 	schema:about wd:Q31043 ;
-	schema:version "222941"^^xsd:integer ;
-	schema:dateModified "2026-09-09T18:03:42Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "223935"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:22:03Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2403424,6 +2403633,7 @@ wd:Q31043 a wikibase:Item ;
 	wdt:P278 wd:Q31177,
 		wd:Q31041,
 		wd:Q31072 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31043.jpg> ;
 	p:P1 wds:Q31043-DB2D182F-024A-4714-B65A-729B0902510D .
 
 wds:Q31043-DB2D182F-024A-4714-B65A-729B0902510D a wikibase:Statement,
@@ -2403472,6 +2403682,14 @@ wds:Q31043-6386231F-AD0A-41F2-A813-CC99703AC7E0 a wikibase:Statement,
 	ps:P278 wd:Q31072 ;
 	prov:wasDerivedFrom wdref:3f03313a84b1394cf00ce11cf83d6c31b060e551 .
 
+wd:Q31043 p:P3 wds:Q31043-657437AB-FC15-4EE7-B4E0-5076DF0165C6 .
+
+wds:Q31043-657437AB-FC15-4EE7-B4E0-5076DF0165C6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31043.jpg> ;
+	prov:wasDerivedFrom wdref:a8a8c2373415784769888764089ac512468339f1 .
+
 wd:Q31043 rdfs:label "Juliette Gordon"@en ;
 	skos:prefLabel "Juliette Gordon"@en ;
 	schema:name "Juliette Gordon"@en ;
@@ -2403480,6 +2403698,10 @@ wd:Q31043 rdfs:label "Juliette Gordon"@en ;
 
 wdref:717d4ab9d8e04c9b47a5240f4760acbbb3159076 a wikibase:Reference ;
 	pr:P26 wd:Q31182 .
+
+wdref:a8a8c2373415784769888764089ac512468339f1 a wikibase:Reference ;
+	pr:P82 "[Juliette Gordon]"@en ;
+	pr:P114 <https://www.veteranfeministsofamerica.org/legacy/JulietteGordonHDsmall.jpg> .
 
 data:Q31044 a schema:Dataset ;
 	schema:about wd:Q31044 ;
@@ -2415511,9 +2415733,9 @@ wd:Q31217 rdfs:label "Philco-Ford"@en ;
 
 data:Q31218 a schema:Dataset ;
 	schema:about wd:Q31218 ;
-	schema:version "219585"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:21:44Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "223928"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:01:47Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2415523,6 +2415745,7 @@ wd:Q31218 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q31216,
 		wd:Q31712 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31218.jpg> ;
 	p:P1 wds:Q31218-4D3D5267-798E-4997-A25B-E46CB3F9B559 .
 
 wds:Q31218-4D3D5267-798E-4997-A25B-E46CB3F9B559 a wikibase:Statement,
@@ -2415563,6 +2415786,14 @@ wds:Q31218-937DD968-F617-4E18-BF92-10D536F0F567 a wikibase:Statement,
 	ps:P278 wd:Q31712 ;
 	prov:wasDerivedFrom wdref:476b946a2826c82e4faf2915432734b429671411 .
 
+wd:Q31218 p:P3 wds:Q31218-1901ABFD-AC81-438A-83A4-7EF95EB6183A .
+
+wds:Q31218-1901ABFD-AC81-438A-83A4-7EF95EB6183A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31218.jpg> ;
+	prov:wasDerivedFrom wdref:4459b192d2041fbe7dc85fc203cead810d23eacc .
+
 wd:Q31218 rdfs:label "C. Alexander Brown"@en ;
 	skos:prefLabel "C. Alexander Brown"@en ;
 	schema:name "C. Alexander Brown"@en ;
@@ -2415570,6 +2415801,10 @@ wd:Q31218 rdfs:label "C. Alexander Brown"@en ;
 
 wdref:476b946a2826c82e4faf2915432734b429671411 a wikibase:Reference ;
 	pr:P26 wd:Q31716 .
+
+wdref:4459b192d2041fbe7dc85fc203cead810d23eacc a wikibase:Reference ;
+	pr:P82 "[C. Alexander Brown]"@en ;
+	pr:P114 <https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/505138224_29775381175440969_1529937910123406425_n.jpg?stp=dst-jpg_tt6&cstp=mx426x640&ctp=s426x640&_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=m8zaACUbLgMQ7kNvwGhFXIf&_nc_oc=Adq4zSRELwDifo3Kp3v3AhXmMa3pBZOZHC1cG6ecdFO-uIeqM63Q8t3IpeEaVM-ZxQI&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=Yo91YDCReIoBEThFJ4C-6A&_nc_ss=7b289&oh=00_AQMIkVD78V0m1DDiZhEDkOhnIDTA-Poj8Iw5lNo0bWcrvQ&oe=6ADEC5DE> .
 
 data:Q31219 a schema:Dataset ;
 	schema:about wd:Q31219 ;
@@ -2417170,9 +2417405,9 @@ wd:Q31238 rdfs:label "Cybernetic Applications"@en ;
 
 data:Q31239 a schema:Dataset ;
 	schema:about wd:Q31239 ;
-	schema:version "221700"^^xsd:integer ;
-	schema:dateModified "2026-08-13T00:24:03Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "223940"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:51:46Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2417184,6 +2417419,7 @@ wd:Q31239 a wikibase:Item ;
 	wdt:P152 "331 West 19th Street, New York, New York"@en ;
 	wdt:P110 wd:Q31240 ;
 	wdt:P278 wd:Q31179 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31239.jpg> ;
 	p:P1 wds:Q31239-70B27F0C-9A6F-4FCD-B556-46B9059889D1 .
 
 wds:Q31239-70B27F0C-9A6F-4FCD-B556-46B9059889D1 a wikibase:Statement,
@@ -2417238,6 +2417474,14 @@ wds:Q31239-AB1F02BC-4427-4D2E-84AF-A48C060F93BD a wikibase:Statement,
 	ps:P278 wd:Q31179 ;
 	prov:wasDerivedFrom wdref:2d2548bca506ef9a2c9a2395202267cb406f2c42 .
 
+wd:Q31239 p:P3 wds:Q31239-2E4209A4-2929-4308-9CB9-9D5644615BB3 .
+
+wds:Q31239-2E4209A4-2929-4308-9CB9-9D5644615BB3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31239.jpg> ;
+	prov:wasDerivedFrom wdref:052aaec630a01aa7dbf96772fe4927387bf2920d .
+
 wd:Q31239 rdfs:label "Stephen Soreff"@en ;
 	skos:prefLabel "Stephen Soreff"@en ;
 	schema:name "Stephen Soreff"@en ;
@@ -2417246,6 +2417490,10 @@ wd:Q31239 rdfs:label "Stephen Soreff"@en ;
 
 wdref:6dd94ab9080a55142016345da5155542ffe4da01 a wikibase:Reference ;
 	pr:P26 wd:Q31242 .
+
+wdref:052aaec630a01aa7dbf96772fe4927387bf2920d a wikibase:Reference ;
+	pr:P82 "[Stephen Soreff]"@en ;
+	pr:P114 <https://www.easthamptonstar.com/sites/default/files/2019-04/20160616_Obit_Soreff.jpg> .
 
 data:Q31240 a schema:Dataset ;
 	schema:about wd:Q31240 ;
@@ -2420159,9 +2420407,9 @@ wdv:6f0c808590a8162b62c46aaec64d2bb9 a wikibase:TimeValue ;
 
 data:Q31276 a schema:Dataset ;
 	schema:about wd:Q31276 ;
-	schema:version "221690"^^xsd:integer ;
-	schema:dateModified "2026-08-13T00:19:56Z"^^xsd:dateTime ;
-	wikibase:statements "10"^^xsd:integer ;
+	schema:version "223941"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:52:39Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2420176,6 +2420424,7 @@ wd:Q31276 a wikibase:Item ;
 		wd:Q23214,
 		wd:Q30757,
 		wd:Q30663 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31276.jpg> ;
 	p:P1 wds:Q31276-50D72D24-2D4F-4DFF-9159-56D878375E2B .
 
 wds:Q31276-50D72D24-2D4F-4DFF-9159-56D878375E2B a wikibase:Statement,
@@ -2420255,6 +2420504,14 @@ wds:Q31276-3FBC10BF-7A01-45E3-BE9D-5ED17A00B14C a wikibase:Statement,
 	ps:P278 wd:Q30663 ;
 	prov:wasDerivedFrom wdref:a13433f05fee00a96dcc562e843b7c0de3a453ec .
 
+wd:Q31276 p:P3 wds:Q31276-061B224E-4DFA-41A8-991F-7D0530DFCCD8 .
+
+wds:Q31276-061B224E-4DFA-41A8-991F-7D0530DFCCD8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31276.jpg> ;
+	prov:wasDerivedFrom wdref:a84c86b22deaf6f21059a0c0f3dc39108459a62c .
+
 wd:Q31276 rdfs:label "Sonny Sonnenfeld"@en ;
 	skos:prefLabel "Sonny Sonnenfeld"@en ;
 	schema:name "Sonny Sonnenfeld"@en ;
@@ -2420263,6 +2420520,10 @@ wd:Q31276 rdfs:label "Sonny Sonnenfeld"@en ;
 
 wdref:f1965888a538504781d58845a3b039a5cadbecec a wikibase:Reference ;
 	pr:P26 wd:Q31280 .
+
+wdref:a84c86b22deaf6f21059a0c0f3dc39108459a62c a wikibase:Reference ;
+	pr:P82 "[Sonny Sonnenfeld]"@en ;
+	pr:P114 <https://cache.legacy.net/legacy/images/cobrands/nytimes/photos/NYT-0002105869-SONNENFELDN_22_124192784.1_192701.jpgx?w=177&h=200&option=3> .
 
 data:Q31277 a schema:Dataset ;
 	schema:about wd:Q31277 ;
@@ -2423109,9 +2423370,9 @@ wd:Q31313 rdfs:label "Block 1 of B14 Serena Friedman Edge-Notched Card"@en ;
 
 data:Q31314 a schema:Dataset ;
 	schema:about wd:Q31314 ;
-	schema:version "222963"^^xsd:integer ;
-	schema:dateModified "2026-09-09T19:31:29Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "223942"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:53:53Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2423124,6 +2423385,7 @@ wd:Q31314 a wikibase:Item ;
 	wdt:P110 wd:Q31315 ;
 	wdt:P278 wd:Q31316,
 		wd:Q28308 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31314.jpg> ;
 	p:P1 wds:Q31314-ED084BAB-2CEA-4EBF-90FE-A1CEACF23E6F .
 
 wds:Q31314-ED084BAB-2CEA-4EBF-90FE-A1CEACF23E6F a wikibase:Statement,
@@ -2423186,6 +2423448,14 @@ wds:Q31314-7BCA9DEC-A6B0-4359-BE0D-58B8269781CC a wikibase:Statement,
 	ps:P278 wd:Q28308 ;
 	prov:wasDerivedFrom wdref:ec425f0ed67717fb5542e1b2c73f81c90ff8b827 .
 
+wd:Q31314 p:P3 wds:Q31314-46EADF27-5B1A-487A-AA35-637FCCB15265 .
+
+wds:Q31314-46EADF27-5B1A-487A-AA35-637FCCB15265 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31314.jpg> ;
+	prov:wasDerivedFrom wdref:975a92edc19d809db72621ba2370420af540f675 .
+
 wd:Q31314 rdfs:label "Charles Scawthorn"@en ;
 	skos:prefLabel "Charles Scawthorn"@en ;
 	schema:name "Charles Scawthorn"@en ;
@@ -2423194,6 +2423464,10 @@ wd:Q31314 rdfs:label "Charles Scawthorn"@en ;
 
 wdref:2ebe53d82dd426a0f5b3e5e43e2874ab055c69eb a wikibase:Reference ;
 	pr:P26 wd:Q31319 .
+
+wdref:975a92edc19d809db72621ba2370420af540f675 a wikibase:Reference ;
+	pr:P82 "[Charles Scawthorn]"@en ;
+	pr:P114 <https://media.licdn.com/dms/image/v2/C4D03AQH2FknfB2r03g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516552604210?e=1794441600&v=beta&t=k_jC7F8YUQD27lH_UD1WfJoCD5dnaPpGz-XmSwKxQkc> .
 
 data:Q31315 a schema:Dataset ;
 	schema:about wd:Q31315 ;
@@ -2423235,9 +2423509,9 @@ wd:Q31315 rdfs:label "Lehigh University"@en ;
 
 data:Q31316 a schema:Dataset ;
 	schema:about wd:Q31316 ;
-	schema:version "216698"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:25:29Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "223931"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:06:15Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2423247,6 +2423521,8 @@ wd:Q31316 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P8 "Q118141610" ;
 	wdt:P278 wd:Q31314 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31316.jpg>,
+		<https://semlab.s3.amazonaws.com/images/Q31316.jpg> ;
 	p:P1 wds:Q31316-A41C5A72-2E6C-43E5-B326-08BA243D3CF7 .
 
 wds:Q31316-A41C5A72-2E6C-43E5-B326-08BA243D3CF7 a wikibase:Statement,
@@ -2423285,11 +2423561,31 @@ wds:Q31316-A8071D76-7528-4A90-BDDE-4E10FD0241BE a wikibase:Statement,
 	ps:P278 wd:Q31314 ;
 	prov:wasDerivedFrom wdref:ec425f0ed67717fb5542e1b2c73f81c90ff8b827 .
 
+wd:Q31316 p:P3 wds:Q31316-B54BDFE5-4E6B-41D8-8C20-63AB38DD5447 .
+
+wds:Q31316-B54BDFE5-4E6B-41D8-8C20-63AB38DD5447 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31316.jpg> ;
+	prov:wasDerivedFrom wdref:72da0fb08965bae4d7ad203457a568e755166415 .
+
+wd:Q31316 p:P3 wds:Q31316-CA1ED47E-B181-4770-BA38-114B0051BFA4 .
+
+wds:Q31316-CA1ED47E-B181-4770-BA38-114B0051BFA4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31316.jpg> ;
+	prov:wasDerivedFrom wdref:72da0fb08965bae4d7ad203457a568e755166415 .
+
 wd:Q31316 rdfs:label "Everardo A. Jefferson"@en ;
 	skos:prefLabel "Everardo A. Jefferson"@en ;
 	schema:name "Everardo A. Jefferson"@en ;
 	schema:description "architect"@en ;
 	skos:altLabel "Everardo Jefferson"@en .
+
+wdref:72da0fb08965bae4d7ad203457a568e755166415 a wikibase:Reference ;
+	pr:P82 "[Everardo A. Jefferson]"@en ;
+	pr:P114 <https://www.pratt.edu/wp-content/uploads/2021/07/rowenareedaward20.jpg> .
 
 data:Q31317 a schema:Dataset ;
 	schema:about wd:Q31317 ;
@@ -2426308,9 +2426604,9 @@ wd:Q31356 rdfs:label "Block 1 of B14 S Fascher Edge-Notched Card"@en ;
 
 data:Q31357 a schema:Dataset ;
 	schema:about wd:Q31357 ;
-	schema:version "221673"^^xsd:integer ;
-	schema:dateModified "2026-08-13T00:08:34Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
+	schema:version "223943"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:56:36Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2426326,6 +2426622,7 @@ wd:Q31357 a wikibase:Item ;
 		wd:Q31360,
 		wd:Q30949 ;
 	wdt:P110 wd:Q19322 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31357.jpg> ;
 	p:P1 wds:Q31357-B765B5A9-6AFD-42E7-8FAC-AD8F1D6523C5 .
 
 wds:Q31357-B765B5A9-6AFD-42E7-8FAC-AD8F1D6523C5 a wikibase:Statement,
@@ -2426413,6 +2426710,14 @@ wds:Q31357-f0908568-4d85-820a-a179-323c30544df8 a wikibase:Statement,
 	ps:P110 wd:Q19322 ;
 	prov:wasDerivedFrom wdref:d4a497ecb3cd2868051bcfe537b671375afadd02 .
 
+wd:Q31357 p:P3 wds:Q31357-92569394-420E-44F3-8DB2-96A2B437D641 .
+
+wds:Q31357-92569394-420E-44F3-8DB2-96A2B437D641 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31357.jpg> ;
+	prov:wasDerivedFrom wdref:08f39554735c0e27a4e83f1ec4951ae70abaff12 .
+
 wd:Q31357 rdfs:label "Ronald W. Harrison"@en ;
 	skos:prefLabel "Ronald W. Harrison"@en ;
 	schema:name "Ronald W. Harrison"@en ;
@@ -2426421,6 +2426726,10 @@ wd:Q31357 rdfs:label "Ronald W. Harrison"@en ;
 
 wdref:d4a497ecb3cd2868051bcfe537b671375afadd02 a wikibase:Reference ;
 	pr:P26 wd:Q31362 .
+
+wdref:08f39554735c0e27a4e83f1ec4951ae70abaff12 a wikibase:Reference ;
+	pr:P82 "[Ronald W. Harrison]"@en ;
+	pr:P114 <https://cache.legacy.net/legacy/images/cobrands/heraldandnews/photos/W0011918-2_20160518.jpgx?w=120&h=167&option=3> .
 
 data:Q31358 a schema:Dataset ;
 	schema:about wd:Q31358 ;
@@ -2460090,9 +2460399,9 @@ wdref:99a6da56b03241b7f480b38226050aca22d96999 a wikibase:Reference ;
 
 data:Q31825 a schema:Dataset ;
 	schema:about wd:Q31825 ;
-	schema:version "220361"^^xsd:integer ;
-	schema:dateModified "2026-08-05T14:21:04Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "223944"^^xsd:integer ;
+	schema:dateModified "2026-10-21T19:57:59Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2460101,6 +2460410,7 @@ wd:Q31825 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q31824 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31825.jpg> ;
 	p:P1 wds:Q31825-C1C6CCB5-BA37-4BEE-A633-FE741E590956 .
 
 wds:Q31825-C1C6CCB5-BA37-4BEE-A633-FE741E590956 a wikibase:Statement,
@@ -2460132,10 +2460442,22 @@ wds:Q31825-C2F6873B-870D-419B-B19B-9F389F1F8CE0 a wikibase:Statement,
 	ps:P278 wd:Q31824 ;
 	prov:wasDerivedFrom wdref:99a6da56b03241b7f480b38226050aca22d96999 .
 
+wd:Q31825 p:P3 wds:Q31825-08F01DB7-7147-42A7-A298-B861978D4D45 .
+
+wds:Q31825-08F01DB7-7147-42A7-A298-B861978D4D45 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31825.jpg> ;
+	prov:wasDerivedFrom wdref:20d247c5cba8209dfbd9ecb99b969c27310cb4bf .
+
 wd:Q31825 rdfs:label "Robert Liikala"@en ;
 	skos:prefLabel "Robert Liikala"@en ;
 	schema:name "Robert Liikala"@en ;
 	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
+
+wdref:20d247c5cba8209dfbd9ecb99b969c27310cb4bf a wikibase:Reference ;
+	pr:P82 "[Robert Liikala]"@en ;
+	pr:P114 <https://robertjohnliikala.com/Home_Page_clip_image002_0000.jpg> .
 
 data:Q31826 a schema:Dataset ;
 	schema:about wd:Q31826 ;
@@ -2468309,9 +2468631,9 @@ wd:Q31932 rdfs:label "Victory Engineering"@en ;
 
 data:Q31933 a schema:Dataset ;
 	schema:about wd:Q31933 ;
-	schema:version "220808"^^xsd:integer ;
-	schema:dateModified "2026-08-07T21:46:38Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "223925"^^xsd:integer ;
+	schema:dateModified "2026-10-21T18:54:30Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2468321,6 +2468643,8 @@ wd:Q31933 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P8 "Q919265" ;
 	wdt:P278 wd:Q31931 ;
+	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q31933.jpg>,
+		<https://semlab.s3.amazonaws.com/images/Q31933.jpg> ;
 	p:P1 wds:Q31933-EA290EDD-AFFE-449A-9D9B-FAA975FB98CD .
 
 wds:Q31933-EA290EDD-AFFE-449A-9D9B-FAA975FB98CD a wikibase:Statement,
@@ -2468359,10 +2468683,34 @@ wds:Q31933-5D54083D-137E-4909-A56A-C93C12443A90 a wikibase:Statement,
 	ps:P278 wd:Q31931 ;
 	prov:wasDerivedFrom wdref:264571bfba6b7bf05bdf0d45ce66adc43c709423 .
 
+wd:Q31933 p:P3 wds:Q31933-C2CDE921-3BCF-485F-BA1A-EAE378ED072A .
+
+wds:Q31933-C2CDE921-3BCF-485F-BA1A-EAE378ED072A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31933.jpg> ;
+	pq:P136 "Photo: Oliver Mark" ;
+	pq:P142 "CC BY-SA 4.0; © Oliver Mark" ;
+	prov:wasDerivedFrom wdref:2040977ca0dee21636a3dfca39234e4f296fac77 .
+
+wd:Q31933 p:P3 wds:Q31933-C5217A71-FC6F-428B-AEDD-82860C351128 .
+
+wds:Q31933-C5217A71-FC6F-428B-AEDD-82860C351128 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 <https://semlab.s3.amazonaws.com/images/Q31933.jpg> ;
+	pq:P136 "Photo: Oliver Mark" ;
+	pq:P142 "CC BY-SA 4.0; © Oliver Mark" ;
+	prov:wasDerivedFrom wdref:2040977ca0dee21636a3dfca39234e4f296fac77 .
+
 wd:Q31933 rdfs:label "Alex Katz"@en ;
 	skos:prefLabel "Alex Katz"@en ;
 	schema:name "Alex Katz"@en ;
 	schema:description "American painter and sculptor (born 1927)"@en .
+
+wdref:2040977ca0dee21636a3dfca39234e4f296fac77 a wikibase:Reference ;
+	pr:P82 "\"Katz in 2006\""@en ;
+	pr:P114 <https://upload.wikimedia.org/wikipedia/commons/7/70/Oliver_Mark_-_Alex_Katz%2C_Berlin_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled> .
 
 data:Q31934 a schema:Dataset ;
 	schema:about wd:Q31934 ;
