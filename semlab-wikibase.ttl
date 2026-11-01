@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-31T04:10:10Z"^^xsd:dateTime ;
+	schema:dateModified "2026-11-01T04:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -2052788,9 +2052788,9 @@ wd:Q25066 rdfs:label "Kenji Nakahashi"@en ;
 
 data:Q25067 a schema:Dataset ;
 	schema:about wd:Q25067 ;
-	schema:version "224731"^^xsd:integer ;
-	schema:dateModified "2026-10-26T23:31:24Z"^^xsd:dateTime ;
-	wikibase:statements "33"^^xsd:integer ;
+	schema:version "224941"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:24Z"^^xsd:dateTime ;
+	wikibase:statements "34"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2052826,7 +2052826,8 @@ wd:Q25067 a wikibase:Item ;
 		wd:Q26565,
 		wd:Q26555,
 		wd:Q30925,
-		wd:Q32310 ;
+		wd:Q32310,
+		wd:Q29643 ;
 	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q25067.jpg> ;
 	p:P11 wds:Q25067-FDA0EB18-CB84-4443-BB92-34A48662A4DC .
 
@@ -2052887,7 +2052888,8 @@ wds:Q25067-a6e04a06-496a-5aa7-a258-7a683e8bcb68 a wikibase:Statement,
 		wdref:7f6c8f28e30eac7a27c23492061b1de1c19d5664,
 		wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7,
 		wdref:f0d3d30a2162104e1fe79688b5cc0bf7da5e8d40,
-		wdref:4bbbb98a52251624129139715a094e57589b31f9 .
+		wdref:4bbbb98a52251624129139715a094e57589b31f9,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q25067 p:P1 wds:Q25067-E9736A29-1119-4E5F-98D0-923150DDD2CD .
 
@@ -2053104,6 +2053106,14 @@ wds:Q25067-930994EA-F29C-427B-8955-B94F2A2FAE5A a wikibase:Statement,
 	ps:P278 wd:Q32310 ;
 	prov:wasDerivedFrom wdref:4bbbb98a52251624129139715a094e57589b31f9 .
 
+wd:Q25067 p:P278 wds:Q25067-25D9F07E-1F5B-430A-8DCF-F35A628328CE .
+
+wds:Q25067-25D9F07E-1F5B-430A-8DCF-F35A628328CE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
 wd:Q25067 p:P3 wds:Q25067-5C338996-1245-4CF0-A2B1-2510FB3C87E8 .
 
 wds:Q25067-5C338996-1245-4CF0-A2B1-2510FB3C87E8 a wikibase:Statement,
@@ -2053183,6 +2053193,9 @@ wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7 a wikibase:Reference ;
 
 wdref:4bbbb98a52251624129139715a094e57589b31f9 a wikibase:Reference ;
 	pr:P26 wd:Q32313 .
+
+wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 a wikibase:Reference ;
+	pr:P26 wd:Q32362 .
 
 wdref:fb40dde2b7f93e50f307644607ce7593ff201415 a wikibase:Reference ;
 	pr:P82 "[Agnes Denes]"@en ;
@@ -2146965,9 +2146978,9 @@ wdref:24c9f7bbb6114c9aaf53d3f9f6bdefa9d2505496 a wikibase:Reference ;
 
 data:Q26332 a schema:Dataset ;
 	schema:about wd:Q26332 ;
-	schema:version "217226"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:28:29Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "224991"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:10Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2146975,7 +2146988,8 @@ wd:Q26332 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P1 wd:Q1 ;
-	wdt:P278 wd:Q26573 ;
+	wdt:P278 wd:Q26573,
+		wd:Q32364 ;
 	p:P65 wds:Q26332-11C3342F-F7BE-4BD8-A3DA-6E0C2E49303A .
 
 wds:Q26332-11C3342F-F7BE-4BD8-A3DA-6E0C2E49303A a wikibase:Statement,
@@ -2146983,7 +2146997,8 @@ wds:Q26332-11C3342F-F7BE-4BD8-A3DA-6E0C2E49303A a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:5745467d54c466be35bcfbf98038d0f8d77682d7 .
+	prov:wasDerivedFrom wdref:5745467d54c466be35bcfbf98038d0f8d77682d7,
+		wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
 
 wd:Q26332 p:P11 wds:Q26332-7D36D7FB-2E29-423A-A46A-0BE8CF6F816E .
 
@@ -2147007,10 +2147022,21 @@ wds:Q26332-A334A7D9-5D26-4A16-8D8A-B2E9970F5773 a wikibase:Statement,
 	ps:P278 wd:Q26573 ;
 	prov:wasDerivedFrom wdref:5745467d54c466be35bcfbf98038d0f8d77682d7 .
 
+wd:Q26332 p:P278 wds:Q26332-0D0AB346-0D9D-40B4-8F35-E6608238B3A2 .
+
+wds:Q26332-0D0AB346-0D9D-40B4-8F35-E6608238B3A2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
 wd:Q26332 rdfs:label "John Chapps"@en ;
 	skos:prefLabel "John Chapps"@en ;
 	schema:name "John Chapps"@en ;
 	schema:description "artist associated with E.A.T.’s Technical Services Program"@en .
+
+wdref:14f60bfb701de6599f72ee388d81507c36ba47ae a wikibase:Reference ;
+	pr:P26 wd:Q32370 .
 
 data:Q26333 a schema:Dataset ;
 	schema:about wd:Q26333 ;
@@ -2148236,9 +2148262,9 @@ wd:Q26347 rdfs:label "Esta Nesbitt"@en ;
 
 data:Q26348 a schema:Dataset ;
 	schema:about wd:Q26348 ;
-	schema:version "223722"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:47:43Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "224943"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:24Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2148250,7 +2148276,8 @@ wd:Q26348 a wikibase:Item ;
 	wdt:P278 wd:Q31774,
 		wd:Q31050,
 		wd:Q26558,
-		wd:Q26565 ;
+		wd:Q26565,
+		wd:Q29643 ;
 	p:P65 wds:Q26348-DCD64BBA-B76E-4333-BCEB-CB44C1ADDC3C .
 
 wds:Q26348-DCD64BBA-B76E-4333-BCEB-CB44C1ADDC3C a wikibase:Statement,
@@ -2148261,7 +2148288,8 @@ wds:Q26348-DCD64BBA-B76E-4333-BCEB-CB44C1ADDC3C a wikibase:Statement,
 	prov:wasDerivedFrom wdref:bbbae15e12c3b097c250474ae177115d2babccd5,
 		wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3,
 		wdref:ab4a3e7385fa0a6d96becd518d3fe49033074c47,
-		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e .
+		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26348 p:P11 wds:Q26348-5FA8D2FA-8603-44EA-92F7-81B65AF247A6 .
 
@@ -2148315,6 +2148343,14 @@ wds:Q26348-49a9589e-4dca-6bfe-d787-dc6f945bb95e a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q26565 ;
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+
+wd:Q26348 p:P278 wds:Q26348-D2A2C906-9575-4582-AA0F-3D94B3386242 .
+
+wds:Q26348-D2A2C906-9575-4582-AA0F-3D94B3386242 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26348 rdfs:label "Ira Schneider"@en ;
 	skos:prefLabel "Ira Schneider"@en ;
@@ -2149236,9 +2149272,9 @@ wd:Q26359 owl:sameAs wd:Q30319 .
 
 data:Q26360 a schema:Dataset ;
 	schema:about wd:Q26360 ;
-	schema:version "224730"^^xsd:integer ;
-	schema:dateModified "2026-10-26T23:31:23Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "224949"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:26Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2149250,7 +2149286,8 @@ wd:Q26360 a wikibase:Item ;
 		wd:Q26561,
 		wd:Q30828,
 		wd:Q31050,
-		wd:Q32310 ;
+		wd:Q32310,
+		wd:Q29643 ;
 	p:P1 wds:Q26360-F6017A71-F208-4123-B078-9545739880DF .
 
 wds:Q26360-F6017A71-F208-4123-B078-9545739880DF a wikibase:Statement,
@@ -2149269,7 +2149306,8 @@ wds:Q26360-95CA55AE-EEC9-4EE0-8676-97C553299E57 a wikibase:Statement,
 		wdref:345ab601d62c078edbac2fc357d7d721dee65fe4,
 		wdref:b1544a2798e17dcdf11b8c41f9605be50be32bd7,
 		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e,
-		wdref:4bbbb98a52251624129139715a094e57589b31f9 .
+		wdref:4bbbb98a52251624129139715a094e57589b31f9,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26360 p:P11 wds:Q26360-D4FAF5CE-0BC5-4FDE-B0FD-5A0749CD44E6 .
 
@@ -2149317,6 +2149355,14 @@ wds:Q26360-887702CB-9D3B-4FCD-83B0-404753680D63 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q32310 ;
 	prov:wasDerivedFrom wdref:4bbbb98a52251624129139715a094e57589b31f9 .
+
+wd:Q26360 p:P278 wds:Q26360-BE16CBA4-059E-4E77-8DCF-5B0DFD431DDC .
+
+wds:Q26360-BE16CBA4-059E-4E77-8DCF-5B0DFD431DDC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26360 rdfs:label "Nancy Siegel"@en ;
 	skos:prefLabel "Nancy Siegel"@en ;
@@ -2149376,9 +2149422,9 @@ wd:Q26361 rdfs:label "James McCormack"@en ;
 
 data:Q26362 a schema:Dataset ;
 	schema:about wd:Q26362 ;
-	schema:version "223731"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:50:06Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "224946"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:25Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2149389,7 +2149435,8 @@ wd:Q26362 a wikibase:Item ;
 	wdt:P278 wd:Q31244,
 		wd:Q30685,
 		wd:Q31652,
-		wd:Q26565 ;
+		wd:Q26565,
+		wd:Q29643 ;
 	p:P65 wds:Q26362-13685C76-7BB7-4EA9-9CBF-C5440CC60F59 .
 
 wds:Q26362-13685C76-7BB7-4EA9-9CBF-C5440CC60F59 a wikibase:Statement,
@@ -2149400,7 +2149447,8 @@ wds:Q26362-13685C76-7BB7-4EA9-9CBF-C5440CC60F59 a wikibase:Statement,
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3,
 		wdref:004b370c11008ed0d1c31870fa9a024c8c3954ea,
 		wdref:2bc1de9cd0c50c16de07c2507df841067db13108,
-		wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+		wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26362 p:P11 wds:Q26362-7120CE1C-906C-429F-8755-796DE93E6E96 .
 
@@ -2149447,6 +2149495,14 @@ wds:Q26362-a5792292-4735-e7c7-9a32-aefe6d72e334 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q26565 ;
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+
+wd:Q26362 p:P278 wds:Q26362-D2EDBACF-2202-4D7C-B421-F7D271344591 .
+
+wds:Q26362-D2EDBACF-2202-4D7C-B421-F7D271344591 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26362 rdfs:label "W. Right"@en ;
 	skos:prefLabel "W. Right"@en ;
@@ -2149785,9 +2149841,9 @@ wd:Q26367 rdfs:label "Dr. Morris"@en ;
 
 data:Q26368 a schema:Dataset ;
 	schema:about wd:Q26368 ;
-	schema:version "223726"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:48:37Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "224950"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:26Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2149798,7 +2149854,8 @@ wd:Q26368 a wikibase:Item ;
 	wdt:P278 wd:Q28400,
 		wd:Q30828,
 		wd:Q31652,
-		wd:Q26565 ;
+		wd:Q26565,
+		wd:Q29643 ;
 	p:P65 wds:Q26368-21652F15-A407-4615-94A3-37E90D0D2535 .
 
 wds:Q26368-21652F15-A407-4615-94A3-37E90D0D2535 a wikibase:Statement,
@@ -2149809,7 +2149866,8 @@ wds:Q26368-21652F15-A407-4615-94A3-37E90D0D2535 a wikibase:Statement,
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3,
 		wdref:472568eb247c4f277bb9062e078f95addd6c58f0,
 		wdref:b1544a2798e17dcdf11b8c41f9605be50be32bd7,
-		wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+		wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26368 p:P11 wds:Q26368-7521F705-5A9C-4C2F-BAC4-0FB9C5D2D6D6 .
 
@@ -2149856,6 +2149914,14 @@ wds:Q26368-d5082f89-4feb-501c-34ee-cd153ec3b0d0 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q26565 ;
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+
+wd:Q26368 p:P278 wds:Q26368-C250782D-B3D9-4C8D-A196-3F47FED8ADA5 .
+
+wds:Q26368-C250782D-B3D9-4C8D-A196-3F47FED8ADA5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26368 rdfs:label "Suni Mallow"@en ;
 	skos:prefLabel "Suni Mallow"@en ;
@@ -2150285,9 +2150351,9 @@ wdref:bf1723c7edb5188c28a36cfa250423d40d4097d7 a wikibase:Reference ;
 
 data:Q26376 a schema:Dataset ;
 	schema:about wd:Q26376 ;
-	schema:version "223718"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:46:14Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "224942"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:24Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2150295,7 +2150361,8 @@ wd:Q26376 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P1 wd:Q1 ;
-	wdt:P278 wd:Q26565 ;
+	wdt:P278 wd:Q26565,
+		wd:Q29643 ;
 	p:P65 wds:Q26376-9E63453D-ACAC-4465-8696-A7099BD31AED .
 
 wds:Q26376-9E63453D-ACAC-4465-8696-A7099BD31AED a wikibase:Statement,
@@ -2150303,7 +2150370,8 @@ wds:Q26376-9E63453D-ACAC-4465-8696-A7099BD31AED a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26376 p:P11 wds:Q26376-935E75DF-8877-4196-96D1-545C31624825 .
 
@@ -2150326,6 +2150394,14 @@ wds:Q26376-550e28ad-431d-224e-e9f6-cc63646d160f a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q26565 ;
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+
+wd:Q26376 p:P278 wds:Q26376-A25442E8-69FF-4E6D-AD43-1EE9B8110043 .
+
+wds:Q26376-A25442E8-69FF-4E6D-AD43-1EE9B8110043 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26376 rdfs:label "Joseph Streich"@en ;
 	skos:prefLabel "Joseph Streich"@en ;
@@ -2150391,9 +2150467,9 @@ wd:Q26377 rdfs:label "Emma Ehrenreich"@en ;
 
 data:Q26378 a schema:Dataset ;
 	schema:about wd:Q26378 ;
-	schema:version "223724"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:48:10Z"^^xsd:dateTime ;
-	wikibase:statements "12"^^xsd:integer ;
+	schema:version "224945"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:25Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2150409,7 +2150485,8 @@ wd:Q26378 a wikibase:Item ;
 		wd:Q31050,
 		wd:Q31652,
 		wd:Q26558,
-		wd:Q26565 ;
+		wd:Q26565,
+		wd:Q29643 ;
 	p:P1 wds:Q26378-E5F28E62-56B8-434E-8152-62C17B5E3702 .
 
 wds:Q26378-E5F28E62-56B8-434E-8152-62C17B5E3702 a wikibase:Statement,
@@ -2150432,7 +2150509,8 @@ wds:Q26378-2B4B2388-23E9-411B-B353-4A0F3233904B a wikibase:Statement,
 		wdref:6cb47191c5c14ed581a2cbab0a16f74b902655f1,
 		wdref:ab4a3e7385fa0a6d96becd518d3fe49033074c47,
 		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e,
-		wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+		wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26378 p:P11 wds:Q26378-2C153FFC-A2BD-42F2-AE4F-C4482DB95E3D .
 
@@ -2150512,6 +2150590,14 @@ wds:Q26378-8c626278-49d1-220d-ff4e-b2464be845d3 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q26565 ;
 	prov:wasDerivedFrom wdref:35aeca1289cea413f4a2edc6d9e193d95bef6bc3 .
+
+wd:Q26378 p:P278 wds:Q26378-C6AEEA18-CDED-4256-87E1-B4AF0E716555 .
+
+wds:Q26378-C6AEEA18-CDED-4256-87E1-B4AF0E716555 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q26378 rdfs:label "Richard Lowenberg"@en ;
 	skos:prefLabel "Richard Lowenberg"@en ;
@@ -2215628,9 +2215714,9 @@ wdref:b14a787ecdae91ba5001eaf9c4a60b9de5fef0df a wikibase:Reference ;
 
 data:Q27792 a schema:Dataset ;
 	schema:about wd:Q27792 ;
-	schema:version "219052"^^xsd:integer ;
-	schema:dateModified "2026-07-31T18:17:04Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "225028"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:57:08Z"^^xsd:dateTime ;
+	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2215642,6 +2215728,14 @@ wd:Q27792 a wikibase:Item ;
 		wd:Q19157 ;
 	wdt:P2 <https://eat_datascape.medialab.sciences-po.fr/actor/92> ;
 	wdt:P245 "actor/92" ;
+	wdt:P110 wd:Q31217 ;
+	wdt:P278 wd:Q32367,
+		wd:Q31686,
+		wd:Q30804,
+		wd:Q31358,
+		wd:Q31687,
+		wd:Q31660 ;
+	wdt:P152 "2670 Solano Way, Laguna Beach, California"@en ;
 	p:P1 wds:Q27792-4621141D-5435-4AFE-BE5A-377C0454C279 .
 
 wds:Q27792-4621141D-5435-4AFE-BE5A-377C0454C279 a wikibase:Statement,
@@ -2215693,14 +2215787,84 @@ wds:Q27792-11C863E9-C870-4D90-8D20-29B76580F12F a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P245 "actor/92" .
 
+wd:Q27792 p:P110 wds:Q27792-650C5B09-DA74-4ED4-B175-34CD019B9E3D .
+
+wds:Q27792-650C5B09-DA74-4ED4-B175-34CD019B9E3D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q31217 ;
+	prov:wasDerivedFrom wdref:f647fb1d40174739b2f86d266b2e23cb24a55f81 .
+
+wd:Q27792 p:P278 wds:Q27792-988D3762-DB50-446B-A351-F2AE59FD92F3 .
+
+wds:Q27792-988D3762-DB50-446B-A351-F2AE59FD92F3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32367 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P278 wds:Q27792-094498E4-98F3-4C9E-AF70-7406221CE3FF .
+
+wds:Q27792-094498E4-98F3-4C9E-AF70-7406221CE3FF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31686 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P278 wds:Q27792-3EC3C614-6945-489D-AF5B-C92DC7EB4362 .
+
+wds:Q27792-3EC3C614-6945-489D-AF5B-C92DC7EB4362 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30804 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P278 wds:Q27792-1BD10C46-29F1-4E2C-863D-CAA66360ADFF .
+
+wds:Q27792-1BD10C46-29F1-4E2C-863D-CAA66360ADFF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31358 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P278 wds:Q27792-B54D8247-D3B5-47B7-853F-9AF6D8085C16 .
+
+wds:Q27792-B54D8247-D3B5-47B7-853F-9AF6D8085C16 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31687 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P278 wds:Q27792-381F941D-86CB-40B9-905D-ACE7CC5D392D .
+
+wds:Q27792-381F941D-86CB-40B9-905D-ACE7CC5D392D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31660 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q27792 p:P152 wds:Q27792-a7a3675d-4557-4426-858c-41f3aba38c66 .
+
+wds:Q27792-a7a3675d-4557-4426-858c-41f3aba38c66 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "2670 Solano Way, Laguna Beach, California"@en ;
+	prov:wasDerivedFrom wdref:f647fb1d40174739b2f86d266b2e23cb24a55f81 .
+
 wd:Q27792 rdfs:label "John Forkner"@en ;
 	skos:prefLabel "John Forkner"@en ;
 	schema:name "John Forkner"@en ;
-	schema:description "artist engineer"@en ;
+	schema:description "artist, engineer, associated with E.A.T.'s Technical Services Program"@en ;
 	skos:altLabel "John F. Forkner"@en .
 
 wdref:f8bf4a5e219f380b988978709f74557b378bd5b4 a wikibase:Reference ;
 	pr:P114 <https://eat_datascape.medialab.sciences-po.fr/actor/92> .
+
+wdref:f647fb1d40174739b2f86d266b2e23cb24a55f81 a wikibase:Reference ;
+	pr:P26 wd:Q32372 .
+
+wdref:70b1713ee020f5c61999296bdb7df6c553605e6a a wikibase:Reference ;
+	pr:P26 wd:Q32373 .
 
 data:Q27793 a schema:Dataset ;
 	schema:about wd:Q27793 ;
@@ -2242216,8 +2242380,8 @@ wd:Q28266 rdfs:label "Gary  Rieveschl"@en ;
 
 data:Q28267 a schema:Dataset ;
 	schema:about wd:Q28267 ;
-	schema:version "217214"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:28:25Z"^^xsd:dateTime ;
+	schema:version "225030"^^xsd:integer ;
+	schema:dateModified "2026-10-31T22:04:41Z"^^xsd:dateTime ;
 	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
@@ -2242275,7 +2242439,7 @@ wds:Q28267-A8587379-D27F-44E7-8316-D6C7928537E6 a wikibase:Statement,
 wd:Q28267 rdfs:label "John  Brookes"@en ;
 	skos:prefLabel "John  Brookes"@en ;
 	schema:name "John  Brookes"@en ;
-	schema:description "metallurgist"@en .
+	schema:description "metallurgist, artist associated with E.A.T.'s Technical Services Program"@en .
 
 wdref:0890d3a0b33c29d817da9588ebd0362cd56225e9 a wikibase:Reference ;
 	pr:P26 wd:Q31232 .
@@ -2243039,8 +2243203,8 @@ wdref:006de0a39d41c3d644e6a73f0353684a091892a4 a wikibase:Reference ;
 
 data:Q28279 a schema:Dataset ;
 	schema:about wd:Q28279 ;
-	schema:version "158665"^^xsd:integer ;
-	schema:dateModified "2024-06-20T02:50:55Z"^^xsd:dateTime ;
+	schema:version "224801"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:33:14Z"^^xsd:dateTime ;
 	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
@@ -2243098,15 +2243262,15 @@ wds:Q28279-C357CFE9-B9E9-44FB-98EC-E2BF7F0FA8C2 a wikibase:Statement,
 wd:Q28279 rdfs:label "Hilary Harris"@en ;
 	skos:prefLabel "Hilary Harris"@en ;
 	schema:name "Hilary Harris"@en ;
-	schema:description "artist"@en .
+	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
 
 wdref:25a5dd4730c69e5ce3b4492e719c1a806fa53a06 a wikibase:Reference ;
 	pr:P114 <https://eat_datascape.medialab.sciences-po.fr/actor/764> .
 
 data:Q28280 a schema:Dataset ;
 	schema:about wd:Q28280 ;
-	schema:version "158666"^^xsd:integer ;
-	schema:dateModified "2024-06-20T02:50:55Z"^^xsd:dateTime ;
+	schema:version "224800"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:33:02Z"^^xsd:dateTime ;
 	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
@@ -2243164,7 +2243328,8 @@ wds:Q28280-21042718-1CD7-46C5-9BD3-10045FF74C35 a wikibase:Statement,
 wd:Q28280 rdfs:label "James Macaulay"@en ;
 	skos:prefLabel "James Macaulay"@en ;
 	schema:name "James Macaulay"@en ;
-	schema:description "engineer"@en .
+	schema:description "engineer, artist associated with E.A.T.'s Technical Services Program"@en ;
+	skos:altLabel "Jim Macaulay"@mul .
 
 wdref:34fabe635dfaf6c71f25f0ee360e15f34cbcf6ff a wikibase:Reference ;
 	pr:P114 <https://eat_datascape.medialab.sciences-po.fr/actor/765> .
@@ -2249854,9 +2250019,9 @@ wd:Q28385 rdfs:label "Schwartz-Wassyng, Incorporated"@en ;
 
 data:Q28386 a schema:Dataset ;
 	schema:about wd:Q28386 ;
-	schema:version "158772"^^xsd:integer ;
-	schema:dateModified "2024-06-20T02:51:15Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "224880"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:09:47Z"^^xsd:dateTime ;
+	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2249866,6 +2250031,17 @@ wd:Q28386 a wikibase:Item ;
 		wd:Q19104 ;
 	wdt:P2 <https://eat_datascape.medialab.sciences-po.fr/actor/878> ;
 	wdt:P245 "actor/878" ;
+	wdt:P110 wd:Q32347 ;
+	wdt:P278 wd:Q30748,
+		wd:Q31711,
+		wd:Q31335,
+		wd:Q30669,
+		wd:Q31722,
+		wd:Q31429,
+		wd:Q31428,
+		wd:Q32348,
+		wd:Q32337 ;
+	wdt:P152 "158-07 33 Avenue, Flushing, Long Island, New York 11354"@en ;
 	p:P1 wds:Q28386-593EACC8-C5AE-4C63-8855-A3A184CC91F3 .
 
 wds:Q28386-593EACC8-C5AE-4C63-8855-A3A184CC91F3 a wikibase:Statement,
@@ -2249901,9 +2250077,103 @@ wds:Q28386-86411D90-7B16-40DC-8AE8-047FC78E0DFB a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P245 "actor/878" .
 
+wd:Q28386 p:P110 wds:Q28386-9E06E85B-FEBB-4A0E-8768-81597CF93333 .
+
+wds:Q28386-9E06E85B-FEBB-4A0E-8768-81597CF93333 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q32347 ;
+	prov:wasDerivedFrom wdref:00ded01c3490f4b710773d793f19f9db072e5dbb .
+
+wd:Q28386 p:P278 wds:Q28386-44E95A2D-3306-4030-A65E-D6E1DCB33602 .
+
+wds:Q28386-44E95A2D-3306-4030-A65E-D6E1DCB33602 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30748 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-6594DCED-8876-4B75-A256-997420AD17E7 .
+
+wds:Q28386-6594DCED-8876-4B75-A256-997420AD17E7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31711 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-EF9BE07C-FF82-4A31-8058-489B52CDDAC1 .
+
+wds:Q28386-EF9BE07C-FF82-4A31-8058-489B52CDDAC1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31335 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-631DD7AF-FB35-486E-A459-9A32F9792D6F .
+
+wds:Q28386-631DD7AF-FB35-486E-A459-9A32F9792D6F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30669 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-5E8F7D38-5925-4F55-A3A7-22824B49A295 .
+
+wds:Q28386-5E8F7D38-5925-4F55-A3A7-22824B49A295 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31722 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-2D83BBEF-BCBB-4C88-B35A-36C9EA26538F .
+
+wds:Q28386-2D83BBEF-BCBB-4C88-B35A-36C9EA26538F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31429 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-D6FD55DF-8C31-46DB-AA7B-93BBB1AC9F80 .
+
+wds:Q28386-D6FD55DF-8C31-46DB-AA7B-93BBB1AC9F80 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31428 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-124078B4-C57C-41AF-A2A8-AB4471C8BF7F .
+
+wds:Q28386-124078B4-C57C-41AF-A2A8-AB4471C8BF7F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32348 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P278 wds:Q28386-DA4641AE-A359-4C7C-A507-89C82F6F7865 .
+
+wds:Q28386-DA4641AE-A359-4C7C-A507-89C82F6F7865 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32337 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q28386 p:P152 wds:Q28386-9c262498-48a4-2377-68a4-6e8b71f997b5 .
+
+wds:Q28386-9c262498-48a4-2377-68a4-6e8b71f997b5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "158-07 33 Avenue, Flushing, Long Island, New York 11354"@en ;
+	prov:wasDerivedFrom wdref:00ded01c3490f4b710773d793f19f9db072e5dbb .
+
 wd:Q28386 rdfs:label "Charles A. Vance"@en ;
 	skos:prefLabel "Charles A. Vance"@en ;
 	schema:name "Charles A. Vance"@en .
+
+wdref:00ded01c3490f4b710773d793f19f9db072e5dbb a wikibase:Reference ;
+	pr:P26 wd:Q32350 .
+
+wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 a wikibase:Reference ;
+	pr:P26 wd:Q32351 .
 
 data:Q28387 a schema:Dataset ;
 	schema:about wd:Q28387 ;
@@ -2324051,9 +2324321,9 @@ wd:Q29642 owl:sameAs wd:Q26301 .
 
 data:Q29643 a schema:Dataset ;
 	schema:about wd:Q29643 ;
-	schema:version "205081"^^xsd:integer ;
-	schema:dateModified "2026-01-30T21:39:21Z"^^xsd:dateTime ;
-	wikibase:statements "3"^^xsd:integer ;
+	schema:version "224953"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:35:42Z"^^xsd:dateTime ;
+	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2324061,6 +2324331,20 @@ wd:Q29643 a wikibase:Item ;
 	wdt:P8 "Q112504769" ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q19104 ;
+	wdt:P110 wd:Q32358 ;
+	wdt:P278 wd:Q32359,
+		wd:Q30688,
+		wd:Q25067,
+		wd:Q26376,
+		wd:Q26348,
+		wd:Q32100,
+		wd:Q26378,
+		wd:Q26362,
+		wd:Q30319,
+		wd:Q30088,
+		wd:Q26360,
+		wd:Q26368 ;
+	wdt:P152 "152 Longview Ave. White Plains, New York 10605"@en ;
 	p:P8 wds:Q29643-75FBB9EA-9593-41E7-B415-F2FBAB3F8FBE .
 
 wds:Q29643-75FBB9EA-9593-41E7-B415-F2FBAB3F8FBE a wikibase:Statement,
@@ -2324082,11 +2324366,125 @@ wds:Q29643-88B3AF11-CDCE-4317-A4B9-FD3D14C87637 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P11 wd:Q19104 .
 
+wd:Q29643 p:P110 wds:Q29643-C2EAF6C3-90AC-431F-ACF2-942A23389AFB .
+
+wds:Q29643-C2EAF6C3-90AC-431F-ACF2-942A23389AFB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q32358 ;
+	prov:wasDerivedFrom wdref:6207a59d56f953428636117371be7dd628b17737 .
+
+wd:Q29643 p:P278 wds:Q29643-920AA0D6-2A3A-4C18-823D-67421542A64E .
+
+wds:Q29643-920AA0D6-2A3A-4C18-823D-67421542A64E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32359 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-978BF4AD-E613-486C-89E0-CFCE4676D7B0 .
+
+wds:Q29643-978BF4AD-E613-486C-89E0-CFCE4676D7B0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30688 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-BDC13D22-AE89-45DA-943A-5E183A99AA61 .
+
+wds:Q29643-BDC13D22-AE89-45DA-943A-5E183A99AA61 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q25067 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-B9A51471-1FE2-487F-A063-3CE7E8A5E9C0 .
+
+wds:Q29643-B9A51471-1FE2-487F-A063-3CE7E8A5E9C0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26376 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-3AE9E1C3-3C79-419B-81F1-B972D79FC611 .
+
+wds:Q29643-3AE9E1C3-3C79-419B-81F1-B972D79FC611 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26348 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-6AE78D8D-9F4E-4FAF-AB9F-A607A735C890 .
+
+wds:Q29643-6AE78D8D-9F4E-4FAF-AB9F-A607A735C890 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32100 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-7E8936E5-D6EB-4C97-A258-D2BA1C118216 .
+
+wds:Q29643-7E8936E5-D6EB-4C97-A258-D2BA1C118216 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26378 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-3C7D020A-6A26-435C-AF9B-9581C4EBEA61 .
+
+wds:Q29643-3C7D020A-6A26-435C-AF9B-9581C4EBEA61 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26362 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-9CA6F88B-A682-49BF-83FA-C41C9BEFE69D .
+
+wds:Q29643-9CA6F88B-A682-49BF-83FA-C41C9BEFE69D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30319 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-912ACFCE-F96F-4283-981A-8D2B66A7A1A2 .
+
+wds:Q29643-912ACFCE-F96F-4283-981A-8D2B66A7A1A2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30088 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-E7D85691-C9DC-4F04-A2A4-6829BE59D5D9 .
+
+wds:Q29643-E7D85691-C9DC-4F04-A2A4-6829BE59D5D9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26360 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P278 wds:Q29643-A5E246F9-F532-4226-8560-BCCD1DF6BF3A .
+
+wds:Q29643-A5E246F9-F532-4226-8560-BCCD1DF6BF3A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26368 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q29643 p:P152 wds:Q29643-6d047b47-412e-322f-100c-80583c3a32ba .
+
+wds:Q29643-6d047b47-412e-322f-100c-80583c3a32ba a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "152 Longview Ave. White Plains, New York 10605"@en ;
+	prov:wasDerivedFrom wdref:6207a59d56f953428636117371be7dd628b17737 .
+
 wd:Q29643 rdfs:label "Carl Machover"@en ;
 	skos:prefLabel "Carl Machover"@en ;
 	schema:name "Carl Machover"@en ;
-	skos:altLabel "Carl Machover"@en,
-		"Carl"@en .
+	schema:description "engineer associated with E.A.T.'s Technical Services Program"@en .
+
+wdref:6207a59d56f953428636117371be7dd628b17737 a wikibase:Reference ;
+	pr:P26 wd:Q32361 .
 
 data:Q29644 a schema:Dataset ;
 	schema:about wd:Q29644 ;
@@ -2341364,9 +2341762,9 @@ wd:Q30087 rdfs:label "Julie Katz"@en ;
 
 data:Q30088 a schema:Dataset ;
 	schema:about wd:Q30088 ;
-	schema:version "222195"^^xsd:integer ;
-	schema:dateModified "2026-08-24T18:57:57Z"^^xsd:dateTime ;
-	wikibase:statements "12"^^xsd:integer ;
+	schema:version "224948"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:25Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2341382,7 +2341780,8 @@ wd:Q30088 a wikibase:Item ;
 		wd:Q28076,
 		wd:Q31993,
 		wd:Q32008,
-		wd:Q31038 ;
+		wd:Q31038,
+		wd:Q29643 ;
 	p:P1 wds:Q30088-CBBAE4F6-3A27-4A48-9055-44032ED3234B .
 
 wds:Q30088-CBBAE4F6-3A27-4A48-9055-44032ED3234B a wikibase:Statement,
@@ -2341411,7 +2341810,8 @@ wds:Q30088-96CABF06-97E9-46CC-8238-ECCC43FC59CB a wikibase:Statement,
 		wdref:e78c3407ad95dd97a6f7dc07f871c2fd32c41def,
 		wdref:a4ee3694ad52ece3e6b2a4c8cd0efb824be4e431,
 		wdref:d5763a7185944b9858f7815317b5d3190ae98150,
-		wdref:9d895b1704375a7c4392dd284207ae8818fd5839 .
+		wdref:9d895b1704375a7c4392dd284207ae8818fd5839,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q30088 p:P8 wds:Q30088-7D6FA1F2-657A-43ED-B1EC-C540E175CB8E .
 
@@ -2341484,10 +2341884,18 @@ wds:Q30088-41614790-5338-4C54-A800-96589CC10A1E a wikibase:Statement,
 	ps:P278 wd:Q31038 ;
 	prov:wasDerivedFrom wdref:9d895b1704375a7c4392dd284207ae8818fd5839 .
 
+wd:Q30088 p:P278 wds:Q30088-8BECAD8D-1680-4B6C-B066-A13B6527FA42 .
+
+wds:Q30088-8BECAD8D-1680-4B6C-B066-A13B6527FA42 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
 wd:Q30088 rdfs:label "Stephanie Evanitsky"@en ;
 	skos:prefLabel "Stephanie Evanitsky"@en ;
 	schema:name "Stephanie Evanitsky"@en ;
-	schema:description "American choreographer"@en .
+	schema:description "American choreographer; artist associated with E.A.T.'s Technical Services Program"@en .
 
 wdref:86c07f91b1666fc292741fba25df7c1a4e2deefb a wikibase:Reference ;
 	pr:P26 wd:Q30230 .
@@ -2356305,9 +2356713,9 @@ wd:Q30318 rdfs:label "Valerie Almo"@en ;
 
 data:Q30319 a schema:Dataset ;
 	schema:about wd:Q30319 ;
-	schema:version "223937"^^xsd:integer ;
-	schema:dateModified "2026-10-21T19:23:46Z"^^xsd:dateTime ;
-	wikibase:statements "16"^^xsd:integer ;
+	schema:version "224947"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:25Z"^^xsd:dateTime ;
+	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2356324,7 +2356732,8 @@ wd:Q30319 a wikibase:Item ;
 		wd:Q31050,
 		wd:Q30809,
 		wd:Q31652,
-		wd:Q30988 ;
+		wd:Q30988,
+		wd:Q29643 ;
 	wdt:P110 wd:Q31284 ;
 	wdt:P3 <https://semlab.s3.amazonaws.com/images/Q30319.jpg>,
 		<https://semlab.s3.amazonaws.com/images/Q30319.jpg> ;
@@ -2356358,7 +2356767,8 @@ wds:Q30319-43C979AC-6070-4321-9ACF-DC6ED65ACA76 a wikibase:Statement,
 		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e,
 		wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
 		wdref:5ffa1fe3ac26fc7a49bf81fafe34883c93dcea2b,
-		wdref:40af8f2f1f3d5fa5ac6f89be4a8ad621741ce2fe .
+		wdref:40af8f2f1f3d5fa5ac6f89be4a8ad621741ce2fe,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q30319 p:P278 wds:Q30319-950d9553-4bde-23f6-dd08-cf5f9e6e8842 .
 
@@ -2356438,6 +2356848,14 @@ wds:Q30319-1E0EFD1C-8E59-4DD1-8DAC-AB1F5602D8EC a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q30988 ;
 	prov:wasDerivedFrom wdref:5ffa1fe3ac26fc7a49bf81fafe34883c93dcea2b .
+
+wd:Q30319 p:P278 wds:Q30319-6F649300-FBF0-46BE-98FC-C7FDA55CC2A5 .
+
+wds:Q30319-6F649300-FBF0-46BE-98FC-C7FDA55CC2A5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q30319 p:P110 wds:Q30319-6b0a35d3-444d-117c-fb18-fe8c5765b6a4 .
 
@@ -2376538,9 +2376956,9 @@ wd:Q30668 rdfs:label "Photobell Inc"@en ;
 
 data:Q30669 a schema:Dataset ;
 	schema:about wd:Q30669 ;
-	schema:version "222112"^^xsd:integer ;
-	schema:dateModified "2026-08-24T18:48:13Z"^^xsd:dateTime ;
-	wikibase:statements "8"^^xsd:integer ;
+	schema:version "224872"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:39Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2376552,7 +2376970,8 @@ wd:Q30669 a wikibase:Item ;
 		wd:Q31657,
 		wd:Q31931,
 		wd:Q30730,
-		wd:Q31050 ;
+		wd:Q31050,
+		wd:Q28386 ;
 	p:P1 wds:Q30669-5D26C202-64BB-47A2-9DC3-00B04B0BCACC .
 
 wds:Q30669-5D26C202-64BB-47A2-9DC3-00B04B0BCACC a wikibase:Statement,
@@ -2376578,7 +2376997,8 @@ wds:Q30669-01E26A30-77B3-4E6E-84C0-513E0D0D786C a wikibase:Statement,
 		wdref:7e5a9864cd219f07dc4cdefdfeec14342bb2807b,
 		wdref:264571bfba6b7bf05bdf0d45ce66adc43c709423,
 		wdref:98b0992a3e0bf1bbc1cae215327934ef4255edf0,
-		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e .
+		wdref:8032889f5dd954632112e92fba1fd4dc9c82544e,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q30669 p:P278 wds:Q30669-AE4BE52C-5F5A-4370-AA8C-F9D58B3844A1 .
 
@@ -2376619,6 +2377039,14 @@ wds:Q30669-4734DA94-3DF1-4FE0-8BE9-67428DAD4A5B a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31050 ;
 	prov:wasDerivedFrom wdref:8032889f5dd954632112e92fba1fd4dc9c82544e .
+
+wd:Q30669 p:P278 wds:Q30669-829915F2-17E3-46F3-AD6E-E839F635066D .
+
+wds:Q30669-829915F2-17E3-46F3-AD6E-E839F635066D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q30669 rdfs:label "Norma Jean Squires"@en ;
 	skos:prefLabel "Norma Jean Squires"@en ;
@@ -2377936,9 +2378364,9 @@ wd:Q30687 rdfs:label "Kenneth Snelson"@en ;
 
 data:Q30688 a schema:Dataset ;
 	schema:about wd:Q30688 ;
-	schema:version "222409"^^xsd:integer ;
-	schema:dateModified "2026-08-24T19:16:05Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "224940"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:24Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2377949,7 +2378377,8 @@ wd:Q30688 a wikibase:Item ;
 	wdt:P8 "Q106619961" ;
 	wdt:P278 wd:Q30685,
 		wd:Q31638,
-		wd:Q31652 ;
+		wd:Q31652,
+		wd:Q29643 ;
 	p:P1 wds:Q30688-F70112E9-2911-4BC4-A306-6F312F6109E2 .
 
 wds:Q30688-F70112E9-2911-4BC4-A306-6F312F6109E2 a wikibase:Statement,
@@ -2377972,7 +2378401,8 @@ wds:Q30688-AAB695F6-CEEC-4155-AAC2-FB2603EAF766 a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:004b370c11008ed0d1c31870fa9a024c8c3954ea,
-		wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+		wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q30688 p:P8 wds:Q30688-C3FFC3F2-5E20-41D7-91D1-362B57EDCAD3 .
 
@@ -2378005,10 +2378435,18 @@ wds:Q30688-E2FB04DA-FCFC-4811-BD7D-C094FB7A0469 a wikibase:Statement,
 	ps:P278 wd:Q31652 ;
 	prov:wasDerivedFrom wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
 
+wd:Q30688 p:P278 wds:Q30688-16C406C4-DE27-4C86-B2D3-B1D42144D154 .
+
+wds:Q30688-16C406C4-DE27-4C86-B2D3-B1D42144D154 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
 wd:Q30688 rdfs:label "Ron Dubren"@en ;
 	skos:prefLabel "Ron Dubren"@en ;
 	schema:name "Ron Dubren"@en ;
-	schema:description "American toy and game designer, author, and artist (born 1943)"@en .
+	schema:description "American toy and game designer, author, and artist; artist associated with E.A.T.’s Technical Services Program, (born 1943)"@en .
 
 data:Q30689 a schema:Dataset ;
 	schema:about wd:Q30689 ;
@@ -2382496,9 +2382934,9 @@ wdref:e651d2f5c12c98d6b8eb3b03036c10307b2f3795 a wikibase:Reference ;
 
 data:Q30748 a schema:Dataset ;
 	schema:about wd:Q30748 ;
-	schema:version "219603"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:21:51Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "224869"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:38Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2382508,7 +2382946,8 @@ wd:Q30748 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q30747,
 		wd:Q31053,
-		wd:Q31759 ;
+		wd:Q31759,
+		wd:Q28386 ;
 	p:P1 wds:Q30748-00174075-1EE4-4135-9C0D-B8FD14D3A175 .
 
 wds:Q30748-00174075-1EE4-4135-9C0D-B8FD14D3A175 a wikibase:Statement,
@@ -2382532,7 +2382971,8 @@ wds:Q30748-C6B06766-3AF8-4B05-99D8-1C40B4481087 a wikibase:Statement,
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:e651d2f5c12c98d6b8eb3b03036c10307b2f3795,
 		wdref:8f1cbc63f3b1710b465937df533bdae48f0d8f44,
-		wdref:27e3b73e796ac7b5f7a28068e731d85903117068 .
+		wdref:27e3b73e796ac7b5f7a28068e731d85903117068,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q30748 p:P278 wds:Q30748-1278986B-4531-4ED6-8D5A-36F9FC28FD5D .
 
@@ -2382557,6 +2382997,14 @@ wds:Q30748-B455ADC2-7591-46ED-ABE5-05E00957789E a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31759 ;
 	prov:wasDerivedFrom wdref:27e3b73e796ac7b5f7a28068e731d85903117068 .
+
+wd:Q30748 p:P278 wds:Q30748-ADC60EEB-1651-4860-AFC2-9A33FD86FFE6 .
+
+wds:Q30748-ADC60EEB-1651-4860-AFC2-9A33FD86FFE6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q30748 rdfs:label "David Glasser"@en ;
 	skos:prefLabel "David Glasser"@en ;
@@ -2385866,9 +2386314,9 @@ wd:Q30803 rdfs:label "California Institute of Technology"@en ;
 
 data:Q30804 a schema:Dataset ;
 	schema:about wd:Q30804 ;
-	schema:version "223158"^^xsd:integer ;
-	schema:dateModified "2026-09-27T21:11:26Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "225023"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:50Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2385879,7 +2386327,8 @@ wd:Q30804 a wikibase:Item ;
 	wdt:P278 wd:Q31357,
 		wd:Q30802,
 		wd:Q31658,
-		wd:Q26797 ;
+		wd:Q26797,
+		wd:Q27792 ;
 	p:P1 wds:Q30804-B4323EBC-B2F8-4393-9136-02E56F6A8C92 .
 
 wds:Q30804-B4323EBC-B2F8-4393-9136-02E56F6A8C92 a wikibase:Statement,
@@ -2385904,7 +2386353,8 @@ wds:Q30804-349C9378-FEC0-49EB-9532-822FA73009FE a wikibase:Statement,
 	prov:wasDerivedFrom wdref:0d39dec991a0c2521776ad0bdd0ec3f7c5b302bb,
 		wdref:91335a7484ede7a74a4637dea4f00076e7ffda60,
 		wdref:467497e64fdc850093805b323511f64a33b32145,
-		wdref:a17ac288b880cffabb7d230ae323b070edaedd6c .
+		wdref:a17ac288b880cffabb7d230ae323b070edaedd6c,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q30804 p:P278 wds:Q30804-8C2A027D-ADE0-4AEA-BD3B-A3D50B32D915 .
 
@@ -2385938,6 +2386388,14 @@ wds:Q30804-D92303BE-CE51-4089-B36E-0CE9944F2390 a wikibase:Statement,
 	ps:P278 wd:Q26797 ;
 	prov:wasDerivedFrom wdref:a17ac288b880cffabb7d230ae323b070edaedd6c .
 
+wd:Q30804 p:P278 wds:Q30804-EA49E6D5-78BB-479A-B9B4-54BCAF2BC0AF .
+
+wds:Q30804-EA49E6D5-78BB-479A-B9B4-54BCAF2BC0AF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
 wd:Q30804 rdfs:label "Robert Knisel"@en ;
 	skos:prefLabel "Robert Knisel"@en ;
 	schema:name "Robert Knisel"@en ;
@@ -2385949,9 +2386407,9 @@ wdref:467497e64fdc850093805b323511f64a33b32145 a wikibase:Reference ;
 
 data:Q30805 a schema:Dataset ;
 	schema:about wd:Q30805 ;
-	schema:version "220702"^^xsd:integer ;
-	schema:dateModified "2026-08-07T02:23:42Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "224992"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:10Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2385960,7 +2386418,8 @@ wd:Q30805 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q30802,
-		wd:Q30841 ;
+		wd:Q30841,
+		wd:Q32364 ;
 	p:P1 wds:Q30805-6E777C58-0880-425C-94F5-78CD2555EE85 .
 
 wds:Q30805-6E777C58-0880-425C-94F5-78CD2555EE85 a wikibase:Statement,
@@ -2385983,7 +2386442,8 @@ wds:Q30805-AE3F6169-8EFD-4275-AAC3-45609ADBF004 a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:0d39dec991a0c2521776ad0bdd0ec3f7c5b302bb,
-		wdref:03fcc0126a73ca4bfd2fd4ac76c5ecdc22b589b6 .
+		wdref:03fcc0126a73ca4bfd2fd4ac76c5ecdc22b589b6,
+		wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
 
 wd:Q30805 p:P278 wds:Q30805-66C849C7-5296-430F-95D5-7D12254183EA .
 
@@ -2386000,6 +2386460,14 @@ wds:Q30805-8F73F7D8-A4CC-43A5-BB3A-2D1DFE37D422 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q30841 ;
 	prov:wasDerivedFrom wdref:03fcc0126a73ca4bfd2fd4ac76c5ecdc22b589b6 .
+
+wd:Q30805 p:P278 wds:Q30805-EE39BB62-F474-48DC-9F56-0BFFFCE0B7A0 .
+
+wds:Q30805-EE39BB62-F474-48DC-9F56-0BFFFCE0B7A0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
 
 wd:Q30805 rdfs:label "James Lennon"@en ;
 	skos:prefLabel "James Lennon"@en ;
@@ -2425184,9 +2425652,9 @@ wdref:d72cce0fb41c37caa5c055067067c5d8779680ef a wikibase:Reference ;
 
 data:Q31335 a schema:Dataset ;
 	schema:about wd:Q31335 ;
-	schema:version "217007"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:27:13Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "224871"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:39Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2425195,7 +2425663,8 @@ wd:Q31335 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q31334,
-		wd:Q31433 ;
+		wd:Q31433,
+		wd:Q28386 ;
 	p:P1 wds:Q31335-64EF887F-AEE2-4578-B4A7-1058D0742728 .
 
 wds:Q31335-64EF887F-AEE2-4578-B4A7-1058D0742728 a wikibase:Statement,
@@ -2425218,7 +2425687,8 @@ wds:Q31335-CE4F78D2-EF9D-4E05-B94C-A8CC923A0E85 a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:bd1d51ce590ace8a355ff2aa4317c074c05a4ffa,
-		wdref:9ff41b74612db5427dbdbb6792ff180d3873ef14 .
+		wdref:9ff41b74612db5427dbdbb6792ff180d3873ef14,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31335 p:P278 wds:Q31335-8AF46ED9-19CB-4D60-9BAB-3F9177F1286D .
 
@@ -2425235,6 +2425705,14 @@ wds:Q31335-60727467-A3C9-496E-895E-9A60BCBAB993 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31433 ;
 	prov:wasDerivedFrom wdref:9ff41b74612db5427dbdbb6792ff180d3873ef14 .
+
+wd:Q31335 p:P278 wds:Q31335-7E29729E-65B7-4A51-AF3D-4965B8C1B669 .
+
+wds:Q31335-7E29729E-65B7-4A51-AF3D-4965B8C1B669 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31335 rdfs:label "Ira Schwarz"@en ;
 	skos:prefLabel "Ira Schwarz"@en ;
@@ -2427014,9 +2427492,9 @@ wdref:08f39554735c0e27a4e83f1ec4951ae70abaff12 a wikibase:Reference ;
 
 data:Q31358 a schema:Dataset ;
 	schema:about wd:Q31358 ;
-	schema:version "220657"^^xsd:integer ;
-	schema:dateModified "2026-08-07T01:36:41Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "225024"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:50Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2427025,7 +2427503,8 @@ wd:Q31358 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q31357,
-		wd:Q31899 ;
+		wd:Q31899,
+		wd:Q27792 ;
 	p:P1 wds:Q31358-FFEF9E5D-FDAC-4F5A-AA38-930838E771C5 .
 
 wds:Q31358-FFEF9E5D-FDAC-4F5A-AA38-930838E771C5 a wikibase:Statement,
@@ -2427048,7 +2427527,8 @@ wds:Q31358-DFAA55AA-3BB6-4EC8-AB0B-740E3E449431 a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:91335a7484ede7a74a4637dea4f00076e7ffda60,
-		wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f .
+		wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q31358 p:P278 wds:Q31358-750377AE-4A51-4533-8F27-81CA4739BF0A .
 
@@ -2427066,6 +2427546,14 @@ wds:Q31358-3BD7A31B-8105-4E8D-A110-654BE45CF20D a wikibase:Statement,
 	ps:P278 wd:Q31899 ;
 	prov:wasDerivedFrom wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f .
 
+wd:Q31358 p:P278 wds:Q31358-409EFF6C-CB65-41B0-B199-08D8680D6EB8 .
+
+wds:Q31358-409EFF6C-CB65-41B0-B199-08D8680D6EB8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
 wd:Q31358 rdfs:label "Jack Ward"@en ;
 	skos:prefLabel "Jack Ward"@en ;
 	schema:name "Jack Ward"@en ;
@@ -2427073,9 +2427561,9 @@ wd:Q31358 rdfs:label "Jack Ward"@en ;
 
 data:Q31359 a schema:Dataset ;
 	schema:about wd:Q31359 ;
-	schema:version "220658"^^xsd:integer ;
-	schema:dateModified "2026-08-07T01:36:41Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "224994"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:10Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2427084,7 +2427572,8 @@ wd:Q31359 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P278 wd:Q31357,
-		wd:Q31899 ;
+		wd:Q31899,
+		wd:Q32364 ;
 	p:P1 wds:Q31359-34638BBD-813A-45D0-B5E7-2A24061674D3 .
 
 wds:Q31359-34638BBD-813A-45D0-B5E7-2A24061674D3 a wikibase:Statement,
@@ -2427107,7 +2427596,8 @@ wds:Q31359-A98874E1-64C2-4FDB-948B-A8391F3AD8BD a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:91335a7484ede7a74a4637dea4f00076e7ffda60,
-		wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f .
+		wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f,
+		wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
 
 wd:Q31359 p:P278 wds:Q31359-BDD3BE46-6E6B-477C-AD31-4CAB24C796D4 .
 
@@ -2427124,6 +2427614,14 @@ wds:Q31359-6E046476-058D-476D-8DFA-FF1FE90989AA a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31899 ;
 	prov:wasDerivedFrom wdref:9cd851c32b7c99edb795b05ad076c8564b49e08f .
+
+wd:Q31359 p:P278 wds:Q31359-9FBE769A-3A2D-4DE9-B836-7B919EDC569E .
+
+wds:Q31359-9FBE769A-3A2D-4DE9-B836-7B919EDC569E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
 
 wd:Q31359 rdfs:label "Lotte Cherin"@en ;
 	skos:prefLabel "Lotte Cherin"@en ;
@@ -2430580,9 +2431078,9 @@ wd:Q31427 owl:sameAs wd:Q28405 .
 
 data:Q31428 a schema:Dataset ;
 	schema:about wd:Q31428 ;
-	schema:version "216254"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:19:37Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "224875"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:39Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2430591,7 +2431089,8 @@ wd:Q31428 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P8 "Q110089457" ;
-	wdt:P278 wd:Q31426 ;
+	wdt:P278 wd:Q31426,
+		wd:Q28386 ;
 	p:P1 wds:Q31428-EDF49BCF-443C-4306-986B-0178B43E63D3 .
 
 wds:Q31428-EDF49BCF-443C-4306-986B-0178B43E63D3 a wikibase:Statement,
@@ -2430613,7 +2431112,8 @@ wds:Q31428-176F2102-05D2-4FDA-B3F4-295A71A932FE a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691 .
+	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31428 p:P8 wds:Q31428-BC11AEA6-9C8D-44C5-9D74-1B601617DB9B .
 
@@ -2430630,16 +2431130,24 @@ wds:Q31428-4BE46639-5D4C-453C-8485-C918A5F7943B a wikibase:Statement,
 	ps:P278 wd:Q31426 ;
 	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691 .
 
+wd:Q31428 p:P278 wds:Q31428-087426B8-0DAE-4A42-87FD-8196F3D9B15D .
+
+wds:Q31428-087426B8-0DAE-4A42-87FD-8196F3D9B15D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
 wd:Q31428 rdfs:label "Charles Schwartz"@en ;
 	skos:prefLabel "Charles Schwartz"@en ;
 	schema:name "Charles Schwartz"@en ;
-	schema:description "born:1922-06-13|died:1998-12-24|; Schwartz, Charles; Schwartz, Charles 19..-.... musicologue; Schwartz, Charles, 1922- (1922–1998)"@en .
+	schema:description "artist associated with E.A.T.'s Technical Services Program, (1922–1998)"@en .
 
 data:Q31429 a schema:Dataset ;
 	schema:about wd:Q31429 ;
-	schema:version "216905"^^xsd:integer ;
-	schema:dateModified "2026-07-24T14:26:40Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "224874"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:39Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2430647,7 +2431155,8 @@ wd:Q31429 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q31426 ;
+	wdt:P278 wd:Q31426,
+		wd:Q28386 ;
 	p:P1 wds:Q31429-70A81B18-426E-4118-8EA5-719ED378A17D .
 
 wds:Q31429-70A81B18-426E-4118-8EA5-719ED378A17D a wikibase:Statement,
@@ -2430669,7 +2431178,8 @@ wds:Q31429-D1649815-0293-4852-A3BD-942F12C679C2 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691 .
+	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31429 p:P278 wds:Q31429-D37398BA-73AB-48C8-B598-1C5122F7AC6D .
 
@@ -2430678,6 +2431188,14 @@ wds:Q31429-D37398BA-73AB-48C8-B598-1C5122F7AC6D a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31426 ;
 	prov:wasDerivedFrom wdref:a0ea8cbaf46ac684a0a7b8fb24e1b0fe252a5691 .
+
+wd:Q31429 p:P278 wds:Q31429-AEABB9FA-237D-46B8-B791-DF30B7067D48 .
+
+wds:Q31429-AEABB9FA-237D-46B8-B791-DF30B7067D48 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31429 rdfs:label "Helen Goldberg"@en ;
 	skos:prefLabel "Helen Goldberg"@en ;
@@ -2448642,9 +2449160,9 @@ wd:Q31659 rdfs:label "Carl Cheng"@en ;
 
 data:Q31660 a schema:Dataset ;
 	schema:about wd:Q31660 ;
-	schema:version "220086"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:25:36Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
+	schema:version "225026"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:51Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2448653,7 +2449171,8 @@ wd:Q31660 a wikibase:Item ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P8 "Q94663771" ;
-	wdt:P278 wd:Q31658 ;
+	wdt:P278 wd:Q31658,
+		wd:Q27792 ;
 	p:P1 wds:Q31660-D470E1D0-BBA5-49FB-9D4A-F4F63B734713 .
 
 wds:Q31660-D470E1D0-BBA5-49FB-9D4A-F4F63B734713 a wikibase:Statement,
@@ -2448675,7 +2449194,8 @@ wds:Q31660-68F7FD4B-D9C2-45AC-8074-7DC235A2A21F a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:467497e64fdc850093805b323511f64a33b32145 .
+	prov:wasDerivedFrom wdref:467497e64fdc850093805b323511f64a33b32145,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q31660 p:P8 wds:Q31660-B757A48A-13C8-4735-BB04-D26275F29C7C .
 
@@ -2448691,6 +2449211,14 @@ wds:Q31660-6C462447-E3F9-4BD8-A88D-E5A3D4DE08CF a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31658 ;
 	prov:wasDerivedFrom wdref:467497e64fdc850093805b323511f64a33b32145 .
+
+wd:Q31660 p:P278 wds:Q31660-417E5506-EB0A-49A0-B7B9-073C1EA7AA04 .
+
+wds:Q31660-417E5506-EB0A-49A0-B7B9-073C1EA7AA04 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q31660 rdfs:label "Michael Dvortcsak"@en ;
 	skos:prefLabel "Michael Dvortcsak"@en ;
@@ -2450507,9 +2451035,9 @@ wd:Q31685 rdfs:label "Block 1 of B14 John E Oppenheim Edge-Notched Card"@en ;
 
 data:Q31686 a schema:Dataset ;
 	schema:about wd:Q31686 ;
-	schema:version "223904"^^xsd:integer ;
-	schema:dateModified "2026-10-14T18:50:06Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "225022"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:50Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2450517,7 +2451045,8 @@ wd:Q31686 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q21244 ;
+	wdt:P278 wd:Q21244,
+		wd:Q27792 ;
 	p:P1 wds:Q31686-7BFACB12-178C-42AA-B61D-DE52621F8FEE .
 
 wds:Q31686-7BFACB12-178C-42AA-B61D-DE52621F8FEE a wikibase:Statement,
@@ -2450539,7 +2451068,8 @@ wds:Q31686-4C2274CF-E992-43EB-852B-7FD80D0B723C a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
+	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q31686 p:P278 wds:Q31686-E6D67243-86CE-44A8-9F6B-7B8CE03F34AE .
 
@@ -2450549,6 +2451079,14 @@ wds:Q31686-E6D67243-86CE-44A8-9F6B-7B8CE03F34AE a wikibase:Statement,
 	ps:P278 wd:Q21244 ;
 	prov:wasDerivedFrom wdref:deda72880e84b77b5f5cc3f57fac8535f0372714 .
 
+wd:Q31686 p:P278 wds:Q31686-45B45EFB-1BF0-45A5-88A4-E1C5BCD5B193 .
+
+wds:Q31686-45B45EFB-1BF0-45A5-88A4-E1C5BCD5B193 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
 wd:Q31686 rdfs:label "Philip K. Meany"@en ;
 	skos:prefLabel "Philip K. Meany"@en ;
 	schema:name "Philip K. Meany"@en ;
@@ -2450557,9 +2451095,9 @@ wd:Q31686 rdfs:label "Philip K. Meany"@en ;
 
 data:Q31687 a schema:Dataset ;
 	schema:about wd:Q31687 ;
-	schema:version "220625"^^xsd:integer ;
-	schema:dateModified "2026-08-07T01:26:59Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "225025"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:50Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "1"^^xsd:integer .
 
@@ -2450569,7 +2451107,10 @@ wd:Q31687 a wikibase:Item ;
 	wdt:P65 wd:Q24347 ;
 	wdt:P8 "Q7822082" ;
 	wdt:P278 wd:Q31868,
-		wd:Q31893 ;
+		wd:Q31893,
+		wd:Q32338,
+		wd:Q32364,
+		wd:Q27792 ;
 	p:P1 wds:Q31687-22E87694-C69C-4755-839D-6FA31ACF1692 .
 
 wds:Q31687-22E87694-C69C-4755-839D-6FA31ACF1692 a wikibase:Statement,
@@ -2450592,7 +2451133,10 @@ wds:Q31687-ED8878C9-D3C4-47B6-8750-C0E89078101A a wikibase:Statement,
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
 	prov:wasDerivedFrom wdref:883fbe7052f7eab0b5337490791f80e431e0d767,
-		wdref:540fbaa550588930264bf3a8f106fe8dab0cd780 .
+		wdref:540fbaa550588930264bf3a8f106fe8dab0cd780,
+		wdref:7f57cdbd2a488c3f7b90fbd9e2d6a4c1b1c5a6fc,
+		wdref:14f60bfb701de6599f72ee388d81507c36ba47ae,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
 
 wd:Q31687 p:P8 wds:Q31687-8CEDB004-B7F7-4A5D-9C09-69797EDADBCB .
 
@@ -2450617,13 +2451161,40 @@ wds:Q31687-BF8A7255-2866-4E1F-A12B-7686EAA2DEBF a wikibase:Statement,
 	ps:P278 wd:Q31893 ;
 	prov:wasDerivedFrom wdref:540fbaa550588930264bf3a8f106fe8dab0cd780 .
 
+wd:Q31687 p:P278 wds:Q31687-D2EBFFB0-533E-4604-8214-57F580399F4E .
+
+wds:Q31687-D2EBFFB0-533E-4604-8214-57F580399F4E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32338 ;
+	prov:wasDerivedFrom wdref:7f57cdbd2a488c3f7b90fbd9e2d6a4c1b1c5a6fc .
+
+wd:Q31687 p:P278 wds:Q31687-A2C207CB-B169-4513-894B-46864B10728D .
+
+wds:Q31687-A2C207CB-B169-4513-894B-46864B10728D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q31687 p:P278 wds:Q31687-AA1675F7-708D-461F-A4AD-8F41FC202BA2 .
+
+wds:Q31687-AA1675F7-708D-461F-A4AD-8F41FC202BA2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
 wd:Q31687 rdfs:label "Tony Cohan"@en ;
 	skos:prefLabel "Tony Cohan"@en ;
 	schema:name "Tony Cohan"@en ;
-	schema:description "American writer"@en .
+	schema:description "American writer, artist associated with E.A.T.'s Technical Services Program"@en .
 
 wdref:540fbaa550588930264bf3a8f106fe8dab0cd780 a wikibase:Reference ;
 	pr:P26 wd:Q31898 .
+
+wdref:7f57cdbd2a488c3f7b90fbd9e2d6a4c1b1c5a6fc a wikibase:Reference ;
+	pr:P26 wd:Q32342 .
 
 data:Q31688 a schema:Dataset ;
 	schema:about wd:Q31688 ;
@@ -2452300,9 +2452871,9 @@ wdref:d3bcfe28343a614754378d011e9ff1aa4e7a0be0 a wikibase:Reference ;
 
 data:Q31711 a schema:Dataset ;
 	schema:about wd:Q31711 ;
-	schema:version "220272"^^xsd:integer ;
-	schema:dateModified "2026-08-04T16:26:50Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "224870"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:38Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2452310,7 +2452881,8 @@ wd:Q31711 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q31710 ;
+	wdt:P278 wd:Q31710,
+		wd:Q28386 ;
 	p:P1 wds:Q31711-B2DC1942-EF5A-4FBB-B133-135E2679B637 .
 
 wds:Q31711-B2DC1942-EF5A-4FBB-B133-135E2679B637 a wikibase:Statement,
@@ -2452332,7 +2452904,8 @@ wds:Q31711-0B139395-AC35-41F4-917F-9B8493511FD6 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:6e6985875a18add00d72ad6b7e98b9a61b67f26e .
+	prov:wasDerivedFrom wdref:6e6985875a18add00d72ad6b7e98b9a61b67f26e,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31711 p:P278 wds:Q31711-77E140BE-E1B4-4BFA-8C5F-0C28BC530645 .
 
@@ -2452341,6 +2452914,14 @@ wds:Q31711-77E140BE-E1B4-4BFA-8C5F-0C28BC530645 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31710 ;
 	prov:wasDerivedFrom wdref:6e6985875a18add00d72ad6b7e98b9a61b67f26e .
+
+wd:Q31711 p:P278 wds:Q31711-12D37D4F-D541-4AE6-A421-3240BF8AE8AF .
+
+wds:Q31711-12D37D4F-D541-4AE6-A421-3240BF8AE8AF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31711 rdfs:label "Sophie Corwin"@en ;
 	skos:prefLabel "Sophie Corwin"@en ;
@@ -2453099,9 +2453680,9 @@ wd:Q31721 rdfs:label "John Trotter"@en ;
 
 data:Q31722 a schema:Dataset ;
 	schema:about wd:Q31722 ;
-	schema:version "223666"^^xsd:integer ;
-	schema:dateModified "2026-10-07T16:30:52Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
+	schema:version "224873"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:39Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2453112,7 +2453693,8 @@ wd:Q31722 a wikibase:Item ;
 	wdt:P278 wd:Q31668,
 		wd:Q31657,
 		wd:Q30753,
-		wd:Q30968 ;
+		wd:Q30968,
+		wd:Q28386 ;
 	p:P1 wds:Q31722-80D8A98B-262A-48AE-AAE0-87197A6A0113 .
 
 wds:Q31722-80D8A98B-262A-48AE-AAE0-87197A6A0113 a wikibase:Statement,
@@ -2453137,7 +2453719,8 @@ wds:Q31722-73D652BA-0A1A-4314-A752-A65BEF0FCE7F a wikibase:Statement,
 	prov:wasDerivedFrom wdref:7e5a9864cd219f07dc4cdefdfeec14342bb2807b,
 		wdref:fadc418d81ed58ab8d42b98572813b240a63eb68,
 		wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7,
-		wdref:4ad58ad652ecd05ec757b86ba7c79038d174c31d .
+		wdref:4ad58ad652ecd05ec757b86ba7c79038d174c31d,
+		wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31722 p:P278 wds:Q31722-BF2F6F04-FF95-4B85-8F5F-4F3DD8CA9BF0 .
 
@@ -2453170,6 +2453753,14 @@ wds:Q31722-17075119-8678-4452-833C-A4604D23D906 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q30968 ;
 	prov:wasDerivedFrom wdref:d3050a3eb7ea7ce19d0a617e31ce54a85d5240f7 .
+
+wd:Q31722 p:P278 wds:Q31722-EB7A43AA-1C28-449A-97CE-7BFE20990917 .
+
+wds:Q31722-EB7A43AA-1C28-449A-97CE-7BFE20990917 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
 
 wd:Q31722 rdfs:label "Clifford Rose"@en ;
 	skos:prefLabel "Clifford Rose"@en ;
@@ -2483456,9 +2484047,9 @@ wdv:9c26d6351224f65a2994d6044e367a25 a wikibase:TimeValue ;
 
 data:Q32100 a schema:Dataset ;
 	schema:about wd:Q32100 ;
-	schema:version "222411"^^xsd:integer ;
-	schema:dateModified "2026-08-24T19:16:06Z"^^xsd:dateTime ;
-	wikibase:statements "4"^^xsd:integer ;
+	schema:version "224944"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:25Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -2483466,7 +2484057,8 @@ wd:Q32100 a wikibase:Item ;
 	wdt:P1 wd:Q1 ;
 	wdt:P11 wd:Q28603 ;
 	wdt:P65 wd:Q24347 ;
-	wdt:P278 wd:Q31652 ;
+	wdt:P278 wd:Q31652,
+		wd:Q29643 ;
 	p:P1 wds:Q32100-96916B51-DFF7-40FF-8644-07AC39132C44 .
 
 wds:Q32100-96916B51-DFF7-40FF-8644-07AC39132C44 a wikibase:Statement,
@@ -2483488,7 +2484080,8 @@ wds:Q32100-A18D8165-6242-48CF-9956-4F96CD417A43 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P65 wd:Q24347 ;
 	pq:P117 wd:Q19157 ;
-	prov:wasDerivedFrom wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+	prov:wasDerivedFrom wdref:42b8cca267ca9077749f830363ede8a6139e7b69,
+		wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q32100 p:P278 wds:Q32100-67DCCF8E-0DB4-4EA2-AED8-779177595677 .
 
@@ -2483497,6 +2484090,14 @@ wds:Q32100-67DCCF8E-0DB4-4EA2-AED8-779177595677 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P278 wd:Q31652 ;
 	prov:wasDerivedFrom wdref:42b8cca267ca9077749f830363ede8a6139e7b69 .
+
+wd:Q32100 p:P278 wds:Q32100-DE28A46B-0579-4ADD-AF42-0387CFAA9508 .
+
+wds:Q32100-DE28A46B-0579-4ADD-AF42-0387CFAA9508 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
 
 wd:Q32100 rdfs:label "David Courts"@en ;
 	skos:prefLabel "David Courts"@en ;
@@ -2499510,4 +2500111,2888 @@ wds:Q32335-2E994B68-76D7-421B-995C-8BD0936D04B8 a wikibase:Statement,
 wd:Q32335 rdfs:label "Fred Hecker"@en ;
 	skos:prefLabel "Fred Hecker"@en ;
 	schema:name "Fred Hecker"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32336 a schema:Dataset ;
+	schema:about wd:Q32336 ;
+	schema:version "224798"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:27:45Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32336 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "304 East 73rd Street, Apartment A, New York, New York 10021"@en ;
+	p:P1 wds:Q32336-E4ED5CA0-5C09-4A2D-9299-D7EACAC1D713 .
+
+wds:Q32336-E4ED5CA0-5C09-4A2D-9299-D7EACAC1D713 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32336 p:P11 wds:Q32336-B361A615-7A50-4BF6-BF67-1DD3AF6B3CBE .
+
+wds:Q32336-B361A615-7A50-4BF6-BF67-1DD3AF6B3CBE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32336 p:P65 wds:Q32336-23E0E1EE-54A7-41FC-88B5-382ACB3461A6 .
+
+wds:Q32336-23E0E1EE-54A7-41FC-88B5-382ACB3461A6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32336 p:P152 wds:Q32336-1E46EC60-2AC8-4EB4-B76D-20C7E152D2E7 .
+
+wds:Q32336-1E46EC60-2AC8-4EB4-B76D-20C7E152D2E7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "304 East 73rd Street, Apartment A, New York, New York 10021"@en .
+
+wd:Q32336 rdfs:label "Bruno Maino"@en ;
+	skos:prefLabel "Bruno Maino"@en ;
+	schema:name "Bruno Maino"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32337 a schema:Dataset ;
+	schema:about wd:Q32337 ;
+	schema:version "224877"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:40Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32337 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P278 wd:Q28386 ;
+	p:P1 wds:Q32337-50F7686D-958D-4574-A861-E7BABFF3CBC9 .
+
+wds:Q32337-50F7686D-958D-4574-A861-E7BABFF3CBC9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32337 p:P11 wds:Q32337-B7BC9DE3-8D83-48E2-A9F1-762E183DB8C7 .
+
+wds:Q32337-B7BC9DE3-8D83-48E2-A9F1-762E183DB8C7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32337 p:P65 wds:Q32337-74A25246-31A8-490B-A629-B3ABDAC6F6EF .
+
+wds:Q32337-74A25246-31A8-490B-A629-B3ABDAC6F6EF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q32337 p:P278 wds:Q32337-4488AE25-EA99-4E2E-B4B6-252322869EF6 .
+
+wds:Q32337-4488AE25-EA99-4E2E-B4B6-252322869EF6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q32337 rdfs:label "J. Bellisfield"@en ;
+	skos:prefLabel "J. Bellisfield"@en ;
+	schema:name "J. Bellisfield"@en ;
+	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32338 a schema:Dataset ;
+	schema:about wd:Q32338 ;
+	schema:version "224818"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:53:42Z"^^xsd:dateTime ;
+	wikibase:statements "6"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32338 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "904 Kenter Way, Los Angeles, California 90049"@en ;
+	wdt:P110 wd:Q32339 ;
+	wdt:P278 wd:Q31687 ;
+	p:P1 wds:Q32338-AA731F27-9D50-4402-A8F6-83BE3A1558FB .
+
+wds:Q32338-AA731F27-9D50-4402-A8F6-83BE3A1558FB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32338 p:P11 wds:Q32338-6AEE6973-8672-46A6-BAE9-CBBF4C90F66A .
+
+wds:Q32338-6AEE6973-8672-46A6-BAE9-CBBF4C90F66A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32338 p:P65 wds:Q32338-5517AD5C-E589-48A1-86B5-EF0105C61931 .
+
+wds:Q32338-5517AD5C-E589-48A1-86B5-EF0105C61931 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 ;
+	prov:wasDerivedFrom wdref:ba5787e8c573897e647e584bb89ac43770681c6a .
+
+wd:Q32338 p:P152 wds:Q32338-520A1392-C335-43BC-AFB8-F3CF9850EEF0 .
+
+wds:Q32338-520A1392-C335-43BC-AFB8-F3CF9850EEF0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "904 Kenter Way, Los Angeles, California 90049"@en ;
+	prov:wasDerivedFrom wdref:ba5787e8c573897e647e584bb89ac43770681c6a .
+
+wd:Q32338 p:P110 wds:Q32338-C01F21FC-64F2-425E-9DF9-A4C10B15007D .
+
+wds:Q32338-C01F21FC-64F2-425E-9DF9-A4C10B15007D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q32339 ;
+	prov:wasDerivedFrom wdref:ba5787e8c573897e647e584bb89ac43770681c6a .
+
+wd:Q32338 p:P278 wds:Q32338-F43216CE-834F-418A-B9FE-4674FC74B8F5 .
+
+wds:Q32338-F43216CE-834F-418A-B9FE-4674FC74B8F5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31687 ;
+	prov:wasDerivedFrom wdref:7f57cdbd2a488c3f7b90fbd9e2d6a4c1b1c5a6fc .
+
+wd:Q32338 rdfs:label "Byron L. Fry"@en ;
+	skos:prefLabel "Byron L. Fry"@en ;
+	schema:name "Byron L. Fry"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+wdref:ba5787e8c573897e647e584bb89ac43770681c6a a wikibase:Reference ;
+	pr:P26 wd:Q32341 .
+
+data:Q32339 a schema:Dataset ;
+	schema:about wd:Q32339 ;
+	schema:version "224804"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:52:06Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "1"^^xsd:integer .
+
+wd:Q32339 a wikibase:Item ;
+	wdt:P1 wd:Q1804 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P8 "Q174710" ;
+	p:P1 wds:Q32339-54F4FD31-D3AC-4793-AFE4-A2D61C4B0517 .
+
+wds:Q32339-54F4FD31-D3AC-4793-AFE4-A2D61C4B0517 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1804 .
+
+wd:Q32339 p:P11 wds:Q32339-CEC2F345-3579-4AD1-B02A-44550184BB24 .
+
+wds:Q32339-CEC2F345-3579-4AD1-B02A-44550184BB24 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32339 p:P8 wds:Q32339-7F37E81C-404B-479F-A6C1-F94498D6E55B .
+
+wds:Q32339-7F37E81C-404B-479F-A6C1-F94498D6E55B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8 "Q174710" .
+
+wd:Q32339 rdfs:label "University of California, Los Angeles"@en ;
+	skos:prefLabel "University of California, Los Angeles"@en ;
+	schema:name "University of California, Los Angeles"@en ;
+	schema:description "public university in Los Angeles, California, USA"@en .
+
+data:Q32340 a schema:Dataset ;
+	schema:about wd:Q32340 ;
+	schema:version "224809"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:53:21Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32340 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-Byron-L-Fry" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q32338 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32340_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32340_b.jpg> ;
+	p:P1 wds:Q32340-56E9D6FD-CBA4-4B80-811A-4924192ACBF9 .
+
+wds:Q32340-56E9D6FD-CBA4-4B80-811A-4924192ACBF9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32340 p:P11 wds:Q32340-3EDC64FE-FC52-4999-BE31-55E2C75683EB .
+
+wds:Q32340-3EDC64FE-FC52-4999-BE31-55E2C75683EB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32340 p:P74 wds:Q32340-C87ABF0F-D8A8-4CF1-99C5-9842937E60E4 .
+
+wds:Q32340-C87ABF0F-D8A8-4CF1-99C5-9842937E60E4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32340 p:P96 wds:Q32340-590F671D-DEF3-42CB-BE97-91743F18679B .
+
+wds:Q32340-590F671D-DEF3-42CB-BE97-91743F18679B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32340 p:P130 wds:Q32340-D290E1D3-EECE-40CE-A3FE-561AA08CB9D8 .
+
+wds:Q32340-D290E1D3-EECE-40CE-A3FE-561AA08CB9D8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32340 p:P142 wds:Q32340-78E43834-6B54-4BF0-B7BC-13E4F7CFCF37 .
+
+wds:Q32340-78E43834-6B54-4BF0-B7BC-13E4F7CFCF37 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32340 p:P17 wds:Q32340-D7EFE341-426E-4A9A-ACF5-7BFBD20A0578 .
+
+wds:Q32340-D7EFE341-426E-4A9A-ACF5-7BFBD20A0578 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Byron-L-Fry" .
+
+wd:Q32340 p:P136 wds:Q32340-59B20391-83CC-44D3-A8F6-EDA096E3589C .
+
+wds:Q32340-59B20391-83CC-44D3-A8F6-EDA096E3589C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32340 p:P77 wds:Q32340-A2CA0741-E923-4155-9139-7A281CAEA8FC .
+
+wds:Q32340-A2CA0741-E923-4155-9139-7A281CAEA8FC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q32338 .
+
+wd:Q32340 p:P200 wds:Q32340-13CA3EC2-B5F8-4EE4-B214-1FA726D563C9 .
+
+wds:Q32340-13CA3EC2-B5F8-4EE4-B214-1FA726D563C9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32340_f.jpg> .
+
+wd:Q32340 p:P200 wds:Q32340-A4EE2591-BADA-4773-B2AA-BEB0D6B140F4 .
+
+wds:Q32340-A4EE2591-BADA-4773-B2AA-BEB0D6B140F4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32340_b.jpg> .
+
+wd:Q32340 rdfs:label "B14 Byron L Fry Edge-Notched Card"@en ;
+	skos:prefLabel "B14 Byron L Fry Edge-Notched Card"@en ;
+	schema:name "B14 Byron L Fry Edge-Notched Card"@en .
+
+data:Q32341 a schema:Dataset ;
+	schema:about wd:Q32341 ;
+	schema:version "224810"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:53:21Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32341 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32340 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32340/0.txt> ;
+	wdt:P21 wd:Q32338,
+		wd:Q32339 ;
+	wdt:P19 "Fry, Byron L. 904 Kenter Way Los Angeles Cal 90049 472-1844 U.C.L.A. BR 2 8911 ext 7911 Computing Sciences Interested in \"artisitc values of math equations represented graphically as output of computers\"." ;
+	p:P1 wds:Q32341-48B55398-A8C8-4E91-A980-8C286E2FDF70 .
+
+wds:Q32341-48B55398-A8C8-4E91-A980-8C286E2FDF70 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32341 p:P11 wds:Q32341-D50611D5-3A3A-4CA1-AC26-DBCDABB8D9F1 .
+
+wds:Q32341-D50611D5-3A3A-4CA1-AC26-DBCDABB8D9F1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32341 p:P24 wds:Q32341-D433103D-0369-4863-AA55-907B6572CA68 .
+
+wds:Q32341-D433103D-0369-4863-AA55-907B6572CA68 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32340 .
+
+wd:Q32341 p:P17 wds:Q32341-72401750-AF88-4A67-86E6-13B2F8242E58 .
+
+wds:Q32341-72401750-AF88-4A67-86E6-13B2F8242E58 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32341 p:P20 wds:Q32341-9E41BE1A-CC3F-4DE6-B958-CC6521B8C4E4 .
+
+wds:Q32341-9E41BE1A-CC3F-4DE6-B958-CC6521B8C4E4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32340/0.txt> .
+
+wd:Q32341 p:P21 wds:Q32341-D1AF5863-FAFB-460C-998A-210BEB22D67D .
+
+wds:Q32341-D1AF5863-FAFB-460C-998A-210BEB22D67D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32338 .
+
+wd:Q32341 p:P21 wds:Q32341-B1F7A9BE-7BC3-4C32-8836-4C3784732AA8 .
+
+wds:Q32341-B1F7A9BE-7BC3-4C32-8836-4C3784732AA8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32339 .
+
+wd:Q32341 p:P19 wds:Q32341-E2D13302-0ABB-430A-8142-17A525FC5421 .
+
+wds:Q32341-E2D13302-0ABB-430A-8142-17A525FC5421 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Fry, Byron L. 904 Kenter Way Los Angeles Cal 90049 472-1844 U.C.L.A. BR 2 8911 ext 7911 Computing Sciences Interested in \"artisitc values of math equations represented graphically as output of computers\"." .
+
+wd:Q32341 rdfs:label "Block 0 of B14 Byron L Fry Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 Byron L Fry Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 Byron L Fry Edge-Notched Card"@en .
+
+data:Q32342 a schema:Dataset ;
+	schema:about wd:Q32342 ;
+	schema:version "224812"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:53:21Z"^^xsd:dateTime ;
+	wikibase:statements "7"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32342 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32340 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32340/1.txt> ;
+	wdt:P19 "letter Tony Cohan Feb 28/69" ;
+	wdt:P21 wd:Q31687 ;
+	p:P1 wds:Q32342-CEE6A1DD-222A-4894-AB02-CF856354D6A7 .
+
+wds:Q32342-CEE6A1DD-222A-4894-AB02-CF856354D6A7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32342 p:P11 wds:Q32342-31085684-DF4A-4689-9BEF-244C66C4AB9A .
+
+wds:Q32342-31085684-DF4A-4689-9BEF-244C66C4AB9A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32342 p:P24 wds:Q32342-3AD4ECB4-9895-43D6-B605-57DE92BDDF90 .
+
+wds:Q32342-3AD4ECB4-9895-43D6-B605-57DE92BDDF90 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32340 .
+
+wd:Q32342 p:P17 wds:Q32342-9219F3DC-CF76-42C7-BB65-F63010C97F52 .
+
+wds:Q32342-9219F3DC-CF76-42C7-BB65-F63010C97F52 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32342 p:P20 wds:Q32342-DF87E3C9-38EE-409F-BD7A-0F8FF51FDB33 .
+
+wds:Q32342-DF87E3C9-38EE-409F-BD7A-0F8FF51FDB33 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32340/1.txt> .
+
+wd:Q32342 p:P19 wds:Q32342-A854E3C1-1DA6-4C40-8FA9-E09BB0953896 .
+
+wds:Q32342-A854E3C1-1DA6-4C40-8FA9-E09BB0953896 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "letter Tony Cohan Feb 28/69" .
+
+wd:Q32342 p:P21 wds:Q32342-84133B51-6265-4D40-8039-4D4EDBA71D2E .
+
+wds:Q32342-84133B51-6265-4D40-8039-4D4EDBA71D2E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31687 ;
+	pq:P98 "1969-02-28T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:01714ea2b704034190b5965c555d377a .
+
+wd:Q32342 rdfs:label "Block 1 of B14 Byron L Fry Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 Byron L Fry Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 Byron L Fry Edge-Notched Card"@en .
+
+data:Q32343 a schema:Dataset ;
+	schema:about wd:Q32343 ;
+	schema:version "224827"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:56:04Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32343 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "85 Hammond Street, Acton, Massachusetts"@en ;
+	wdt:P110 wd:Q21507 ;
+	p:P1 wds:Q32343-DEE9565E-231D-4562-A71C-C31BF3136822 .
+
+wds:Q32343-DEE9565E-231D-4562-A71C-C31BF3136822 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32343 p:P11 wds:Q32343-4CB0E7F0-CAD5-4334-B136-5F9AE46B6B54 .
+
+wds:Q32343-4CB0E7F0-CAD5-4334-B136-5F9AE46B6B54 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32343 p:P65 wds:Q32343-42393DC0-B506-40F9-9EC1-762EA91FE31B .
+
+wds:Q32343-42393DC0-B506-40F9-9EC1-762EA91FE31B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32343 p:P152 wds:Q32343-05D2E1EA-C90E-4099-B0AF-626F533EAB2E .
+
+wds:Q32343-05D2E1EA-C90E-4099-B0AF-626F533EAB2E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "85 Hammond Street, Acton, Massachusetts"@en ;
+	prov:wasDerivedFrom wdref:64807d72615205801239bbcdd8a2530398a27d78 .
+
+wd:Q32343 p:P110 wds:Q32343-167193B0-E5F1-4499-85A7-C6C19BED3522 .
+
+wds:Q32343-167193B0-E5F1-4499-85A7-C6C19BED3522 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q21507 ;
+	prov:wasDerivedFrom wdref:64807d72615205801239bbcdd8a2530398a27d78 .
+
+wd:Q32343 rdfs:label "C. E. Miller"@en ;
+	skos:prefLabel "C. E. Miller"@en ;
+	schema:name "C. E. Miller"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+wdref:64807d72615205801239bbcdd8a2530398a27d78 a wikibase:Reference ;
+	pr:P26 wd:Q32345 .
+
+data:Q32344 a schema:Dataset ;
+	schema:about wd:Q32344 ;
+	schema:version "224823"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:55:32Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32344 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-C-E-Miller" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q32343 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32344_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32344_b.jpg> ;
+	p:P1 wds:Q32344-D7ACA3AA-E819-48F8-A06B-97CAB9ED6146 .
+
+wds:Q32344-D7ACA3AA-E819-48F8-A06B-97CAB9ED6146 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32344 p:P11 wds:Q32344-451B7B71-6CF6-4178-8A07-385D99875070 .
+
+wds:Q32344-451B7B71-6CF6-4178-8A07-385D99875070 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32344 p:P74 wds:Q32344-3F464FD8-456E-44E8-A655-FA80B2169DF5 .
+
+wds:Q32344-3F464FD8-456E-44E8-A655-FA80B2169DF5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32344 p:P96 wds:Q32344-77E51F0C-67A1-48D7-9B3C-DA248290F5D8 .
+
+wds:Q32344-77E51F0C-67A1-48D7-9B3C-DA248290F5D8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32344 p:P130 wds:Q32344-B59F3B1E-0539-4C43-A8C7-230070E92585 .
+
+wds:Q32344-B59F3B1E-0539-4C43-A8C7-230070E92585 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32344 p:P142 wds:Q32344-4D852AB8-382B-4D5A-94A3-91C63FECD4BC .
+
+wds:Q32344-4D852AB8-382B-4D5A-94A3-91C63FECD4BC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32344 p:P17 wds:Q32344-9B2360CA-2DCE-4DD5-9AC1-6E9EDF68003E .
+
+wds:Q32344-9B2360CA-2DCE-4DD5-9AC1-6E9EDF68003E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-C-E-Miller" .
+
+wd:Q32344 p:P136 wds:Q32344-DE9D0F8F-D9B0-4A14-AE5F-51120737AD2A .
+
+wds:Q32344-DE9D0F8F-D9B0-4A14-AE5F-51120737AD2A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32344 p:P77 wds:Q32344-85413FBC-CB80-47B6-8F7A-289E87622179 .
+
+wds:Q32344-85413FBC-CB80-47B6-8F7A-289E87622179 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q32343 .
+
+wd:Q32344 p:P200 wds:Q32344-D2AE82C2-2843-48A0-931A-8A6E9625AE92 .
+
+wds:Q32344-D2AE82C2-2843-48A0-931A-8A6E9625AE92 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32344_f.jpg> .
+
+wd:Q32344 p:P200 wds:Q32344-6D4FA019-89FB-45C2-8821-47C79E345E0C .
+
+wds:Q32344-6D4FA019-89FB-45C2-8821-47C79E345E0C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32344_b.jpg> .
+
+wd:Q32344 rdfs:label "B14 C E Miller Edge-Notched Card"@en ;
+	skos:prefLabel "B14 C E Miller Edge-Notched Card"@en ;
+	schema:name "B14 C E Miller Edge-Notched Card"@en .
+
+data:Q32345 a schema:Dataset ;
+	schema:about wd:Q32345 ;
+	schema:version "224824"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:55:32Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32345 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32344 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32344/0.txt> ;
+	wdt:P21 wd:Q32343,
+		wd:Q21507 ;
+	wdt:P19 "Miller, C.E. 85 Hammond St, Acton Mass 263-5438 General Radio Co. Electrical engineer." ;
+	p:P1 wds:Q32345-3509B846-63DC-47B6-8F8D-47BFCB1C83D1 .
+
+wds:Q32345-3509B846-63DC-47B6-8F8D-47BFCB1C83D1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32345 p:P11 wds:Q32345-4A3A0EFA-1DF1-48E5-BD2F-F0A565C5A8B6 .
+
+wds:Q32345-4A3A0EFA-1DF1-48E5-BD2F-F0A565C5A8B6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32345 p:P24 wds:Q32345-0D1B4BC4-71D2-4DB8-873A-CF441962313A .
+
+wds:Q32345-0D1B4BC4-71D2-4DB8-873A-CF441962313A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32344 .
+
+wd:Q32345 p:P17 wds:Q32345-A712F674-13F6-4950-BBE8-35ADC0757FF0 .
+
+wds:Q32345-A712F674-13F6-4950-BBE8-35ADC0757FF0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32345 p:P20 wds:Q32345-F795E722-DFD7-41EE-BA19-B19487B0225E .
+
+wds:Q32345-F795E722-DFD7-41EE-BA19-B19487B0225E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32344/0.txt> .
+
+wd:Q32345 p:P21 wds:Q32345-D51B1B82-1B9E-41DE-9700-5AC89A574331 .
+
+wds:Q32345-D51B1B82-1B9E-41DE-9700-5AC89A574331 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32343 .
+
+wd:Q32345 p:P21 wds:Q32345-4043B846-836C-47FA-B5C4-DCB6DAE73D89 .
+
+wds:Q32345-4043B846-836C-47FA-B5C4-DCB6DAE73D89 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q21507 .
+
+wd:Q32345 p:P19 wds:Q32345-03C9FD0A-1D2F-4F1E-AD4C-4E93E3737776 .
+
+wds:Q32345-03C9FD0A-1D2F-4F1E-AD4C-4E93E3737776 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Miller, C.E. 85 Hammond St, Acton Mass 263-5438 General Radio Co. Electrical engineer." .
+
+wd:Q32345 rdfs:label "Block 0 of B14 C E Miller Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 C E Miller Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 C E Miller Edge-Notched Card"@en .
+
+data:Q32346 a schema:Dataset ;
+	schema:about wd:Q32346 ;
+	schema:version "224825"^^xsd:integer ;
+	schema:dateModified "2026-10-31T20:55:32Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32346 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32344 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32344/1.txt> ;
+	p:P1 wds:Q32346-21E51CA6-5A48-4001-BBB3-F97D34810C0B .
+
+wds:Q32346-21E51CA6-5A48-4001-BBB3-F97D34810C0B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32346 p:P11 wds:Q32346-E2CF88BA-822C-4437-B009-3F58407284A1 .
+
+wds:Q32346-E2CF88BA-822C-4437-B009-3F58407284A1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32346 p:P24 wds:Q32346-FE37FDF2-5AF0-473F-A34D-036B095ECDC4 .
+
+wds:Q32346-FE37FDF2-5AF0-473F-A34D-036B095ECDC4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32344 .
+
+wd:Q32346 p:P17 wds:Q32346-C547E259-BAB8-449B-AD51-93467DD53152 .
+
+wds:Q32346-C547E259-BAB8-449B-AD51-93467DD53152 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32346 p:P20 wds:Q32346-468CF5FC-E2A4-4718-8775-7E2A7F6357A0 .
+
+wds:Q32346-468CF5FC-E2A4-4718-8775-7E2A7F6357A0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32344/1.txt> .
+
+wd:Q32346 rdfs:label "Block 1 of B14 C E Miller Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 C E Miller Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 C E Miller Edge-Notched Card"@en .
+
+data:Q32347 a schema:Dataset ;
+	schema:about wd:Q32347 ;
+	schema:version "224878"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:09:02Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32347 a wikibase:Item ;
+	wdt:P1 wd:Q19085 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P152 "445 Park Ave. New York, NY"@en ;
+	p:P1 wds:Q32347-66303828-220D-4C56-A19A-C150B3444FCE .
+
+wds:Q32347-66303828-220D-4C56-A19A-C150B3444FCE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q19085 .
+
+wd:Q32347 p:P11 wds:Q32347-5ABC4B10-D4BB-4495-9094-88A7B09FDA7B .
+
+wds:Q32347-5ABC4B10-D4BB-4495-9094-88A7B09FDA7B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32347 p:P152 wds:Q32347-06877711-46a4-6f4b-68de-6f3f7af15021 .
+
+wds:Q32347-06877711-46a4-6f4b-68de-6f3f7af15021 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "445 Park Ave. New York, NY"@en ;
+	prov:wasDerivedFrom wdref:00ded01c3490f4b710773d793f19f9db072e5dbb .
+
+wd:Q32347 rdfs:label "Samincorp Inc."@en ;
+	skos:prefLabel "Samincorp Inc."@en ;
+	schema:name "Samincorp Inc."@en ;
+	skos:altLabel "Samincorp South American Minerals and Merchandise Corporation"@mul .
+
+data:Q32348 a schema:Dataset ;
+	schema:about wd:Q32348 ;
+	schema:version "224876"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:40Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "1"^^xsd:integer .
+
+wd:Q32348 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P8 "Q65962101" ;
+	wdt:P278 wd:Q28386 ;
+	p:P1 wds:Q32348-1E9BCE6E-8F58-4259-AEF4-10F4FFDD1303 .
+
+wds:Q32348-1E9BCE6E-8F58-4259-AEF4-10F4FFDD1303 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32348 p:P11 wds:Q32348-B4DFBC85-9A6D-4162-8528-E8F6A59182AF .
+
+wds:Q32348-B4DFBC85-9A6D-4162-8528-E8F6A59182AF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32348 p:P65 wds:Q32348-EFD98D1D-6BCB-43BA-8D1E-2E90E19BE6FF .
+
+wds:Q32348-EFD98D1D-6BCB-43BA-8D1E-2E90E19BE6FF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q32348 p:P8 wds:Q32348-8C8DCBC6-7569-4854-BEBD-A4D711390776 .
+
+wds:Q32348-8C8DCBC6-7569-4854-BEBD-A4D711390776 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8 "Q65962101" .
+
+wd:Q32348 p:P278 wds:Q32348-1CBB8C9C-E26B-4F84-BF4F-87A7D76BD6D2 .
+
+wds:Q32348-1CBB8C9C-E26B-4F84-BF4F-87A7D76BD6D2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q28386 ;
+	prov:wasDerivedFrom wdref:27e51946cefb3cc2df2179e0e834afc54b3be7d3 .
+
+wd:Q32348 rdfs:label "Harriet Feigenbaum"@en ;
+	skos:prefLabel "Harriet Feigenbaum"@en ;
+	schema:name "Harriet Feigenbaum"@en ;
+	schema:description "American Ecofeminist artist and sculptor (born 1939)"@en .
+
+data:Q32349 a schema:Dataset ;
+	schema:about wd:Q32349 ;
+	schema:version "224838"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:32Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32349 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-C-Vance" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q28386 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32349_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32349_b.jpg> ;
+	p:P1 wds:Q32349-C1DB406C-F52F-482F-B059-1DCCEAEC7190 .
+
+wds:Q32349-C1DB406C-F52F-482F-B059-1DCCEAEC7190 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32349 p:P11 wds:Q32349-D0FCCE5D-6D6E-4DAB-9B8D-D233B34E141F .
+
+wds:Q32349-D0FCCE5D-6D6E-4DAB-9B8D-D233B34E141F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32349 p:P74 wds:Q32349-A31F03D9-C949-4716-8B0C-0BC11E050933 .
+
+wds:Q32349-A31F03D9-C949-4716-8B0C-0BC11E050933 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32349 p:P96 wds:Q32349-4FF6DE4B-FFDC-4311-9ADD-93D2FA202D44 .
+
+wds:Q32349-4FF6DE4B-FFDC-4311-9ADD-93D2FA202D44 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32349 p:P130 wds:Q32349-DBDC10AD-4292-42F7-95B0-118AF16EF497 .
+
+wds:Q32349-DBDC10AD-4292-42F7-95B0-118AF16EF497 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32349 p:P142 wds:Q32349-BF5CE4AD-BB22-46C5-8DA5-C8B05749E267 .
+
+wds:Q32349-BF5CE4AD-BB22-46C5-8DA5-C8B05749E267 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32349 p:P17 wds:Q32349-A2A3448C-6DDE-4C73-B5FB-2DA836990BCB .
+
+wds:Q32349-A2A3448C-6DDE-4C73-B5FB-2DA836990BCB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-C-Vance" .
+
+wd:Q32349 p:P136 wds:Q32349-9FC2CF20-6863-4097-8888-CCE47718C69B .
+
+wds:Q32349-9FC2CF20-6863-4097-8888-CCE47718C69B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32349 p:P77 wds:Q32349-6A8C1554-00A5-44CF-979E-C93A2EFD25DC .
+
+wds:Q32349-6A8C1554-00A5-44CF-979E-C93A2EFD25DC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q28386 .
+
+wd:Q32349 p:P200 wds:Q32349-AA4A02B0-EDB2-4DC7-B2C9-9F76EBB6D259 .
+
+wds:Q32349-AA4A02B0-EDB2-4DC7-B2C9-9F76EBB6D259 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32349_f.jpg> .
+
+wd:Q32349 p:P200 wds:Q32349-E9E384EF-B62B-4BC1-BBC9-4875267D1780 .
+
+wds:Q32349-E9E384EF-B62B-4BC1-BBC9-4875267D1780 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32349_b.jpg> .
+
+wd:Q32349 rdfs:label "B14 C Vance Edge-Notched Card"@en ;
+	skos:prefLabel "B14 C Vance Edge-Notched Card"@en ;
+	schema:name "B14 C Vance Edge-Notched Card"@en .
+
+data:Q32350 a schema:Dataset ;
+	schema:about wd:Q32350 ;
+	schema:version "224839"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:32Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32350 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32349 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32349/0.txt> ;
+	wdt:P21 wd:Q28386,
+		wd:Q32347 ;
+	wdt:P19 "Vance, C., 158-07 33 Ave, Flushing, L.I., N.Y.11354 FL3 5573 Samincorp, 445 Park, N.Y.C. 688-5775 Mecha nical engineer, metallurgist." ;
+	p:P1 wds:Q32350-0D919EEF-7E2C-4162-884F-3AC506378CB5 .
+
+wds:Q32350-0D919EEF-7E2C-4162-884F-3AC506378CB5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32350 p:P11 wds:Q32350-30A937B1-2A8F-44AA-AFA3-C7E8F1A328D6 .
+
+wds:Q32350-30A937B1-2A8F-44AA-AFA3-C7E8F1A328D6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32350 p:P24 wds:Q32350-E36E738D-C608-4FA9-BA8E-88D9A9EF5304 .
+
+wds:Q32350-E36E738D-C608-4FA9-BA8E-88D9A9EF5304 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32349 .
+
+wd:Q32350 p:P17 wds:Q32350-A03E332C-2F3A-499F-85E4-170C53BB8FE1 .
+
+wds:Q32350-A03E332C-2F3A-499F-85E4-170C53BB8FE1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32350 p:P20 wds:Q32350-6A2272F6-279E-48E2-A530-7C2CBFFE4897 .
+
+wds:Q32350-6A2272F6-279E-48E2-A530-7C2CBFFE4897 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32349/0.txt> .
+
+wd:Q32350 p:P21 wds:Q32350-C974E6FA-A8AA-4D60-AD42-FA5F3B513CE9 .
+
+wds:Q32350-C974E6FA-A8AA-4D60-AD42-FA5F3B513CE9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q28386 .
+
+wd:Q32350 p:P21 wds:Q32350-31478E4E-F744-449A-8D55-54E1BD3DF0D2 .
+
+wds:Q32350-31478E4E-F744-449A-8D55-54E1BD3DF0D2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32347 .
+
+wd:Q32350 p:P19 wds:Q32350-050AA2E4-D12A-4504-8E47-62A9C40D7061 .
+
+wds:Q32350-050AA2E4-D12A-4504-8E47-62A9C40D7061 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Vance, C., 158-07 33 Ave, Flushing, L.I., N.Y.11354 FL3 5573 Samincorp, 445 Park, N.Y.C. 688-5775 Mecha nical engineer, metallurgist." .
+
+wd:Q32350 rdfs:label "Block 0 of B14 C Vance Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 C Vance Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 C Vance Edge-Notched Card"@en .
+
+data:Q32351 a schema:Dataset ;
+	schema:about wd:Q32351 ;
+	schema:version "224849"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:08:34Z"^^xsd:dateTime ;
+	wikibase:statements "15"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32351 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32349 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32349/1.txt> ;
+	wdt:P19 "Loft - DAVID GLASSER - July 19 LETTER - SOPHIE CORWIN - SEPT 5. PHONE - IRA SCHWARZ letter Norma-Jean Squires Mar 3/69 Clifford Rose 1/12 Helen Goldberg 2/4 Charles Schufetty 2/4 Harriet Feigenbaum 12/21/70 J. Bellisfield 3/26/71" ;
+	wdt:P21 wd:Q30748,
+		wd:Q31711,
+		wd:Q31335,
+		wd:Q30669,
+		wd:Q31722,
+		wd:Q31429,
+		wd:Q31428,
+		wd:Q32348,
+		wd:Q32337 ;
+	p:P1 wds:Q32351-F6C37586-4CE9-4BF2-8C20-A340145AA917 .
+
+wds:Q32351-F6C37586-4CE9-4BF2-8C20-A340145AA917 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32351 p:P11 wds:Q32351-3029D64D-FB0B-4A43-B1FE-226178C5D190 .
+
+wds:Q32351-3029D64D-FB0B-4A43-B1FE-226178C5D190 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32351 p:P24 wds:Q32351-9EE5A524-8825-45B1-B9BE-8AB885ACC9EF .
+
+wds:Q32351-9EE5A524-8825-45B1-B9BE-8AB885ACC9EF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32349 .
+
+wd:Q32351 p:P17 wds:Q32351-58E186EF-4F1A-4FC8-BDAF-A9C9534B47A0 .
+
+wds:Q32351-58E186EF-4F1A-4FC8-BDAF-A9C9534B47A0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32351 p:P20 wds:Q32351-7839B104-39AA-481A-B287-C93DCC1D5883 .
+
+wds:Q32351-7839B104-39AA-481A-B287-C93DCC1D5883 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32349/1.txt> .
+
+wd:Q32351 p:P19 wds:Q32351-BA98A680-CCD4-4795-ACC8-4FDEE1A9432C .
+
+wds:Q32351-BA98A680-CCD4-4795-ACC8-4FDEE1A9432C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Loft - DAVID GLASSER - July 19 LETTER - SOPHIE CORWIN - SEPT 5. PHONE - IRA SCHWARZ letter Norma-Jean Squires Mar 3/69 Clifford Rose 1/12 Helen Goldberg 2/4 Charles Schufetty 2/4 Harriet Feigenbaum 12/21/70 J. Bellisfield 3/26/71" .
+
+wd:Q32351 p:P21 wds:Q32351-3DDBFFEB-23A5-4FBC-AE90-2AA83157EFC9 .
+
+wds:Q32351-3DDBFFEB-23A5-4FBC-AE90-2AA83157EFC9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30748 ;
+	pq:P98 "+0000-07-19T00:00:00Z" ;
+	pqv:P98 wdv:dbbda6c50ecca2d75668053953244915 .
+
+wd:Q32351 p:P21 wds:Q32351-5B123239-BF44-4E3D-8C2F-4115313FC727 .
+
+wds:Q32351-5B123239-BF44-4E3D-8C2F-4115313FC727 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31711 ;
+	pq:P98 "+0000-09-05T00:00:00Z" ;
+	pqv:P98 wdv:c97a1359962b41b4dfd11775d75e82ba .
+
+wd:Q32351 p:P21 wds:Q32351-796CC02F-6F63-4E37-B450-375DF7A337BA .
+
+wds:Q32351-796CC02F-6F63-4E37-B450-375DF7A337BA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31335 .
+
+wd:Q32351 p:P21 wds:Q32351-963D9DB8-F2BC-4A41-AEED-8AB7B4513D2E .
+
+wds:Q32351-963D9DB8-F2BC-4A41-AEED-8AB7B4513D2E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30669 ;
+	pq:P98 "1969-03-03T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:31eebccd1014ef5cf1fc58590ac89d91 .
+
+wd:Q32351 p:P21 wds:Q32351-0D3BB389-46C7-450B-9FAC-DFF3BDDC2DCC .
+
+wds:Q32351-0D3BB389-46C7-450B-9FAC-DFF3BDDC2DCC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31722 ;
+	pq:P98 "+0000-01-12T00:00:00Z" ;
+	pqv:P98 wdv:c07a24562336a1331ac5f0c0395dc4d9 .
+
+wd:Q32351 p:P21 wds:Q32351-F3351BCA-F6EE-452B-A096-4B7DF14B47CE .
+
+wds:Q32351-F3351BCA-F6EE-452B-A096-4B7DF14B47CE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31429 ;
+	pq:P98 "+0000-02-04T00:00:00Z" ;
+	pqv:P98 wdv:5b22f7da239c3c7faa5c2c698133672f .
+
+wd:Q32351 p:P21 wds:Q32351-138EC2D7-63C8-4BD2-92B7-92E38144F5B5 .
+
+wds:Q32351-138EC2D7-63C8-4BD2-92B7-92E38144F5B5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31428 ;
+	pq:P98 "+0000-02-04T00:00:00Z" ;
+	pqv:P98 wdv:5b22f7da239c3c7faa5c2c698133672f .
+
+wd:Q32351 p:P21 wds:Q32351-D27DAAE5-51A9-4D1A-BED9-F2370ACBB24C .
+
+wds:Q32351-D27DAAE5-51A9-4D1A-BED9-F2370ACBB24C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32348 ;
+	pq:P98 "1970-12-21T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:b8a76e747b380906823b1a28ee907389 .
+
+wd:Q32351 p:P21 wds:Q32351-D0D83A6F-720C-47CD-A7E0-B208D5E36E78 .
+
+wds:Q32351-D0D83A6F-720C-47CD-A7E0-B208D5E36E78 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32337 ;
+	pq:P98 "1971-03-26T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:5f30bc208efc01ea01bdde7b7850983f .
+
+wd:Q32351 rdfs:label "Block 1 of B14 C Vance Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 C Vance Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 C Vance Edge-Notched Card"@en .
+
+wdv:5f30bc208efc01ea01bdde7b7850983f a wikibase:TimeValue ;
+	wikibase:timeValue "1971-03-26T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+data:Q32352 a schema:Dataset ;
+	schema:about wd:Q32352 ;
+	schema:version "224881"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:12:02Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "1"^^xsd:integer .
+
+wd:Q32352 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P8 "Q105407653" ;
+	wdt:P152 "5213 Acacia Avenue, Bethesda, Maryland 20014"@en ;
+	p:P1 wds:Q32352-8E728027-13FF-47F8-8D3D-702BAC2961B8 .
+
+wds:Q32352-8E728027-13FF-47F8-8D3D-702BAC2961B8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32352 p:P11 wds:Q32352-1A519BA8-B017-4A3E-ADC3-F3895675D0BF .
+
+wds:Q32352-1A519BA8-B017-4A3E-ADC3-F3895675D0BF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32352 p:P65 wds:Q32352-687EC4B1-14CB-43EA-B95D-455513F91E82 .
+
+wds:Q32352-687EC4B1-14CB-43EA-B95D-455513F91E82 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32352 p:P8 wds:Q32352-F612CC17-CC16-4DFB-850E-76C18DD15612 .
+
+wds:Q32352-F612CC17-CC16-4DFB-850E-76C18DD15612 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8 "Q105407653" .
+
+wd:Q32352 p:P152 wds:Q32352-01E6525D-8D32-477D-A685-5842065941B8 .
+
+wds:Q32352-01E6525D-8D32-477D-A685-5842065941B8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "5213 Acacia Avenue, Bethesda, Maryland 20014"@en .
+
+wd:Q32352 rdfs:label "C.W. McCutchen"@en ;
+	skos:prefLabel "C.W. McCutchen"@en ;
+	schema:name "C.W. McCutchen"@en ;
+	schema:description "physicist"@en .
+
+data:Q32353 a schema:Dataset ;
+	schema:about wd:Q32353 ;
+	schema:version "224884"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:12:23Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32353 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B3-C-W-McCutchen" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q32352 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32353_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32353_b.jpg> ;
+	p:P1 wds:Q32353-9814367C-1A52-4354-8784-83A72F635734 .
+
+wds:Q32353-9814367C-1A52-4354-8784-83A72F635734 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32353 p:P11 wds:Q32353-BF381580-1C2D-4557-9A08-6107B4909619 .
+
+wds:Q32353-BF381580-1C2D-4557-9A08-6107B4909619 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32353 p:P74 wds:Q32353-AB468D63-841F-47AB-B643-204FA7DBA620 .
+
+wds:Q32353-AB468D63-841F-47AB-B643-204FA7DBA620 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32353 p:P96 wds:Q32353-75C5DBFC-3C8B-438F-8533-B1D3C9B24E53 .
+
+wds:Q32353-75C5DBFC-3C8B-438F-8533-B1D3C9B24E53 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32353 p:P130 wds:Q32353-43084336-56A3-4FDD-95DC-08A5016CBC8A .
+
+wds:Q32353-43084336-56A3-4FDD-95DC-08A5016CBC8A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32353 p:P142 wds:Q32353-5F8082DE-441D-477D-A3B4-5CD42A99135A .
+
+wds:Q32353-5F8082DE-441D-477D-A3B4-5CD42A99135A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32353 p:P17 wds:Q32353-25E6A92A-CE51-4CEE-9D46-6D8DEC9A86C5 .
+
+wds:Q32353-25E6A92A-CE51-4CEE-9D46-6D8DEC9A86C5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B3-C-W-McCutchen" .
+
+wd:Q32353 p:P136 wds:Q32353-AB175661-936C-4C65-99A4-9CADA292F79A .
+
+wds:Q32353-AB175661-936C-4C65-99A4-9CADA292F79A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32353 p:P77 wds:Q32353-F24F24B9-B3E2-4B2E-8936-6DE1AB8F380D .
+
+wds:Q32353-F24F24B9-B3E2-4B2E-8936-6DE1AB8F380D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q32352 .
+
+wd:Q32353 p:P200 wds:Q32353-BE5E37BE-F02E-4EE5-8C86-7C1BD9604261 .
+
+wds:Q32353-BE5E37BE-F02E-4EE5-8C86-7C1BD9604261 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32353_f.jpg> .
+
+wd:Q32353 p:P200 wds:Q32353-C71E740B-67F2-4424-86E6-4DC6055243DF .
+
+wds:Q32353-C71E740B-67F2-4424-86E6-4DC6055243DF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32353_b.jpg> .
+
+wd:Q32353 rdfs:label "B3 C W McCutchen Edge-Notched Card"@en ;
+	skos:prefLabel "B3 C W McCutchen Edge-Notched Card"@en ;
+	schema:name "B3 C W McCutchen Edge-Notched Card"@en .
+
+data:Q32355 a schema:Dataset ;
+	schema:about wd:Q32355 ;
+	schema:version "224887"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:12:52Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32355 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B3-C-W-McCutchen" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q32352 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_b.jpg> ;
+	p:P1 wds:Q32355-D305C8BD-724D-4F33-B219-21C4A1E69290 .
+
+wds:Q32355-D305C8BD-724D-4F33-B219-21C4A1E69290 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32355 p:P11 wds:Q32355-1F8D1932-F194-487D-9A22-97B542B53CDC .
+
+wds:Q32355-1F8D1932-F194-487D-9A22-97B542B53CDC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32355 p:P74 wds:Q32355-D583D3AC-DE45-4062-97C3-6597664815CB .
+
+wds:Q32355-D583D3AC-DE45-4062-97C3-6597664815CB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32355 p:P96 wds:Q32355-F19A26F3-CDCD-49C8-BEF4-F05E67837D3E .
+
+wds:Q32355-F19A26F3-CDCD-49C8-BEF4-F05E67837D3E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32355 p:P130 wds:Q32355-19E8888F-A6CE-4D6D-9F69-5981DD0A0EA1 .
+
+wds:Q32355-19E8888F-A6CE-4D6D-9F69-5981DD0A0EA1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32355 p:P142 wds:Q32355-7996737E-1BF2-4474-939A-561FE2D4F395 .
+
+wds:Q32355-7996737E-1BF2-4474-939A-561FE2D4F395 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32355 p:P17 wds:Q32355-F0F2811B-569B-415F-ADB2-A43FA0DF7672 .
+
+wds:Q32355-F0F2811B-569B-415F-ADB2-A43FA0DF7672 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B3-C-W-McCutchen" .
+
+wd:Q32355 p:P136 wds:Q32355-4BB8AE6F-E5F5-4CF1-B908-49096EE5DD31 .
+
+wds:Q32355-4BB8AE6F-E5F5-4CF1-B908-49096EE5DD31 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32355 p:P77 wds:Q32355-0071263A-AC65-4C5B-8321-23A26A8D2F7B .
+
+wds:Q32355-0071263A-AC65-4C5B-8321-23A26A8D2F7B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q32352 .
+
+wd:Q32355 p:P200 wds:Q32355-56F42CAB-4601-4EA8-B4D8-80C499BCE23B .
+
+wds:Q32355-56F42CAB-4601-4EA8-B4D8-80C499BCE23B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_f.jpg> .
+
+wd:Q32355 p:P200 wds:Q32355-A79F8C73-A2B3-4C79-ABA5-B3D00F25E3DA .
+
+wds:Q32355-A79F8C73-A2B3-4C79-ABA5-B3D00F25E3DA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_b.jpg> .
+
+wd:Q32355 rdfs:label "B3 C W McCutchen Edge-Notched Card"@en ;
+	skos:prefLabel "B3 C W McCutchen Edge-Notched Card"@en ;
+	schema:name "B3 C W McCutchen Edge-Notched Card"@en .
+
+data:Q32357 a schema:Dataset ;
+	schema:about wd:Q32357 ;
+	schema:version "224888"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:16:40Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32357 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "5000 North Mozart, Chicago, Illinois 60625; in future: care of Slobetz, 224 Union Street, Brooklyn, New York"@en ;
+	p:P1 wds:Q32357-D51C7D07-0D45-455A-A727-A4C158A2DFEE .
+
+wds:Q32357-D51C7D07-0D45-455A-A727-A4C158A2DFEE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32357 p:P11 wds:Q32357-A6A951A4-15FD-4908-9673-A49FCFE7E627 .
+
+wds:Q32357-A6A951A4-15FD-4908-9673-A49FCFE7E627 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32357 p:P65 wds:Q32357-F439AB82-30BA-46A0-928D-8CB9D9B5D7C6 .
+
+wds:Q32357-F439AB82-30BA-46A0-928D-8CB9D9B5D7C6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32357 p:P152 wds:Q32357-E38A274E-0661-44AE-9379-B973AF6C48AB .
+
+wds:Q32357-E38A274E-0661-44AE-9379-B973AF6C48AB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "5000 North Mozart, Chicago, Illinois 60625; in future: care of Slobetz, 224 Union Street, Brooklyn, New York"@en .
+
+wd:Q32357 rdfs:label "Carl L. Dognick"@en ;
+	skos:prefLabel "Carl L. Dognick"@en ;
+	schema:name "Carl L. Dognick"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32358 a schema:Dataset ;
+	schema:about wd:Q32358 ;
+	schema:version "224893"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:25:18Z"^^xsd:dateTime ;
+	wikibase:statements "2"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32358 a wikibase:Item ;
+	wdt:P1 wd:Q19085 ;
+	wdt:P11 wd:Q28603 ;
+	p:P1 wds:Q32358-212C2134-663B-4837-B247-F75F4A0DA292 .
+
+wds:Q32358-212C2134-663B-4837-B247-F75F4A0DA292 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q19085 .
+
+wd:Q32358 p:P11 wds:Q32358-1E687D3A-1877-4598-9D09-7C9948E98037 .
+
+wds:Q32358-1E687D3A-1877-4598-9D09-7C9948E98037 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32358 rdfs:label "Information Displays, Inc."@en ;
+	skos:prefLabel "Information Displays, Inc."@en ;
+	schema:name "Information Displays, Inc."@en ;
+	schema:description "American computer hardware company known for manufacturing vector-refresh computer graphics displays and terminals during the 1960s and 1970s"@en ;
+	skos:altLabel "IDI"@mul .
+
+data:Q32359 a schema:Dataset ;
+	schema:about wd:Q32359 ;
+	schema:version "224939"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:23Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32359 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P278 wd:Q29643 ;
+	p:P1 wds:Q32359-8F3C8FD9-086A-47B2-AB31-F3B3938FA8D8 .
+
+wds:Q32359-8F3C8FD9-086A-47B2-AB31-F3B3938FA8D8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32359 p:P11 wds:Q32359-91096C3C-8FBD-48C1-B9B6-0772412F978F .
+
+wds:Q32359-91096C3C-8FBD-48C1-B9B6-0772412F978F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32359 p:P65 wds:Q32359-0A5353D7-DFC2-445A-88B4-A30C29BB172E .
+
+wds:Q32359-0A5353D7-DFC2-445A-88B4-A30C29BB172E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q32359 p:P278 wds:Q32359-925F8FCD-4461-4D55-8E62-62E4D0FF0D57 .
+
+wds:Q32359-925F8FCD-4461-4D55-8E62-62E4D0FF0D57 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q29643 ;
+	prov:wasDerivedFrom wdref:19b14354fc03c9e1e1195fb7f119da72f81f1c58 .
+
+wd:Q32359 rdfs:label "Beverly Edwards"@en ;
+	skos:prefLabel "Beverly Edwards"@en ;
+	schema:name "Beverly Edwards"@en ;
+	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32360 a schema:Dataset ;
+	schema:about wd:Q32360 ;
+	schema:version "224899"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:15Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32360 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-Carl-Machover" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q29643 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32360_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32360_b.jpg> ;
+	p:P1 wds:Q32360-EC50EF6D-823D-40C0-9495-669D9B87083A .
+
+wds:Q32360-EC50EF6D-823D-40C0-9495-669D9B87083A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32360 p:P11 wds:Q32360-932BE85B-EC25-4C46-AB3B-411891FA4B9A .
+
+wds:Q32360-932BE85B-EC25-4C46-AB3B-411891FA4B9A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32360 p:P74 wds:Q32360-5EB9F6CB-5CE5-4F23-B03E-04BF88FA1F2D .
+
+wds:Q32360-5EB9F6CB-5CE5-4F23-B03E-04BF88FA1F2D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32360 p:P96 wds:Q32360-F68EFC03-BE66-47AA-9C45-3546B95E8C22 .
+
+wds:Q32360-F68EFC03-BE66-47AA-9C45-3546B95E8C22 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32360 p:P130 wds:Q32360-09A16B09-2C07-4741-AD28-F396EBFBB488 .
+
+wds:Q32360-09A16B09-2C07-4741-AD28-F396EBFBB488 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32360 p:P142 wds:Q32360-8A55131B-01A7-4ED3-AC75-D3745D339DF7 .
+
+wds:Q32360-8A55131B-01A7-4ED3-AC75-D3745D339DF7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32360 p:P17 wds:Q32360-A6E3D0F1-B4D2-4FDA-8D3C-2A307506CF15 .
+
+wds:Q32360-A6E3D0F1-B4D2-4FDA-8D3C-2A307506CF15 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Carl-Machover" .
+
+wd:Q32360 p:P136 wds:Q32360-9EB70A60-6FDE-4B50-84F5-4FCCC76522FF .
+
+wds:Q32360-9EB70A60-6FDE-4B50-84F5-4FCCC76522FF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32360 p:P77 wds:Q32360-8C4A13DA-4E01-42FC-95CA-0245AD46BDA8 .
+
+wds:Q32360-8C4A13DA-4E01-42FC-95CA-0245AD46BDA8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q29643 .
+
+wd:Q32360 p:P200 wds:Q32360-6B4BA563-31A3-40D3-A04A-C540E4783E5E .
+
+wds:Q32360-6B4BA563-31A3-40D3-A04A-C540E4783E5E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32360_f.jpg> .
+
+wd:Q32360 p:P200 wds:Q32360-C27DA75E-C633-4E3A-93D6-43E2100F69DE .
+
+wds:Q32360-C27DA75E-C633-4E3A-93D6-43E2100F69DE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32360_b.jpg> .
+
+wd:Q32360 rdfs:label "B14 Carl Machover Edge-Notched Card"@en ;
+	skos:prefLabel "B14 Carl Machover Edge-Notched Card"@en ;
+	schema:name "B14 Carl Machover Edge-Notched Card"@en .
+
+data:Q32361 a schema:Dataset ;
+	schema:about wd:Q32361 ;
+	schema:version "224900"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:15Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32361 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32360 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32360/0.txt> ;
+	wdt:P21 wd:Q29643,
+		wd:Q32358 ;
+	wdt:P19 "Machover, Carl, 152 Longview Ave. White Plains, NY.10605 X 914-RO 1-6338 Information Displays, Inc. electrical engineering, aeronautics/aerospace,computers, information systems, computers: graphics/film, audio systems, audio-visual conversions, television, cathode rays, digital systems, scientific journalist/editor" ;
+	p:P1 wds:Q32361-48C2AFA1-F18A-442E-B88E-539920DF1375 .
+
+wds:Q32361-48C2AFA1-F18A-442E-B88E-539920DF1375 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32361 p:P11 wds:Q32361-AB378001-7E71-4410-AD54-67854A92A5DD .
+
+wds:Q32361-AB378001-7E71-4410-AD54-67854A92A5DD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32361 p:P24 wds:Q32361-0CF2399A-7E9E-484C-9138-6B0A2FC5A10F .
+
+wds:Q32361-0CF2399A-7E9E-484C-9138-6B0A2FC5A10F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32360 .
+
+wd:Q32361 p:P17 wds:Q32361-D56EFD7F-903A-4E0A-9EF6-81F4CD3B6277 .
+
+wds:Q32361-D56EFD7F-903A-4E0A-9EF6-81F4CD3B6277 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32361 p:P20 wds:Q32361-85393276-7B4F-4232-B04D-433CE583D463 .
+
+wds:Q32361-85393276-7B4F-4232-B04D-433CE583D463 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32360/0.txt> .
+
+wd:Q32361 p:P21 wds:Q32361-8D487DF9-C78D-4C21-A1B3-3639158716FA .
+
+wds:Q32361-8D487DF9-C78D-4C21-A1B3-3639158716FA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q29643 .
+
+wd:Q32361 p:P21 wds:Q32361-ECF7984D-8BB4-4821-A73A-217C4B09B1B0 .
+
+wds:Q32361-ECF7984D-8BB4-4821-A73A-217C4B09B1B0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32358 .
+
+wd:Q32361 p:P19 wds:Q32361-70E60E9E-C56C-4EA8-8E4D-FC32A07E70BD .
+
+wds:Q32361-70E60E9E-C56C-4EA8-8E4D-FC32A07E70BD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Machover, Carl, 152 Longview Ave. White Plains, NY.10605 X 914-RO 1-6338 Information Displays, Inc. electrical engineering, aeronautics/aerospace,computers, information systems, computers: graphics/film, audio systems, audio-visual conversions, television, cathode rays, digital systems, scientific journalist/editor" .
+
+wd:Q32361 rdfs:label "Block 0 of B14 Carl Machover Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 Carl Machover Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 Carl Machover Edge-Notched Card"@en .
+
+data:Q32362 a schema:Dataset ;
+	schema:about wd:Q32362 ;
+	schema:version "224913"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:34:18Z"^^xsd:dateTime ;
+	wikibase:statements "18"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32362 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32360 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32360/1.txt> ;
+	wdt:P19 "letter Beverly Edwards 22 May 69 Ron Dubren 2/9 A. Dunes 1/12/71 Joseph Stretch 4/20 Ira Schneider 5/25 David Cort 5/26 R. Lowenberg 5/26 W. Right 2/15 K MARSH ART 9/15/70 Stephanie Evanitsky 10/5/70 N. Siegel 10/8/70 Sam Mellow 11/12/70" ;
+	wdt:P21 wd:Q32359,
+		wd:Q30688,
+		wd:Q25067,
+		wd:Q26376,
+		wd:Q26348,
+		wd:Q32100,
+		wd:Q26378,
+		wd:Q26362,
+		wd:Q30319,
+		wd:Q30088,
+		wd:Q26360,
+		wd:Q26368 ;
+	p:P1 wds:Q32362-E0F5B220-FB4D-4BE3-AEF2-2454FF0AEBB2 .
+
+wds:Q32362-E0F5B220-FB4D-4BE3-AEF2-2454FF0AEBB2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32362 p:P11 wds:Q32362-6B20BB4C-D91D-4274-9114-13CE83C22716 .
+
+wds:Q32362-6B20BB4C-D91D-4274-9114-13CE83C22716 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32362 p:P24 wds:Q32362-12372F0F-2CBB-4B93-876D-1AA2553A0CB3 .
+
+wds:Q32362-12372F0F-2CBB-4B93-876D-1AA2553A0CB3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32360 .
+
+wd:Q32362 p:P17 wds:Q32362-40F60CC4-4679-4F18-A773-E81F04E42127 .
+
+wds:Q32362-40F60CC4-4679-4F18-A773-E81F04E42127 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32362 p:P20 wds:Q32362-0EAC79C3-D318-44B9-A7C8-94320327D2CE .
+
+wds:Q32362-0EAC79C3-D318-44B9-A7C8-94320327D2CE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32360/1.txt> .
+
+wd:Q32362 p:P19 wds:Q32362-63416074-5AFC-42AB-8290-FE5AFD9ECDC3 .
+
+wds:Q32362-63416074-5AFC-42AB-8290-FE5AFD9ECDC3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "letter Beverly Edwards 22 May 69 Ron Dubren 2/9 A. Dunes 1/12/71 Joseph Stretch 4/20 Ira Schneider 5/25 David Cort 5/26 R. Lowenberg 5/26 W. Right 2/15 K MARSH ART 9/15/70 Stephanie Evanitsky 10/5/70 N. Siegel 10/8/70 Sam Mellow 11/12/70" .
+
+wd:Q32362 p:P21 wds:Q32362-F32AC162-7453-4A01-919E-3FF1D4B2BAB9 .
+
+wds:Q32362-F32AC162-7453-4A01-919E-3FF1D4B2BAB9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32359 ;
+	pq:P98 "1969-05-22T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:35cc27d4fc0dfbb6a7cbd522f39119e7 .
+
+wd:Q32362 p:P21 wds:Q32362-44F7EBBA-4A84-4BD2-97E3-D96BFC84B0D7 .
+
+wds:Q32362-44F7EBBA-4A84-4BD2-97E3-D96BFC84B0D7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30688 ;
+	pq:P98 "+0000-02-09T00:00:00Z" ;
+	pqv:P98 wdv:1ed262371ebc1229ea9ecd06a6ef1419 .
+
+wd:Q32362 p:P21 wds:Q32362-68A38556-71F9-45C9-B0D6-442362ACFA38 .
+
+wds:Q32362-68A38556-71F9-45C9-B0D6-442362ACFA38 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q25067 ;
+	pq:P98 "1971-01-12T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:d026ab6eca19fcad9e1d76fe7a1f974d .
+
+wd:Q32362 p:P21 wds:Q32362-FBD048BF-0123-4BEA-A469-E94E0A839A66 .
+
+wds:Q32362-FBD048BF-0123-4BEA-A469-E94E0A839A66 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26376 ;
+	pq:P98 "+0000-04-20T00:00:00Z" ;
+	pqv:P98 wdv:ca782f09edb264f9662642e3579905d4 .
+
+wd:Q32362 p:P21 wds:Q32362-0F5AD762-AA6F-4A4D-B02F-39436001A92A .
+
+wds:Q32362-0F5AD762-AA6F-4A4D-B02F-39436001A92A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26348 ;
+	pq:P98 "+0000-05-25T00:00:00Z" ;
+	pqv:P98 wdv:02e16785281b94beb8258195f74c08ec .
+
+wd:Q32362 p:P21 wds:Q32362-DBAF82D8-21E3-4EF2-A1B1-D6CBABE9809E .
+
+wds:Q32362-DBAF82D8-21E3-4EF2-A1B1-D6CBABE9809E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32100 ;
+	pq:P98 "+0000-05-26T00:00:00Z" ;
+	pqv:P98 wdv:d927218b5a1e39f5c07058ce59ab6dc0 .
+
+wd:Q32362 p:P21 wds:Q32362-EC1628D9-F62F-4C67-8682-4AF5C7AF88B1 .
+
+wds:Q32362-EC1628D9-F62F-4C67-8682-4AF5C7AF88B1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26378 ;
+	pq:P98 "+0000-05-26T00:00:00Z" ;
+	pqv:P98 wdv:d927218b5a1e39f5c07058ce59ab6dc0 .
+
+wd:Q32362 p:P21 wds:Q32362-B7212B8F-D43E-4885-A7BE-82ABA487C856 .
+
+wds:Q32362-B7212B8F-D43E-4885-A7BE-82ABA487C856 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26362 ;
+	pq:P98 "+0000-05-27T00:00:00Z" ;
+	pqv:P98 wdv:e1fec0e903347f9b2a94716e995a2afa .
+
+wd:Q32362 p:P21 wds:Q32362-29E4B895-5C35-4C73-8820-B2BEAAB36DAF .
+
+wds:Q32362-29E4B895-5C35-4C73-8820-B2BEAAB36DAF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30319 ;
+	pq:P98 "1970-05-15T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:deb274f87d80b9d675712b03eef44e1a .
+
+wd:Q32362 p:P21 wds:Q32362-A8BAD813-0DF5-452E-B23D-A2CFE1E9D49F .
+
+wds:Q32362-A8BAD813-0DF5-452E-B23D-A2CFE1E9D49F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30088 ;
+	pq:P98 "1970-10-05T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:77ed2dbed746e2aada89f0ec56937c4d .
+
+wd:Q32362 p:P21 wds:Q32362-2DC60E40-2D5D-4ADB-A2B5-A9D6144D8E5D .
+
+wds:Q32362-2DC60E40-2D5D-4ADB-A2B5-A9D6144D8E5D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26360 ;
+	pq:P98 "1970-10-08T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:776b98abee053acc8a001a98a0c5efb8 .
+
+wd:Q32362 p:P21 wds:Q32362-223B1D35-B20C-4E5E-8C11-F38C45F0DA15 .
+
+wds:Q32362-223B1D35-B20C-4E5E-8C11-F38C45F0DA15 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26368 ;
+	pq:P98 "1970-11-12T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:81570cf30b0bed59d923911e286876e3 .
+
+wd:Q32362 rdfs:label "Block 1 of B14 Carl Machover Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 Carl Machover Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 Carl Machover Edge-Notched Card"@en .
+
+wdv:deb274f87d80b9d675712b03eef44e1a a wikibase:TimeValue ;
+	wikibase:timeValue "1970-05-15T00:00:00Z"^^xsd:dateTime ;
+	wikibase:timePrecision "11"^^xsd:integer ;
+	wikibase:timeTimezone "0"^^xsd:integer ;
+	wikibase:timeCalendarModel <http://www.wikidata.org/entity/Q1985727> .
+
+data:Q32363 a schema:Dataset ;
+	schema:about wd:Q32363 ;
+	schema:version "224954"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:37:18Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32363 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "111-48 120th Street, South Ozone Park, New York 11420; Room 166A Atherton Hall, University Park, Pennsylvania 16802"@en ;
+	p:P1 wds:Q32363-D939E7CD-85ED-4DE2-8AAD-81A20BC29FC7 .
+
+wds:Q32363-D939E7CD-85ED-4DE2-8AAD-81A20BC29FC7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32363 p:P11 wds:Q32363-9781C3EE-3CC0-4BA9-BF04-4F06656C5F35 .
+
+wds:Q32363-9781C3EE-3CC0-4BA9-BF04-4F06656C5F35 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32363 p:P65 wds:Q32363-208D44DA-E354-45A3-AE41-DBEAD7B7DEB1 .
+
+wds:Q32363-208D44DA-E354-45A3-AE41-DBEAD7B7DEB1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32363 p:P152 wds:Q32363-406F4682-B116-4CF2-B9D1-E46270839502 .
+
+wds:Q32363-406F4682-B116-4CF2-B9D1-E46270839502 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "111-48 120th Street, South Ozone Park, New York 11420; Room 166A Atherton Hall, University Park, Pennsylvania 16802"@en .
+
+wd:Q32363 rdfs:label "Carl Mazzola"@en ;
+	skos:prefLabel "Carl Mazzola"@en ;
+	schema:name "Carl Mazzola"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32364 a schema:Dataset ;
+	schema:about wd:Q32364 ;
+	schema:version "224995"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:37Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32364 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "7221 Forbes Avenue, Van Nuys, California 91406"@en ;
+	wdt:P110 wd:Q32365 ;
+	wdt:P278 wd:Q32366,
+		wd:Q32367,
+		wd:Q26332,
+		wd:Q30805,
+		wd:Q31687,
+		wd:Q31359 ;
+	p:P1 wds:Q32364-F709D74A-B4CE-4DDA-A4CD-E9FC9A0FB4BE .
+
+wds:Q32364-F709D74A-B4CE-4DDA-A4CD-E9FC9A0FB4BE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32364 p:P11 wds:Q32364-65F64C14-D9A0-455F-82EF-D5F98EB51623 .
+
+wds:Q32364-65F64C14-D9A0-455F-82EF-D5F98EB51623 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32364 p:P65 wds:Q32364-7C633500-FE7C-435A-8BA4-7A2496858546 .
+
+wds:Q32364-7C633500-FE7C-435A-8BA4-7A2496858546 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 ;
+	prov:wasDerivedFrom wdref:705c0d36524835e5fed4680440674ebc311dbf31 .
+
+wd:Q32364 p:P152 wds:Q32364-A53B4C1B-9997-4A6F-9F3C-567ECB871E4A .
+
+wds:Q32364-A53B4C1B-9997-4A6F-9F3C-567ECB871E4A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "7221 Forbes Avenue, Van Nuys, California 91406"@en ;
+	prov:wasDerivedFrom wdref:705c0d36524835e5fed4680440674ebc311dbf31 .
+
+wd:Q32364 p:P110 wds:Q32364-6956F0E6-D9F1-4E41-BDB0-DADF63A67D45 .
+
+wds:Q32364-6956F0E6-D9F1-4E41-BDB0-DADF63A67D45 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P110 wd:Q32365 ;
+	prov:wasDerivedFrom wdref:705c0d36524835e5fed4680440674ebc311dbf31 .
+
+wd:Q32364 p:P278 wds:Q32364-CE2923F8-F70F-4433-B93B-15AC1DBC4003 .
+
+wds:Q32364-CE2923F8-F70F-4433-B93B-15AC1DBC4003 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32366 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 p:P278 wds:Q32364-8217F812-F9DA-4F45-9C22-33C8E232B97D .
+
+wds:Q32364-8217F812-F9DA-4F45-9C22-33C8E232B97D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32367 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 p:P278 wds:Q32364-09F46878-B361-40F7-BAA9-4F794B79664E .
+
+wds:Q32364-09F46878-B361-40F7-BAA9-4F794B79664E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q26332 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 p:P278 wds:Q32364-E05243F9-DBE3-4CE5-8F6F-3496E5C07ACB .
+
+wds:Q32364-E05243F9-DBE3-4CE5-8F6F-3496E5C07ACB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q30805 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 p:P278 wds:Q32364-E4566A0A-CD17-4FAA-B43C-D130DFF172DA .
+
+wds:Q32364-E4566A0A-CD17-4FAA-B43C-D130DFF172DA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31687 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 p:P278 wds:Q32364-747E6609-3A6D-4E4A-AC9A-FE7FDABA579B .
+
+wds:Q32364-747E6609-3A6D-4E4A-AC9A-FE7FDABA579B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q31359 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32364 rdfs:label "Charles Bruce Hembree"@en ;
+	skos:prefLabel "Charles Bruce Hembree"@en ;
+	schema:name "Charles Bruce Hembree"@en ;
+	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
+
+wdref:705c0d36524835e5fed4680440674ebc311dbf31 a wikibase:Reference ;
+	pr:P26 wd:Q32369 .
+
+data:Q32365 a schema:Dataset ;
+	schema:about wd:Q32365 ;
+	schema:version "224956"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:44:24Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "1"^^xsd:integer .
+
+wd:Q32365 a wikibase:Item ;
+	wdt:P1 wd:Q19085 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P8 "Q201815" ;
+	p:P1 wds:Q32365-0A233CE4-1A92-458A-9D49-30B6F93C8612 .
+
+wds:Q32365-0A233CE4-1A92-458A-9D49-30B6F93C8612 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q19085 .
+
+wd:Q32365 p:P11 wds:Q32365-95D7AF83-35A7-49A6-8D88-7D26D3579B61 .
+
+wds:Q32365-95D7AF83-35A7-49A6-8D88-7D26D3579B61 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32365 p:P8 wds:Q32365-F9F77E40-424B-4D6B-89D6-5AF4ABAB0122 .
+
+wds:Q32365-F9F77E40-424B-4D6B-89D6-5AF4ABAB0122 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8 "Q201815" .
+
+wd:Q32365 rdfs:label "McDonnell Douglas"@en ;
+	skos:prefLabel "McDonnell Douglas"@en ;
+	schema:name "McDonnell Douglas"@en ;
+	schema:description "1967-1997 aerospace manufacturer and defense contractor"@en .
+
+data:Q32366 a schema:Dataset ;
+	schema:about wd:Q32366 ;
+	schema:version "224989"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:09Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "1"^^xsd:integer .
+
+wd:Q32366 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P8 "Q121223007" ;
+	wdt:P278 wd:Q32364 ;
+	p:P1 wds:Q32366-98DDA566-C081-4391-878E-E7332A900BB9 .
+
+wds:Q32366-98DDA566-C081-4391-878E-E7332A900BB9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32366 p:P11 wds:Q32366-D5494328-CDED-4476-90B0-4BAF93CD7F10 .
+
+wds:Q32366-D5494328-CDED-4476-90B0-4BAF93CD7F10 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32366 p:P65 wds:Q32366-4981EA08-DD80-48DB-B335-2F87B656118D .
+
+wds:Q32366-4981EA08-DD80-48DB-B335-2F87B656118D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32366 p:P8 wds:Q32366-EEA6FA55-7313-43A2-BFA2-24724A9FC4E4 .
+
+wds:Q32366-EEA6FA55-7313-43A2-BFA2-24724A9FC4E4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P8 "Q121223007" .
+
+wd:Q32366 p:P278 wds:Q32366-8F2D92DD-2AA6-4E0A-8676-4B3460643678 .
+
+wds:Q32366-8F2D92DD-2AA6-4E0A-8676-4B3460643678 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32366 rdfs:label "N. H. Cominos"@en ;
+	skos:prefLabel "N. H. Cominos"@en ;
+	schema:name "N. H. Cominos"@en ;
+	schema:description "artist associated with E.A.T.'s Technical Services Program"@en .
+
+data:Q32367 a schema:Dataset ;
+	schema:about wd:Q32367 ;
+	schema:version "225021"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:49Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32367 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P278 wd:Q32364,
+		wd:Q27792 ;
+	p:P1 wds:Q32367-56537D80-0A21-4D38-9035-1C42AF1F4141 .
+
+wds:Q32367-56537D80-0A21-4D38-9035-1C42AF1F4141 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32367 p:P11 wds:Q32367-7AB28032-8CAF-4AB2-9EE9-4EBDD0B3C483 .
+
+wds:Q32367-7AB28032-8CAF-4AB2-9EE9-4EBDD0B3C483 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32367 p:P65 wds:Q32367-1D619924-CE74-4A05-ABF1-B8062DE0487C .
+
+wds:Q32367-1D619924-CE74-4A05-ABF1-B8062DE0487C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19157 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae,
+		wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q32367 p:P278 wds:Q32367-7CA52C7D-9517-4DC5-9EDB-5D0385BBBE38 .
+
+wds:Q32367-7CA52C7D-9517-4DC5-9EDB-5D0385BBBE38 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q32364 ;
+	prov:wasDerivedFrom wdref:14f60bfb701de6599f72ee388d81507c36ba47ae .
+
+wd:Q32367 p:P278 wds:Q32367-602BC6A7-782A-4B7B-9BAA-07E89DBB67E1 .
+
+wds:Q32367-602BC6A7-782A-4B7B-9BAA-07E89DBB67E1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P278 wd:Q27792 ;
+	prov:wasDerivedFrom wdref:70b1713ee020f5c61999296bdb7df6c553605e6a .
+
+wd:Q32367 rdfs:label "Michael Beer"@en ;
+	skos:prefLabel "Michael Beer"@en ;
+	schema:name "Michael Beer"@en ;
+	schema:description "artist associated with E.A.T.'s Technical Services Program"@en ;
+	skos:altLabel "Michael A. Beer"@mul .
+
+data:Q32368 a schema:Dataset ;
+	schema:about wd:Q32368 ;
+	schema:version "224966"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:05Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32368 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-Charles-Bruce-Hembree" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q32364 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32368_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32368_b.jpg> ;
+	p:P1 wds:Q32368-03554268-EFB7-4913-98D2-E8FA3AC63939 .
+
+wds:Q32368-03554268-EFB7-4913-98D2-E8FA3AC63939 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32368 p:P11 wds:Q32368-5864B3CF-F606-4DF2-8299-186CF609BA83 .
+
+wds:Q32368-5864B3CF-F606-4DF2-8299-186CF609BA83 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32368 p:P74 wds:Q32368-8B9E9949-4E36-49B9-8A7E-63E4551AE528 .
+
+wds:Q32368-8B9E9949-4E36-49B9-8A7E-63E4551AE528 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32368 p:P96 wds:Q32368-1F8FAAA7-D619-4BB3-BC19-2E6F8595BB95 .
+
+wds:Q32368-1F8FAAA7-D619-4BB3-BC19-2E6F8595BB95 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32368 p:P130 wds:Q32368-4564BED6-A214-426C-80A1-8A9572DA52EA .
+
+wds:Q32368-4564BED6-A214-426C-80A1-8A9572DA52EA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32368 p:P142 wds:Q32368-45802A28-258D-4ADC-85C8-0C4CAEF53A72 .
+
+wds:Q32368-45802A28-258D-4ADC-85C8-0C4CAEF53A72 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32368 p:P17 wds:Q32368-72123448-7D09-429F-B68C-F1FA2C1599DE .
+
+wds:Q32368-72123448-7D09-429F-B68C-F1FA2C1599DE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-Charles-Bruce-Hembree" .
+
+wd:Q32368 p:P136 wds:Q32368-20FBA297-F247-418D-8832-8A9C4D7E4384 .
+
+wds:Q32368-20FBA297-F247-418D-8832-8A9C4D7E4384 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32368 p:P77 wds:Q32368-E115CABA-17EB-40E6-AC44-F248ACCCCC5F .
+
+wds:Q32368-E115CABA-17EB-40E6-AC44-F248ACCCCC5F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q32364 .
+
+wd:Q32368 p:P200 wds:Q32368-1B480CB3-D9CB-4C2A-B73E-5BB46385000C .
+
+wds:Q32368-1B480CB3-D9CB-4C2A-B73E-5BB46385000C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32368_f.jpg> .
+
+wd:Q32368 p:P200 wds:Q32368-BCBB44DD-A362-48D4-8E88-E097CFBB03D9 .
+
+wds:Q32368-BCBB44DD-A362-48D4-8E88-E097CFBB03D9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32368_b.jpg> .
+
+wd:Q32368 rdfs:label "B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	skos:prefLabel "B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	schema:name "B14 Charles Bruce Hembree Edge-Notched Card"@en .
+
+data:Q32369 a schema:Dataset ;
+	schema:about wd:Q32369 ;
+	schema:version "224967"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:05Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32369 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32368 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32368/0.txt> ;
+	wdt:P21 wd:Q32364,
+		wd:Q32365 ;
+	wdt:P19 "Charles bruce MHembree , 7221 Forbes Ave. Van Nuys, Calif, 91406 2]3-786-0666 Douglas Macdonell, Santa Monica Calif. Nr. LA mechanical enginneering, 5 yrs college xx plus one month at work, has built several light machines.xx" ;
+	p:P1 wds:Q32369-3F7F2B19-0285-4C01-81DE-A07C81CA3FD7 .
+
+wds:Q32369-3F7F2B19-0285-4C01-81DE-A07C81CA3FD7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32369 p:P11 wds:Q32369-8BC7CBD8-1949-4D8E-BE9E-0C65D909B214 .
+
+wds:Q32369-8BC7CBD8-1949-4D8E-BE9E-0C65D909B214 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32369 p:P24 wds:Q32369-8D5E72A8-BD81-42C2-848C-9C11DCD6AECD .
+
+wds:Q32369-8D5E72A8-BD81-42C2-848C-9C11DCD6AECD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32368 .
+
+wd:Q32369 p:P17 wds:Q32369-958CAE13-A353-4FC3-B297-CA7F69C2B921 .
+
+wds:Q32369-958CAE13-A353-4FC3-B297-CA7F69C2B921 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32369 p:P20 wds:Q32369-2C22DEAD-0AFD-4796-A888-0B9A40DD7E9D .
+
+wds:Q32369-2C22DEAD-0AFD-4796-A888-0B9A40DD7E9D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32368/0.txt> .
+
+wd:Q32369 p:P21 wds:Q32369-FE3B024F-CCFB-4C4B-9FF6-CBACD05EFAB7 .
+
+wds:Q32369-FE3B024F-CCFB-4C4B-9FF6-CBACD05EFAB7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32364 .
+
+wd:Q32369 p:P21 wds:Q32369-4802D359-E330-482E-8D8C-B5299400AF43 .
+
+wds:Q32369-4802D359-E330-482E-8D8C-B5299400AF43 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32365 .
+
+wd:Q32369 p:P19 wds:Q32369-09E6930F-E8E4-4F9F-92FE-EA755BC0A97A .
+
+wds:Q32369-09E6930F-E8E4-4F9F-92FE-EA755BC0A97A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "Charles bruce MHembree , 7221 Forbes Ave. Van Nuys, Calif, 91406 2]3-786-0666 Douglas Macdonell, Santa Monica Calif. Nr. LA mechanical enginneering, 5 yrs college xx plus one month at work, has built several light machines.xx" .
+
+wd:Q32369 rdfs:label "Block 0 of B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 Charles Bruce Hembree Edge-Notched Card"@en .
+
+data:Q32370 a schema:Dataset ;
+	schema:about wd:Q32370 ;
+	schema:version "224974"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:54:06Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32370 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32368 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32368/1.txt> ;
+	wdt:P19 "LETTER - N.H. COMINOS - AUG 22 \" - MICHAEL BEER - OCT 20 16 \" John Chapps Feb 10/69 \" James Lennan letter 25 Feb 69 \" Tony Cohan Feb 28/69 \" Lotte Cherin Mar 13/69." ;
+	wdt:P21 wd:Q32366,
+		wd:Q32367,
+		wd:Q26332,
+		wd:Q30805,
+		wd:Q31687,
+		wd:Q31359 ;
+	p:P1 wds:Q32370-606AB76D-43E0-4D9C-9039-59992391B0CF .
+
+wds:Q32370-606AB76D-43E0-4D9C-9039-59992391B0CF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32370 p:P11 wds:Q32370-3E4B9901-B100-4A76-B55F-F6C735197384 .
+
+wds:Q32370-3E4B9901-B100-4A76-B55F-F6C735197384 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32370 p:P24 wds:Q32370-9C91A4D6-922A-447B-8BB5-05E44F10226E .
+
+wds:Q32370-9C91A4D6-922A-447B-8BB5-05E44F10226E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32368 .
+
+wd:Q32370 p:P17 wds:Q32370-BC8877DF-A0A6-4996-B9FD-6569CB97A2A9 .
+
+wds:Q32370-BC8877DF-A0A6-4996-B9FD-6569CB97A2A9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32370 p:P20 wds:Q32370-1D4E17AA-AE51-46BE-BEE6-5B8963E799EC .
+
+wds:Q32370-1D4E17AA-AE51-46BE-BEE6-5B8963E799EC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32368/1.txt> .
+
+wd:Q32370 p:P19 wds:Q32370-E5E80FCB-8C98-46E4-AEB5-B36EB8E7B5A5 .
+
+wds:Q32370-E5E80FCB-8C98-46E4-AEB5-B36EB8E7B5A5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "LETTER - N.H. COMINOS - AUG 22 \" - MICHAEL BEER - OCT 20 16 \" John Chapps Feb 10/69 \" James Lennan letter 25 Feb 69 \" Tony Cohan Feb 28/69 \" Lotte Cherin Mar 13/69." .
+
+wd:Q32370 p:P21 wds:Q32370-490869D2-C577-4549-91E9-FE5C99927D6C .
+
+wds:Q32370-490869D2-C577-4549-91E9-FE5C99927D6C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32366 ;
+	pq:P98 "+0000-08-22T00:00:00Z" ;
+	pqv:P98 wdv:8555f6d1534e01ab56cba0bdef2a1e44 .
+
+wd:Q32370 p:P21 wds:Q32370-2B8729C0-F033-4D1A-B5AC-A396C76F4CA0 .
+
+wds:Q32370-2B8729C0-F033-4D1A-B5AC-A396C76F4CA0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32367 ;
+	pq:P98 "+0000-10-16T00:00:00Z" ;
+	pqv:P98 wdv:169d18a30ad1b015ded8acd0d53694b0 .
+
+wd:Q32370 p:P21 wds:Q32370-C6A6B9E8-C49E-45A9-A90B-D81C805807FD .
+
+wds:Q32370-C6A6B9E8-C49E-45A9-A90B-D81C805807FD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q26332 ;
+	pq:P98 "1969-02-10T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:a11079bfe2936b39570163693b8e1e6d .
+
+wd:Q32370 p:P21 wds:Q32370-A81A9D53-2BDE-4D25-AC86-BB1D641B1841 .
+
+wds:Q32370-A81A9D53-2BDE-4D25-AC86-BB1D641B1841 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30805 ;
+	pq:P98 "1969-02-25T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:961d105bd1428a9d1fba25de86b8294c .
+
+wd:Q32370 p:P21 wds:Q32370-7D534233-9AF4-4E2A-BEAF-510FBBDD579D .
+
+wds:Q32370-7D534233-9AF4-4E2A-BEAF-510FBBDD579D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31687 ;
+	pq:P98 "1969-02-28T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:01714ea2b704034190b5965c555d377a .
+
+wd:Q32370 p:P21 wds:Q32370-1F4E4AB6-7DD1-46A2-B0A3-16E84B5FF04B .
+
+wds:Q32370-1F4E4AB6-7DD1-46A2-B0A3-16E84B5FF04B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31359 ;
+	pq:P98 "1969-03-13T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:eb3dcb29f9d0e3cfdc2dfcc0949a457d .
+
+wd:Q32370 rdfs:label "Block 1 of B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 Charles Bruce Hembree Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 Charles Bruce Hembree Edge-Notched Card"@en .
+
+data:Q32371 a schema:Dataset ;
+	schema:about wd:Q32371 ;
+	schema:version "224999"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:45Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32371 a wikibase:Item ;
+	wdt:P1 wd:Q28613 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P74 wd:Q19263 ;
+	wdt:P96 wd:Q24347 ;
+	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
+	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
+	wdt:P17 "B14-John-F-Forkner" ;
+	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
+	wdt:P77 wd:Q27792 ;
+	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32371_f.jpg>,
+		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32371_b.jpg> ;
+	p:P1 wds:Q32371-44B1194C-8C61-4005-A4D1-2474EAF36E9F .
+
+wds:Q32371-44B1194C-8C61-4005-A4D1-2474EAF36E9F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q28613 .
+
+wd:Q32371 p:P11 wds:Q32371-9F029ECE-6FBD-4FC6-B5F0-75614239C9F2 .
+
+wds:Q32371-9F029ECE-6FBD-4FC6-B5F0-75614239C9F2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32371 p:P74 wds:Q32371-2A040AB3-B596-4003-86AC-D0F0BC0B316F .
+
+wds:Q32371-2A040AB3-B596-4003-86AC-D0F0BC0B316F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P74 wd:Q19263 .
+
+wd:Q32371 p:P96 wds:Q32371-1EE75673-9085-4F66-BB48-74516FB960EA .
+
+wds:Q32371-1EE75673-9085-4F66-BB48-74516FB960EA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P96 wd:Q24347 .
+
+wd:Q32371 p:P130 wds:Q32371-6FF640E1-14F6-4515-991F-373D4EE96757 .
+
+wds:Q32371-6FF640E1-14F6-4515-991F-373D4EE96757 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
+
+wd:Q32371 p:P142 wds:Q32371-B805C322-0EA6-4FF7-B9E0-44C1697249F9 .
+
+wds:Q32371-B805C322-0EA6-4FF7-B9E0-44C1697249F9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
+
+wd:Q32371 p:P17 wds:Q32371-74AF5A1D-40CF-404F-9D71-937AF08B3D2C .
+
+wds:Q32371-74AF5A1D-40CF-404F-9D71-937AF08B3D2C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "B14-John-F-Forkner" .
+
+wd:Q32371 p:P136 wds:Q32371-67269C0E-5E90-4B74-A9FA-242E0BB5C960 .
+
+wds:Q32371-67269C0E-5E90-4B74-A9FA-242E0BB5C960 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
+
+wd:Q32371 p:P77 wds:Q32371-25B08BC5-1CC7-40B1-A412-352596711799 .
+
+wds:Q32371-25B08BC5-1CC7-40B1-A412-352596711799 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P77 wd:Q27792 .
+
+wd:Q32371 p:P200 wds:Q32371-11FE861E-C163-48C5-A384-BE1EFD49E167 .
+
+wds:Q32371-11FE861E-C163-48C5-A384-BE1EFD49E167 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32371_f.jpg> .
+
+wd:Q32371 p:P200 wds:Q32371-A0BF0401-B370-447A-9646-41822DF0F319 .
+
+wds:Q32371-A0BF0401-B370-447A-9646-41822DF0F319 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32371_b.jpg> .
+
+wd:Q32371 rdfs:label "B14 John F Forkner Edge-Notched Card"@en ;
+	skos:prefLabel "B14 John F Forkner Edge-Notched Card"@en ;
+	schema:name "B14 John F Forkner Edge-Notched Card"@en .
+
+data:Q32372 a schema:Dataset ;
+	schema:about wd:Q32372 ;
+	schema:version "225000"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:46Z"^^xsd:dateTime ;
+	wikibase:statements "8"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32372 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32371 ;
+	wdt:P17 "0" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32371/0.txt> ;
+	wdt:P21 wd:Q27792,
+		wd:Q31217 ;
+	wdt:P19 "John F Forkner 2670 Solano Way, Laguna Beach, Calif. 7]4-494-4642 Aeronotrunic Division, Philco-Ford, Newport Beach, Calif ]6 yrs as xxx a mechanical engieer, optical engineer working in infra-red, visual optical design, lasers, fibre optics. has made optical projection devices which operate in conjunction with music." ;
+	p:P1 wds:Q32372-63D4815A-361E-491B-BE10-06CFD2428C79 .
+
+wds:Q32372-63D4815A-361E-491B-BE10-06CFD2428C79 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32372 p:P11 wds:Q32372-1C656A80-4D30-4E5A-9EFA-7DBC18FC2499 .
+
+wds:Q32372-1C656A80-4D30-4E5A-9EFA-7DBC18FC2499 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32372 p:P24 wds:Q32372-538297B5-765B-4DDC-8B24-EF0C78718CF3 .
+
+wds:Q32372-538297B5-765B-4DDC-8B24-EF0C78718CF3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32371 .
+
+wd:Q32372 p:P17 wds:Q32372-5470BE11-D89D-44C7-BE1C-4C8E0855211D .
+
+wds:Q32372-5470BE11-D89D-44C7-BE1C-4C8E0855211D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "0" .
+
+wd:Q32372 p:P20 wds:Q32372-6B301053-F666-4785-995A-86FDC64F1006 .
+
+wds:Q32372-6B301053-F666-4785-995A-86FDC64F1006 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32371/0.txt> .
+
+wd:Q32372 p:P21 wds:Q32372-C9A711E2-30BA-4962-A932-FFEA37CEB9FE .
+
+wds:Q32372-C9A711E2-30BA-4962-A932-FFEA37CEB9FE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q27792 .
+
+wd:Q32372 p:P21 wds:Q32372-1905E38F-424D-4FF1-BF90-80FE6B232986 .
+
+wds:Q32372-1905E38F-424D-4FF1-BF90-80FE6B232986 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31217 .
+
+wd:Q32372 p:P19 wds:Q32372-1A762184-E3AA-4408-808B-4FB5F56311CE .
+
+wds:Q32372-1A762184-E3AA-4408-808B-4FB5F56311CE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "John F Forkner 2670 Solano Way, Laguna Beach, Calif. 7]4-494-4642 Aeronotrunic Division, Philco-Ford, Newport Beach, Calif ]6 yrs as xxx a mechanical engieer, optical engineer working in infra-red, visual optical design, lasers, fibre optics. has made optical projection devices which operate in conjunction with music." .
+
+wd:Q32372 rdfs:label "Block 0 of B14 John F Forkner Edge-Notched Card"@en ;
+	skos:prefLabel "Block 0 of B14 John F Forkner Edge-Notched Card"@en ;
+	schema:name "Block 0 of B14 John F Forkner Edge-Notched Card"@en .
+
+data:Q32373 a schema:Dataset ;
+	schema:about wd:Q32373 ;
+	schema:version "225007"^^xsd:integer ;
+	schema:dateModified "2026-10-31T21:55:47Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32373 a wikibase:Item ;
+	wdt:P1 wd:Q2013 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P24 wd:Q32371 ;
+	wdt:P17 "1" ;
+	wdt:P20 <https://semlab.s3.amazonaws.com/texts/Q32371/1.txt> ;
+	wdt:P19 "LETTER- MICHAL A BEER - OCT 16. PHILIP K MEANY - JAN 10 Letter -> Robert Knisel 1/21/69 \" -> JACK WARD 2/19/69 \" Tony Cohan Feb 28/69 \" Michael Dvortesak Mar 4/69" ;
+	wdt:P21 wd:Q32367,
+		wd:Q31686,
+		wd:Q30804,
+		wd:Q31358,
+		wd:Q31687,
+		wd:Q31660 ;
+	p:P1 wds:Q32373-6ABEB449-DAEE-471F-B9E6-F805479DE637 .
+
+wds:Q32373-6ABEB449-DAEE-471F-B9E6-F805479DE637 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q2013 .
+
+wd:Q32373 p:P11 wds:Q32373-9F30600F-40BC-4F3E-BCF9-3B1EF6B2246F .
+
+wds:Q32373-9F30600F-40BC-4F3E-BCF9-3B1EF6B2246F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32373 p:P24 wds:Q32373-70230D4A-72C1-437C-8FF1-9231535CCA09 .
+
+wds:Q32373-70230D4A-72C1-437C-8FF1-9231535CCA09 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P24 wd:Q32371 .
+
+wd:Q32373 p:P17 wds:Q32373-08343A52-73BD-4E7D-B200-633EBA44AA96 .
+
+wds:Q32373-08343A52-73BD-4E7D-B200-633EBA44AA96 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P17 "1" .
+
+wd:Q32373 p:P20 wds:Q32373-21AC9075-05A4-4E10-8725-DA938ADED181 .
+
+wds:Q32373-21AC9075-05A4-4E10-8725-DA938ADED181 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P20 <https://semlab.s3.amazonaws.com/texts/Q32371/1.txt> .
+
+wd:Q32373 p:P19 wds:Q32373-A54A31AB-F7C7-46AC-97E3-AD75D3DF1E91 .
+
+wds:Q32373-A54A31AB-F7C7-46AC-97E3-AD75D3DF1E91 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P19 "LETTER- MICHAL A BEER - OCT 16. PHILIP K MEANY - JAN 10 Letter -> Robert Knisel 1/21/69 \" -> JACK WARD 2/19/69 \" Tony Cohan Feb 28/69 \" Michael Dvortesak Mar 4/69" .
+
+wd:Q32373 p:P21 wds:Q32373-07EF2EBE-D1B9-488E-9F40-521BD00F81E2 .
+
+wds:Q32373-07EF2EBE-D1B9-488E-9F40-521BD00F81E2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q32367 ;
+	pq:P98 "+0000-10-16T00:00:00Z" ;
+	pqv:P98 wdv:169d18a30ad1b015ded8acd0d53694b0 .
+
+wd:Q32373 p:P21 wds:Q32373-F2671937-4806-476D-A4C1-B102AEFBC253 .
+
+wds:Q32373-F2671937-4806-476D-A4C1-B102AEFBC253 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31686 ;
+	pq:P98 "+0000-01-10T00:00:00Z" ;
+	pqv:P98 wdv:c5109de0134788ba90df3608b9be2f1b .
+
+wd:Q32373 p:P21 wds:Q32373-8658B1C3-7556-4EDE-AA6D-E92116D0F220 .
+
+wds:Q32373-8658B1C3-7556-4EDE-AA6D-E92116D0F220 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q30804 ;
+	pq:P98 "1969-01-21T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:326ea626b2b8328c688284960c0bc139 .
+
+wd:Q32373 p:P21 wds:Q32373-2BF0FF3F-49D8-4965-AAAD-8EB33ED17E52 .
+
+wds:Q32373-2BF0FF3F-49D8-4965-AAAD-8EB33ED17E52 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31358 ;
+	pq:P98 "1969-02-19T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:19fca215794979d945628f7589f38850 .
+
+wd:Q32373 p:P21 wds:Q32373-F7FA8D13-9F8A-4E63-8BB4-F8CD12EE999B .
+
+wds:Q32373-F7FA8D13-9F8A-4E63-8BB4-F8CD12EE999B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31687 ;
+	pq:P98 "1969-02-28T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:01714ea2b704034190b5965c555d377a .
+
+wd:Q32373 p:P21 wds:Q32373-41FEAE57-1567-4D4B-B369-DAAA0002DC85 .
+
+wds:Q32373-41FEAE57-1567-4D4B-B369-DAAA0002DC85 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P21 wd:Q31660 ;
+	pq:P98 "1969-03-04T00:00:00Z"^^xsd:dateTime ;
+	pqv:P98 wdv:fed4b2c2cfd6707c2622c767f6ba8cb0 .
+
+wd:Q32373 rdfs:label "Block 1 of B14 John F Forkner Edge-Notched Card"@en ;
+	skos:prefLabel "Block 1 of B14 John F Forkner Edge-Notched Card"@en ;
+	schema:name "Block 1 of B14 John F Forkner Edge-Notched Card"@en .
+
+data:Q32374 a schema:Dataset ;
+	schema:about wd:Q32374 ;
+	schema:version "225029"^^xsd:integer ;
+	schema:dateModified "2026-10-31T22:03:22Z"^^xsd:dateTime ;
+	wikibase:statements "4"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q32374 a wikibase:Item ;
+	wdt:P1 wd:Q1 ;
+	wdt:P11 wd:Q28603 ;
+	wdt:P65 wd:Q24347 ;
+	wdt:P152 "367 Harvard Street, Cambridge, Massachusetts 02138"@en ;
+	p:P1 wds:Q32374-09660A2B-1C06-4DD7-8D99-CFC02057908E .
+
+wds:Q32374-09660A2B-1C06-4DD7-8D99-CFC02057908E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P1 wd:Q1 .
+
+wd:Q32374 p:P11 wds:Q32374-8F6E611F-4FE5-444F-9C9F-A12ED517D0B9 .
+
+wds:Q32374-8F6E611F-4FE5-444F-9C9F-A12ED517D0B9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P11 wd:Q28603 .
+
+wd:Q32374 p:P65 wds:Q32374-79A81AA4-52A0-4575-8EE3-ADF99D1E2F48 .
+
+wds:Q32374-79A81AA4-52A0-4575-8EE3-ADF99D1E2F48 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P65 wd:Q24347 ;
+	pq:P117 wd:Q19081 .
+
+wd:Q32374 p:P152 wds:Q32374-4517A948-699C-49DB-851A-7A6E4226A395 .
+
+wds:Q32374-4517A948-699C-49DB-851A-7A6E4226A395 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P152 "367 Harvard Street, Cambridge, Massachusetts 02138"@en .
+
+wd:Q32374 rdfs:label "Charles Gordon"@en ;
+	skos:prefLabel "Charles Gordon"@en ;
+	schema:name "Charles Gordon"@en ;
 	schema:description "Engineer associated with E.A.T.'s Technical Services Program"@en .
