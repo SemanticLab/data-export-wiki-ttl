@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-11-01T04:10:10Z"^^xsd:dateTime ;
+	schema:dateModified "2026-11-02T05:10:10Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P1 a schema:Dataset ;
@@ -2501439,107 +2501439,6 @@ wds:Q32353-C71E740B-67F2-4424-86E6-4DC6055243DF a wikibase:Statement,
 	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32353_b.jpg> .
 
 wd:Q32353 rdfs:label "B3 C W McCutchen Edge-Notched Card"@en ;
-	skos:prefLabel "B3 C W McCutchen Edge-Notched Card"@en ;
-	schema:name "B3 C W McCutchen Edge-Notched Card"@en .
-
-data:Q32355 a schema:Dataset ;
-	schema:about wd:Q32355 ;
-	schema:version "224887"^^xsd:integer ;
-	schema:dateModified "2026-10-31T21:12:52Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "0"^^xsd:integer ;
-	wikibase:identifiers "0"^^xsd:integer .
-
-wd:Q32355 a wikibase:Item ;
-	wdt:P1 wd:Q28613 ;
-	wdt:P11 wd:Q28603 ;
-	wdt:P74 wd:Q19263 ;
-	wdt:P96 wd:Q24347 ;
-	wdt:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." ;
-	wdt:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" ;
-	wdt:P17 "B3-C-W-McCutchen" ;
-	wdt:P136 "Creator: Experiments in Art and Technology (E.A.T.)" ;
-	wdt:P77 wd:Q32352 ;
-	wdt:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_f.jpg>,
-		<https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_b.jpg> ;
-	p:P1 wds:Q32355-D305C8BD-724D-4F33-B219-21C4A1E69290 .
-
-wds:Q32355-D305C8BD-724D-4F33-B219-21C4A1E69290 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P1 wd:Q28613 .
-
-wd:Q32355 p:P11 wds:Q32355-1F8D1932-F194-487D-9A22-97B542B53CDC .
-
-wds:Q32355-1F8D1932-F194-487D-9A22-97B542B53CDC a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P11 wd:Q28603 .
-
-wd:Q32355 p:P74 wds:Q32355-D583D3AC-DE45-4062-97C3-6597664815CB .
-
-wds:Q32355-D583D3AC-DE45-4062-97C3-6597664815CB a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P74 wd:Q19263 .
-
-wd:Q32355 p:P96 wds:Q32355-F19A26F3-CDCD-49C8-BEF4-F05E67837D3E .
-
-wds:Q32355-F19A26F3-CDCD-49C8-BEF4-F05E67837D3E a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P96 wd:Q24347 .
-
-wd:Q32355 p:P130 wds:Q32355-19E8888F-A6CE-4D6D-9F69-5981DD0A0EA1 .
-
-wds:Q32355-19E8888F-A6CE-4D6D-9F69-5981DD0A0EA1 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P130 "Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers' information is listed on the front side and a handwritten list of artists are written down on the back side." .
-
-wd:Q32355 p:P142 wds:Q32355-7996737E-1BF2-4474-939A-561FE2D4F395 .
-
-wds:Q32355-7996737E-1BF2-4474-939A-561FE2D4F395 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P142 "The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission" .
-
-wd:Q32355 p:P17 wds:Q32355-F0F2811B-569B-415F-ADB2-A43FA0DF7672 .
-
-wds:Q32355-F0F2811B-569B-415F-ADB2-A43FA0DF7672 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P17 "B3-C-W-McCutchen" .
-
-wd:Q32355 p:P136 wds:Q32355-4BB8AE6F-E5F5-4CF1-B908-49096EE5DD31 .
-
-wds:Q32355-4BB8AE6F-E5F5-4CF1-B908-49096EE5DD31 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P136 "Creator: Experiments in Art and Technology (E.A.T.)" .
-
-wd:Q32355 p:P77 wds:Q32355-0071263A-AC65-4C5B-8321-23A26A8D2F7B .
-
-wds:Q32355-0071263A-AC65-4C5B-8321-23A26A8D2F7B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P77 wd:Q32352 .
-
-wd:Q32355 p:P200 wds:Q32355-56F42CAB-4601-4EA8-B4D8-80C499BCE23B .
-
-wds:Q32355-56F42CAB-4601-4EA8-B4D8-80C499BCE23B a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_f.jpg> .
-
-wd:Q32355 p:P200 wds:Q32355-A79F8C73-A2B3-4C79-ABA5-B3D00F25E3DA .
-
-wds:Q32355-A79F8C73-A2B3-4C79-ABA5-B3D00F25E3DA a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P200 <https://semlab.s3.amazonaws.com/images/eat-cards/Q32355_b.jpg> .
-
-wd:Q32355 rdfs:label "B3 C W McCutchen Edge-Notched Card"@en ;
 	skos:prefLabel "B3 C W McCutchen Edge-Notched Card"@en ;
 	schema:name "B3 C W McCutchen Edge-Notched Card"@en .
 
